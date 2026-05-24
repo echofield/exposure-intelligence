@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "postinstall": "npm --prefix website install",
     "engine:server": "node engine/src/server.js",
     "engine:generate": "node engine/src/cli.js generate",
     "engine:pdf": "node engine/src/cli.js pdf",
