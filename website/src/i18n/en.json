@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "howItWorks": "How it works",
+    "mandates": "Mandates",
+    "dossiers": "Dossiers",
+    "forPartners": "For Advisory Partners",
+    "originationPilot": "Origination Pilot",
+    "partnerInquiry": "Partner inquiry"
+  },
+  "hero": {
+    "eyebrow": "White-label technical evidence for advisory partners",
+    "headline": "The evidence layer beneath legal advisory on AI risk.",
+    "subhead": "Structured technical dossiers your firm deploys under your name. Archetype-based. No client data ingested. No methodology to explain.",
+    "ctaPrimary": "Read the sample dossier",
+    "ctaSecondary": "Partner inquiry",
+    "support": "Used by boutique law firms across France, Switzerland, Luxembourg, and Belgium.",
+    "dossierKicker": "AI Exposure Evidence Pack",
+    "dossierTitle": "Executive Exposure Summary"
+  },
+  "pressure": {
+    "p1": "European companies, vendors, and investors now face a concrete demand: produce structured technical evidence — not policy statements — on AI deployment, procurement admissibility, and transaction exposure.",
+    "p2": "Regulators, public buyers, financial institutions, and deal teams are not asking for more governance frameworks. They are asking for proof.",
+    "p3": "The firms that can produce that proof on behalf of their clients — quickly, under their own name — will capture the mandate."
+  },
+  "model": {
+    "eyebrow": "Operating model",
+    "heading": "How it works",
+    "artifactLabel": "The artifact",
+    "artifactBody": "A structured technical evidence artifact. Built from a client archetype — sector, jurisdiction, company size, AI surface. No client data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered as a document your firm signs.",
+    "partnerLabel": "The partner's role",
+    "partnerBody": "The partner deploys it under their letterhead. As the evidence layer beneath a legal opinion, a procurement mandate, a due diligence brief, or a board advisory. The artifact creates the factual base. The partner creates the legal interpretation.",
+    "doctrine": "The artifact surfaces conditions. The lawyer names the law."
+  },
+  "mandates": {
+    "eyebrow": "Offer family",
+    "heading": "Three mandates. One evidence infrastructure.",
+    "coverageLabel": "Artifact coverage",
+    "card1": {
+      "label": "AI Deployment",
+      "situation": "Your client has deployed AI tools. You need a structured technical evidence base before the compliance review, employment audit, or board presentation.",
+      "artifact": "AI Exposure Evidence Pack",
+      "price": "Evidence pack from €8k",
+      "role": "Evidence layer beneath a legal opinion, an employment advisory, or a data protection review. Delivered under the firm's letterhead.",
+      "cta": "See the offer"
+    },
+    "card1PilotNote": "Pilot entry from €3k",
+    "card2": {
+      "label": "Regulated Procurement",
+      "situation": "Your client sells to regulated buyers — public administrations, banks, insurers, health systems — and deals are stalling at legal or DPO review. Or your client competes for public tenders and needs stronger evidence architecture.",
+      "artifact": "Sovereign Procurement Dossier · Construction Procurement Dossier",
+      "price": "From €25k (red-flag scan)",
+      "role": "Market-access structuring. Converts procurement delay into a billable deal-structuring mandate. Delivered under the firm's letterhead.",
+      "cta": "See the offer"
+    },
+    "card3": {
+      "label": "Transaction",
+      "situation": "Your client is evaluating a European target with meaningful AI dependency. You need deal intelligence on dependency concentration, customer data exposure, contract architecture mismatch, and post-close remediation cost.",
+      "artifact": "PE AI Dependency Diligence Pack",
+      "price": "From €15k (red-flag scan)",
+      "role": "Deal intelligence instrument. Converts AI upside narrative into an evidence-backed underwriting position. Delivered under the firm's letterhead.",
+      "cta": "See the offer"
+    }
+  },
+  "dossiers": {
+    "eyebrow": "Flagship dossiers",
+    "heading": "Premium evidence at deal and program scale",
+    "subhead": "Two flagship artifacts for mandates where the evidence layer must carry the full weight of a regulated procurement campaign, a transaction, or a portfolio review.",
+    "sovereign": {
+      "meta": "Procurement · Regulated markets",
+      "title": "Sovereign Procurement Dossier",
+      "lead": "The evidence, contract, and reversibility architecture that lets a regulated buyer say yes.",
+      "body1": "Built for European B2B SaaS and AI-enabled services vendors selling into public-sector, healthcare, financial-sector, or infrastructure buyers that require sovereignty evidence, DORA reversibility, and AI Act role clarity.",
+      "body2": "Covers six procurement gates: sovereignty and sensitive data, operational resilience and reversibility, AI Act role and intended use, data protection and sub-processing, product liability, and strategic procurement criteria.",
+      "body3": "Delivers: sovereignty control matrix, DORA reversibility architecture, AI Act role and intended-use matrix, buyer objection map, contract clause schedule, full remediation roadmap, and procurement response pack.",
+      "price": "Red-flag scan from €25k · Full dossier from €75k",
+      "cta": "Read the dossier overview"
+    },
+    "pe": {
+      "meta": "Transaction · M&A · Private equity",
+      "title": "PE AI Dependency Diligence Pack",
+      "lead": "The deal intelligence that separates AI narrative premium from AI control premium.",
+      "body1": "Built for PE sponsors, M&A counsel, and operating partners evaluating European SaaS targets where AI dependency shapes valuation, customer retention, regulatory access, and post-close integration.",
+      "body2": "Covers: dependency concentration, model substitution risk, data-flow opacity, customer data exposure, prompt and output retention, sub-processor dependency, IP provenance, contract architecture mismatch, reversibility, and valuation fragility.",
+      "body3": "Delivers: dependency concentration map, deal-killer assessment, buyer objection maps for sponsor and counsel and lender, evidence request list across three priority tiers, post-close remediation roadmap, and board summary.",
+      "price": "Red-flag scan from €15k · Full diligence from €40k · Portfolio review from €150k",
+      "cta": "Read the dossier overview"
+    },
+    "rail": {
+      "sample": "Sample dossier",
+      "flagship": "Flagship preview",
+      "item1Title": "FR-CORPORATE-MID",
+      "item1Body": "Worked AI Exposure Evidence Pack for a French mid-market B2B services company.",
+      "item2Title": "Sovereign Procurement",
+      "item2Body": "Gate map, evidence architecture, reversibility, and buyer objection handling.",
+      "item3Title": "PE AI Dependency",
+      "item3Body": "Dependency concentration, model substitution, valuation fragility, and Day-1 controls."
+    }
+  },
+  "partners": {
+    "eyebrow": "For Advisory Partners",
+    "heading": "Built for boutique law firms",
+    "subhead": "White-label. Under your letterhead. No data-processing surface.",
+    "p1": "The artifact is built from a client archetype, not from client data. No client systems, contracts, records, or documents are accessed. No software is installed. No processing agreement is required. You receive a document. You sign it. You bill it.",
+    "p2": "Your clients are already receiving AI risk questions. Regulators, public buyers, financial institutions, and deal teams are creating pressure that legal advisors cannot answer with frameworks alone. The firms that can answer those questions with structured technical evidence — under their own name — hold the advisory relationship.",
+    "p3": "The artifact is the evidence layer. Your interpretation is the legal opinion. That division of labor makes you more valuable to the client, not less.",
+    "cta": "Partner inquiry",
+    "demoLink": "See a live dossier demo →",
+    "note": "For boutique law firms only. Three questions. Response within 48 hours. First conversation is a scoping call — not a pitch."
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "heading": "What the evidence layer enables",
+    "case1": {
+      "context": "Corporate law boutique · France",
+      "title": "Employment audit",
+      "situation": "A mid-market company has deployed Microsoft Copilot across its workforce. An employment partner needs a structured technical evidence base before a works council consultation or a regulatory review arrives.",
+      "producesLabel": "What the artifact produces",
+      "produces": "AI deployment map by business function. HR exposure signals. Evidence gaps in documentation. Escalation triggers for the partner's legal assessment.",
+      "partnerLabel": "What the partner does with it",
+      "partner": "Uses it as the evidence layer beneath an employment law opinion. Bills it as enhanced due diligence. The artifact creates the factual record; the partner names the obligation."
+    },
+    "case2": {
+      "context": "Digital law boutique · Procurement advisory",
+      "title": "Regulated procurement",
+      "situation": "A SaaS vendor's deal with a French public administration has been delayed for five months at legal and DPO review. The buyer cannot establish the vendor's sovereignty posture or operational resilience evidence.",
+      "producesLabel": "What the artifact produces",
+      "produces": "Procurement blocker map. Sovereignty control gap analysis. DORA reversibility assessment. Buyer objection responses. Contract clause recommendations for the partner to develop.",
+      "partnerLabel": "What the partner does with it",
+      "partner": "Converts a stalled deal into a market-access structuring mandate. Bills it as procurement architecture, not compliance documentation. The deal moves from stuck to structured."
+    },
+    "case3": {
+      "context": "M&A counsel · PE advisory",
+      "title": "PE diligence",
+      "situation": "A PE sponsor is evaluating a European HR-tech target. AI is central to the product narrative and the multiple. The investment committee needs to know whether the AI dependency is an asset or a fragility before signing.",
+      "producesLabel": "What the artifact produces",
+      "produces": "AI dependency concentration map. Customer data exposure assessment. Contract architecture mismatch review. Valuation adjustment inputs. Post-close remediation roadmap.",
+      "partnerLabel": "What the partner does with it",
+      "partner": "Uses it as the deal intelligence instrument for price, escrow, warranty, and Day-1 integration plan. Bills it as transaction support. The sponsor closes on evidence, not on the AI narrative."
+    }
+  },
+  "origination": {
+    "eyebrow": "Origination Pilot",
+    "heading": "Private origination intelligence.",
+    "subhead": "By application. Selected advisory partners only.",
+    "body": "For partners advising clients on transactions, restructurings, or strategic mandates where early identification of AI exposure — before formal diligence opens — changes the economics of the engagement. Access is by application and reviewed individually.",
+    "signalLabel": "What it surfaces",
+    "signals": [
+      "Approach windows before formal mandates open",
+      "Exposure conditions that affect deal or engagement timing",
+      "Evidence gaps that become leverage before the counterparty sees them"
+    ],
+    "confidentialNote": "Details shared under NDA with selected partners.",
+    "cta": "Request access"
+  },
+  "inquiry": {
+    "sampleEyebrow": "Sample dossier",
+    "sampleHeading": "Read the sample dossier.",
+    "sampleBody": "The FR-CORPORATE-MID sample is a fully worked AI Exposure Evidence Pack for a French mid-market B2B services company using Microsoft Copilot and a CRM scoring assistant. No explanation required. The artifact speaks for itself.",
+    "sampleCta": "Read the sample",
+    "formEyebrow": "For Advisory Partners",
+    "formHeading": "Partner inquiry",
+    "formSubhead": "For boutique law firms evaluating Exposure Intelligence as a distribution channel.",
+    "q1legend": "Which client context is most relevant to your practice?",
+    "q1a": "AI deployment (your clients have deployed AI tools)",
+    "q1b": "Regulated procurement (your clients sell to or compete for regulated buyers)",
+    "q1c": "Transaction (your clients are active in M&A or private equity)",
+    "q2legend": "Which jurisdiction do you primarily operate in?",
+    "q2a": "France",
+    "q2b": "Switzerland",
+    "q2c": "Luxembourg",
+    "q2d": "Belgium",
+    "q2e": "Other",
+    "q3legend": "Do you have a first client in mind?",
+    "q3a": "Yes — I have a specific client who would engage in the next 90 days",
+    "q3b": "Not yet — I am evaluating the product for my practice",
+    "submit": "Send inquiry",
+    "commitment": "Response within 48 hours. First conversation is a scoping call — not a pitch deck.",
+    "validationError": "Select one answer for each question before sending.",
+    "successMessage": "Opening your email client with the inquiry details."
+  },
+  "footer": {
+    "name": "Exposure Intelligence",
+    "tagline": "Structured technical evidence for advisory workflows."
+  }
+}

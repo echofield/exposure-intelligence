@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "howItWorks": "Fonctionnement",
+    "mandates": "Mandats",
+    "dossiers": "Dossiers",
+    "forPartners": "Partenaires conseil",
+    "originationPilot": "Pilote origination",
+    "partnerInquiry": "Demande partenaire"
+  },
+  "hero": {
+    "eyebrow": "Preuve technique en marque blanche pour les cabinets conseil",
+    "headline": "La couche de preuve sous le conseil juridique sur le risque IA.",
+    "subhead": "Des dossiers techniques structurés que votre cabinet déploie sous son propre nom. Basés sur des archétypes. Aucune donnée client ingérée. Aucune méthodologie à expliquer.",
+    "ctaPrimary": "Lire le dossier exemple",
+    "ctaSecondary": "Demande partenaire",
+    "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
+    "dossierKicker": "AI Exposure Evidence Pack",
+    "dossierTitle": "Résumé exécutif d'exposition"
+  },
+  "pressure": {
+    "p1": "Les entreprises, prestataires et investisseurs européens font face à une exigence concrète : produire des preuves techniques structurées — et non des déclarations d'intention — sur le déploiement de l'IA, l'admissibilité aux marchés et l'exposition dans les transactions.",
+    "p2": "Les régulateurs, acheteurs publics, institutions financières et équipes de transaction ne demandent plus des référentiels de gouvernance. Ils demandent des preuves.",
+    "p3": "Les cabinets capables de produire ces preuves pour leurs clients — rapidement, sous leur propre nom — capteront les mandats."
+  },
+  "model": {
+    "eyebrow": "Modèle opérationnel",
+    "heading": "Fonctionnement",
+    "artifactLabel": "L'artefact",
+    "artifactBody": "Un artefact de preuve technique structurée. Construit à partir d'un archétype client — secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée client ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré comme document signé par votre cabinet.",
+    "partnerLabel": "Le rôle du partenaire",
+    "partnerBody": "Le partenaire le déploie sous son en-tête. Comme couche de preuve sous un avis juridique, un mandat de marché public, une note de due diligence ou une présentation au conseil d'administration. L'artefact crée la base factuelle. Le partenaire crée l'interprétation juridique.",
+    "doctrine": "L'artefact fait remonter les conditions. L'avocat nomme la loi."
+  },
+  "mandates": {
+    "eyebrow": "Famille d'offres",
+    "heading": "Trois mandats. Une infrastructure de preuve.",
+    "coverageLabel": "Couverture de l'artefact",
+    "card1": {
+      "label": "Déploiement IA",
+      "situation": "Votre client a déployé des outils IA. Vous avez besoin d'une base de preuve technique structurée avant l'audit de conformité, l'audit social ou la présentation au conseil.",
+      "artifact": "AI Exposure Evidence Pack",
+      "price": "Dossier de preuve à partir de 8 k€",
+      "role": "Couche de preuve sous un avis juridique, un avis social ou une revue de protection des données. Livré sous l'en-tête du cabinet.",
+      "cta": "Voir l'offre"
+    },
+    "card1PilotNote": "Entrée pilote à partir de 3 k€",
+    "card2": {
+      "label": "Marchés régulés",
+      "situation": "Votre client vend à des acheteurs régulés — administrations, banques, assureurs, systèmes de santé — et les contrats bloquent au stade juridique ou DPO. Ou votre client concourt à des appels d'offres publics et a besoin d'une architecture de preuve plus solide.",
+      "artifact": "Sovereign Procurement Dossier · Construction Procurement Dossier",
+      "price": "À partir de 25 k€ (analyse d'alerte rapide)",
+      "role": "Structuration d'accès au marché. Transforme un blocage d'achat en mandat de structuration facturable. Livré sous l'en-tête du cabinet.",
+      "cta": "Voir l'offre"
+    },
+    "card3": {
+      "label": "Transaction",
+      "situation": "Votre client évalue une cible européenne avec une dépendance IA significative. Vous avez besoin d'intelligence transactionnelle sur la concentration des dépendances, l'exposition des données clients, les incohérences contractuelles et le coût de remédiation post-closing.",
+      "artifact": "PE AI Dependency Diligence Pack",
+      "price": "À partir de 15 k€ (analyse d'alerte rapide)",
+      "role": "Instrument d'intelligence transactionnelle. Traduit le narratif IA en position de souscription étayée par les preuves. Livré sous l'en-tête du cabinet.",
+      "cta": "Voir l'offre"
+    }
+  },
+  "dossiers": {
+    "eyebrow": "Dossiers phares",
+    "heading": "Preuve premium à l'échelle des transactions et des programmes",
+    "subhead": "Deux artefacts phares pour les mandats où la couche de preuve doit porter le poids d'une campagne d'achat public régulé, d'une transaction ou d'une revue de portefeuille.",
+    "sovereign": {
+      "meta": "Marchés publics · Marchés régulés",
+      "title": "Sovereign Procurement Dossier",
+      "lead": "L'architecture de preuve, de contrat et de réversibilité qui permet à un acheteur régulé de dire oui.",
+      "body1": "Conçu pour les éditeurs SaaS européens et les prestataires de services IA visant des acheteurs publics, des acteurs de la santé, du secteur financier ou des infrastructures critiques exigeant des preuves de souveraineté, la réversibilité DORA et la clarté sur le rôle au regard de l'AI Act.",
+      "body2": "Couvre six portes d'achat : souveraineté et données sensibles, résilience opérationnelle et réversibilité, rôle et usage prévu au titre de l'AI Act, protection des données et sous-traitance, responsabilité produit, et critères d'achat stratégiques.",
+      "body3": "Livraisons : matrice de contrôle de souveraineté, architecture de réversibilité DORA, matrice rôle/usage AI Act, carte des objections acheteur, programme de clauses contractuelles, feuille de route de remédiation complète et pack de réponse aux appels d'offres.",
+      "price": "Analyse d'alerte à partir de 25 k€ · Dossier complet à partir de 75 k€",
+      "cta": "Lire l'aperçu du dossier"
+    },
+    "pe": {
+      "meta": "Transaction · M&A · Capital-investissement",
+      "title": "PE AI Dependency Diligence Pack",
+      "lead": "L'intelligence transactionnelle qui sépare la prime de narratif IA de la prime de contrôle IA.",
+      "body1": "Conçu pour les sponsors PE, les conseils en M&A et les operating partners évaluant des cibles SaaS européennes où la dépendance IA influe sur la valorisation, la rétention clients, l'accès réglementaire et l'intégration post-closing.",
+      "body2": "Couvre : concentration des dépendances, risque de substitution de modèle, opacité des flux de données, exposition des données clients, rétention de prompts et d'outputs, dépendance sous-traitants, provenance IP, incohérence architecturale contractuelle, réversibilité et fragilité de valorisation.",
+      "body3": "Livraisons : carte de concentration des dépendances, assessment des deal-killers, cartes d'objections pour le sponsor, le conseil et le prêteur, liste de demandes de preuves sur trois niveaux de priorité, feuille de route de remédiation post-closing et synthèse conseil.",
+      "price": "Analyse d'alerte à partir de 15 k€ · Due diligence complète à partir de 40 k€ · Revue de portefeuille à partir de 150 k€",
+      "cta": "Lire l'aperçu du dossier"
+    },
+    "rail": {
+      "sample": "Dossier exemple",
+      "flagship": "Aperçu phare",
+      "item1Title": "FR-CORPORATE-MID",
+      "item1Body": "AI Exposure Evidence Pack travaillé pour une PME française de services B2B.",
+      "item2Title": "Sovereign Procurement",
+      "item2Body": "Carte des portes, architecture de preuve, réversibilité et gestion des objections acheteur.",
+      "item3Title": "PE AI Dependency",
+      "item3Body": "Concentration des dépendances, substitution de modèle, fragilité de valorisation et contrôles Jour-1."
+    }
+  },
+  "partners": {
+    "eyebrow": "Partenaires conseil",
+    "heading": "Conçu pour les cabinets boutique",
+    "subhead": "Marque blanche. Sous votre en-tête. Sans surface de traitement de données.",
+    "p1": "L'artefact est construit à partir d'un archétype client, et non à partir des données du client. Aucun système, contrat, document ou dossier client n'est accédé. Aucun logiciel n'est installé. Aucun accord de traitement n'est requis. Vous recevez un document. Vous le signez. Vous le facturez.",
+    "p2": "Vos clients reçoivent déjà des questions sur le risque IA. Les régulateurs, acheteurs publics, institutions financières et équipes de transaction créent une pression à laquelle les conseils juridiques ne peuvent plus répondre avec des référentiels seuls. Les cabinets capables de répondre à ces questions avec des preuves techniques structurées — sous leur propre nom — tiennent la relation de conseil.",
+    "p3": "L'artefact est la couche de preuve. Votre interprétation est l'avis juridique. Cette division du travail vous rend plus précieux pour le client, pas moins.",
+    "cta": "Demande partenaire",
+    "demoLink": "Voir une démonstration de dossier →",
+    "note": "Pour les cabinets boutique uniquement. Trois questions. Réponse sous 48 heures. Premier échange : appel de cadrage, pas de pitch."
+  },
+  "useCases": {
+    "eyebrow": "Cas d'usage",
+    "heading": "Ce que la couche de preuve rend possible",
+    "case1": {
+      "context": "Cabinet de droit social · France",
+      "title": "Audit social",
+      "situation": "Une PME a déployé Microsoft Copilot sur l'ensemble de ses effectifs. Un associé en droit social a besoin d'une base de preuve technique structurée avant l'arrivée d'une consultation CSE ou d'un contrôle réglementaire.",
+      "producesLabel": "Ce que l'artefact produit",
+      "produces": "Carte de déploiement IA par fonction métier. Signaux d'exposition RH. Lacunes de documentation. Déclencheurs d'escalade pour l'évaluation juridique du partenaire.",
+      "partnerLabel": "Ce que le partenaire en fait",
+      "partner": "L'utilise comme couche de preuve sous un avis en droit social. Le facture comme due diligence renforcée. L'artefact crée le dossier factuel ; le partenaire nomme l'obligation."
+    },
+    "case2": {
+      "context": "Cabinet de droit du numérique · Advisory marchés publics",
+      "title": "Marché public régulé",
+      "situation": "Le contrat d'un éditeur SaaS avec une administration publique française est bloqué depuis cinq mois au stade juridique et DPO. L'acheteur ne peut établir la posture de souveraineté ni les preuves de résilience opérationnelle du prestataire.",
+      "producesLabel": "Ce que l'artefact produit",
+      "produces": "Carte des blocages d'achat. Analyse des lacunes de contrôle de souveraineté. Évaluation de la réversibilité DORA. Réponses aux objections acheteur. Recommandations de clauses contractuelles pour le partenaire.",
+      "partnerLabel": "Ce que le partenaire en fait",
+      "partner": "Transforme un dossier bloqué en mandat de structuration d'accès au marché. Le facture comme architecture commerciale, et non comme documentation de conformité. Le dossier passe de bloqué à structuré."
+    },
+    "case3": {
+      "context": "Conseil en M&A · Advisory capital-investissement",
+      "title": "Due diligence PE",
+      "situation": "Un sponsor PE évalue une cible européenne en HR-tech. L'IA est centrale dans le narratif produit et dans le multiple. Le comité d'investissement doit savoir si la dépendance IA est un actif ou une fragilité avant la signature.",
+      "producesLabel": "Ce que l'artefact produit",
+      "produces": "Carte de concentration des dépendances IA. Assessment d'exposition des données clients. Revue des incohérences architecturales contractuelles. Éléments d'ajustement de valorisation. Feuille de route de remédiation post-closing.",
+      "partnerLabel": "Ce que le partenaire en fait",
+      "partner": "L'utilise comme instrument d'intelligence transactionnelle pour le prix, le séquestre, les garanties et le plan d'intégration Jour-1. Le facture comme support à la transaction. Le sponsor clôt sur des preuves, pas sur le narratif IA."
+    }
+  },
+  "origination": {
+    "eyebrow": "Pilote origination",
+    "heading": "Intelligence d'origination privée.",
+    "subhead": "Sur dossier. Partenaires sélectionnés uniquement.",
+    "body": "Pour les partenaires qui conseillent des clients sur des transactions, des restructurations ou des mandats stratégiques où l'identification précoce de l'exposition IA — avant l'ouverture formelle de la due diligence — modifie l'économie de l'engagement. L'accès est sur dossier et examiné individuellement.",
+    "signalLabel": "Ce que cela fait remonter",
+    "signals": [
+      "Fenêtres d'approche avant l'ouverture formelle des mandats",
+      "Conditions d'exposition affectant le calendrier d'un dossier ou d'un engagement",
+      "Lacunes de preuve qui deviennent un levier avant que la contrepartie ne les détecte"
+    ],
+    "confidentialNote": "Détails communiqués sous NDA aux partenaires sélectionnés.",
+    "cta": "Demander l'accès"
+  },
+  "inquiry": {
+    "sampleEyebrow": "Dossier exemple",
+    "sampleHeading": "Lire le dossier exemple.",
+    "sampleBody": "Le dossier FR-CORPORATE-MID est un AI Exposure Evidence Pack complet pour une PME française de services B2B utilisant Microsoft Copilot et un assistant de scoring CRM. Aucune explication requise. L'artefact parle de lui-même.",
+    "sampleCta": "Lire le dossier",
+    "formEyebrow": "Partenaires conseil",
+    "formHeading": "Demande partenaire",
+    "formSubhead": "Pour les cabinets boutique qui évaluent Exposure Intelligence comme canal de distribution.",
+    "q1legend": "Quel contexte client est le plus pertinent pour votre pratique ?",
+    "q1a": "Déploiement IA (vos clients ont déployé des outils IA)",
+    "q1b": "Marchés régulés (vos clients vendent à des acheteurs régulés ou concourent pour eux)",
+    "q1c": "Transaction (vos clients sont actifs en M&A ou capital-investissement)",
+    "q2legend": "Dans quelle juridiction exercez-vous principalement ?",
+    "q2a": "France",
+    "q2b": "Suisse",
+    "q2c": "Luxembourg",
+    "q2d": "Belgique",
+    "q2e": "Autre",
+    "q3legend": "Avez-vous un premier client en tête ?",
+    "q3a": "Oui — j'ai un client spécifique qui pourrait s'engager dans les 90 prochains jours",
+    "q3b": "Pas encore — j'évalue le produit pour ma pratique",
+    "submit": "Envoyer la demande",
+    "commitment": "Réponse sous 48 heures. Premier échange : appel de cadrage, pas de pitch.",
+    "validationError": "Sélectionnez une réponse pour chaque question avant d'envoyer.",
+    "successMessage": "Ouverture de votre client email avec les détails de la demande."
+  },
+  "footer": {
+    "name": "Exposure Intelligence",
+    "tagline": "Preuve technique structurée pour les missions de conseil."
+  }
+}

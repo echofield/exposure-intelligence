@@ -1,0 +1,16 @@
+{
+  "name": "exposure-intelligence-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "engine:server": "node engine/src/server.js",
+    "engine:generate": "node engine/src/cli.js generate",
+    "engine:pdf": "node engine/src/cli.js pdf",
+    "engine:window": "node engine/src/cli.js window",
+    "engine:check": "node --check engine/src/cli.js && node --check engine/src/server.js && node --check engine/src/pdf-exporter.js && node engine/src/cli.js generate --product ai-exposure-evidence-pack --input engine/samples/intakes/fr-corporate-mid.json --out engine/generated/check-ai-exposure.md && node engine/src/cli.js generate --product pe-ai-dependency-diligence-pack --input engine/samples/intakes/pe-saas-target.json --out engine/generated/check-pe-diligence.md && node engine/src/cli.js pdf --product ai-exposure-evidence-pack --input engine/samples/intakes/fr-corporate-mid.json --out engine/generated/check-ai-exposure.pdf && node engine/src/cli.js window --input engine/samples/window-signals/transmission-idf-sarl.json --out engine/generated/check-window.md",
+    "build:site": "npm --prefix website run build",
+    "build": "npm --prefix website run build",
+    "start": "node engine/src/server.js"
+  }
+}

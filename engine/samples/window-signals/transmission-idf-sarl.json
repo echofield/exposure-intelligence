@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "Example Industrie Services",
+    "siren": "123456789",
+    "legalForm": "SARL",
+    "region": "Ile-de-France",
+    "employeeCount": 52,
+    "sector": "Industrial services"
+  },
+  "facts": {
+    "directorChanged": true,
+    "decliningAccountsYears": 2,
+    "collectiveProcedureOpen": false,
+    "fundSaleNoticePublished": false,
+    "recentCapitalChange": false,
+    "debtPressureSignal": true,
+    "familyOrSuccessionSignal": false,
+    "recentAccountsFiled": true
+  },
+  "sources": [
+    "Infogreffe snapshot placeholder",
+    "BODACC snapshot placeholder",
+    "INSEE/Sirene snapshot placeholder"
+  ]
+}

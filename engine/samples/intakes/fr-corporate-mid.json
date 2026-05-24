@@ -1,0 +1,44 @@
+{
+  "archetypeId": "FR-CORPORATE-MID",
+  "jurisdiction": "FR",
+  "sector": "B2B_SERVICES",
+  "companySize": "mid-market",
+  "revenueBand": "EUR 150-200M",
+  "employeeBand": "500-1500",
+  "aiSurfaceCategories": ["PRODUCTIVITY_TOOLS", "DECISION_SUPPORT"],
+  "businessFunctions": ["COMMERCIAL", "HR", "OPERATIONS", "EXECUTIVE"],
+  "deploymentModels": ["EMBEDDED_SAAS", "VENDOR_MANAGED"],
+  "regulatorySensitivity": "Medium",
+  "externalDependencyLevel": "Moderate",
+  "preparedFor": "[LAW FIRM NAME]",
+  "partner": {
+    "firmName": "Cabinet Partenaire Demo",
+    "logoPlaceholder": "[Logo cabinet]"
+  },
+  "dateBasis": "2026-05-24",
+  "reviewStatus": "draft",
+  "locale": "fr-FR",
+  "knownTools": [
+    {
+      "name": "Microsoft 365 Copilot",
+      "type": "Productivity AI",
+      "deploymentModel": "EMBEDDED_SAAS",
+      "businessFunction": "All functions",
+      "dataCategories": "employee emails, meeting transcripts, internal documents",
+      "oversightLevel": "Not evidenced at archetype level"
+    },
+    {
+      "name": "CRM scoring assistant",
+      "type": "Decision support",
+      "deploymentModel": "VENDOR_MANAGED",
+      "businessFunction": "COMMERCIAL, HR",
+      "dataCategories": "customer records, prospect records, employee-assigned commercial metrics",
+      "oversightLevel": "Informal or not evidenced"
+    }
+  ],
+  "assumptions": [
+    "The entity uses standard vendor terms unless entity-level documents show negotiated terms.",
+    "The entity has no production integration reviewed by the engine.",
+    "The artifact is generated from archetype data only."
+  ]
+}

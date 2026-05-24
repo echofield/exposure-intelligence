@@ -1,0 +1,51 @@
+{
+  "archetypeId": "PE-SAAS-TARGET",
+  "jurisdiction": "FR",
+  "sector": "TECH",
+  "companySize": "mid-market",
+  "revenueBand": "EUR 50-200M",
+  "employeeBand": "250-1000",
+  "aiSurfaceCategories": ["THIRD_PARTY_LLM", "DECISION_SUPPORT", "GENERATIVE_CONTENT"],
+  "businessFunctions": ["PRODUCT", "COMMERCIAL", "OPERATIONS", "LEGAL_COMPLIANCE"],
+  "deploymentModels": ["STANDALONE_API", "VENDOR_MANAGED", "HYBRID"],
+  "regulatorySensitivity": "High",
+  "externalDependencyLevel": "High",
+  "preparedFor": "[M&A COUNSEL]",
+  "partner": {
+    "firmName": "Cabinet Transaction Demo",
+    "logoPlaceholder": "[Logo cabinet]"
+  },
+  "dateBasis": "2026-05-24",
+  "reviewStatus": "reviewed",
+  "locale": "fr-FR",
+  "vendorDependencies": [
+    {
+      "vendor": "Foundation model provider",
+      "component": "Inference and embeddings",
+      "criticality": "Critical",
+      "reversibility": "Not tested",
+      "contractCoverage": "Partial",
+      "notes": "No model substitution benchmark provided at intake."
+    },
+    {
+      "vendor": "Vector database provider",
+      "component": "Retrieval index",
+      "criticality": "High",
+      "reversibility": "Difficult",
+      "contractCoverage": "Partial",
+      "notes": "Export and deletion behavior require verification."
+    }
+  ],
+  "evidenceAvailable": {
+    "aiUseCaseRegister": false,
+    "vendorRegister": false,
+    "retentionMap": false,
+    "subProcessorSchedule": false,
+    "modelSubstitutionBenchmark": false
+  },
+  "assumptions": [
+    "The buyer is evaluating AI dependency before signing.",
+    "AI features affect product positioning and customer retention.",
+    "Customer data may enter prompts, embeddings, logs, or evaluation workflows unless evidence shows otherwise."
+  ]
+}
