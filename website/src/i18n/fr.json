@@ -11,7 +11,7 @@
     "eyebrow": "Preuve technique en marque blanche pour les cabinets conseil",
     "headline": "La couche de preuve sous le conseil juridique sur le risque IA.",
     "subhead": "Des dossiers techniques structurés que votre cabinet déploie sous son propre nom. Basés sur des archétypes. Aucune donnée client ingérée. Aucune méthodologie à expliquer.",
-    "ctaPrimary": "Lire le dossier exemple",
+    "ctaPrimary": "Lire le dossier d'exemple",
     "ctaSecondary": "Demande partenaire",
     "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
     "dossierKicker": "AI Exposure Evidence Pack",
@@ -105,10 +105,10 @@
       "cta": "Lire l'aperçu du dossier"
     },
     "rail": {
-      "sample": "Dossier exemple",
+      "sample": "Dossier d'exemple",
       "flagship": "Aperçu phare",
       "item1Title": "FR-CORPORATE-MID",
-      "item1Body": "AI Exposure Evidence Pack travaillé pour une PME française de services B2B.",
+      "item1Body": "Dossier de preuve complet pour une ETI française de services B2B.",
       "item2Title": "Sovereign Procurement",
       "item2Body": "Carte des portes, architecture de preuve, réversibilité et gestion des objections acheteur.",
       "item3Title": "PE AI Dependency",
@@ -132,7 +132,7 @@
     "case1": {
       "context": "Cabinet de droit social · France",
       "title": "Audit social",
-      "situation": "Une PME a déployé Microsoft Copilot sur l'ensemble de ses effectifs. Un associé en droit social a besoin d'une base de preuve technique structurée avant l'arrivée d'une consultation CSE ou d'un contrôle réglementaire.",
+      "situation": "Une ETI a déployé Microsoft Copilot sur l'ensemble de ses effectifs. Un associé en droit social a besoin d'une base de preuve technique structurée avant l'arrivée d'une consultation CSE ou d'un contrôle réglementaire.",
       "producesLabel": "Ce que l'artefact produit",
       "produces": "Carte de déploiement IA par fonction métier. Signaux d'exposition RH. Lacunes de documentation. Déclencheurs d'escalade pour l'évaluation juridique du partenaire.",
       "partnerLabel": "Ce que le partenaire en fait",
@@ -172,9 +172,9 @@
     "cta": "Demander l'accès"
   },
   "inquiry": {
-    "sampleEyebrow": "Dossier exemple",
-    "sampleHeading": "Lire le dossier exemple.",
-    "sampleBody": "Le dossier FR-CORPORATE-MID est un AI Exposure Evidence Pack complet pour une PME française de services B2B utilisant Microsoft Copilot et un assistant de scoring CRM. Aucune explication requise. L'artefact parle de lui-même.",
+    "sampleEyebrow": "Dossier d'exemple",
+    "sampleHeading": "Lire le dossier d'exemple.",
+    "sampleBody": "Le dossier FR-CORPORATE-MID est un dossier de preuve complet pour une ETI française de services B2B utilisant Microsoft Copilot et un assistant de scoring CRM. Aucune explication requise. L'artefact parle de lui-même.",
     "sampleCta": "Lire le dossier",
     "formEyebrow": "Partenaires conseil",
     "formHeading": "Demande partenaire",
@@ -196,6 +196,17 @@
     "commitment": "Réponse sous 48 heures. Premier échange : appel de cadrage, pas de pitch.",
     "validationError": "Sélectionnez une réponse pour chaque question avant d'envoyer.",
     "successMessage": "Ouverture de votre client email avec les détails de la demande."
+  },
+  "samplePage": {
+    "backLink": "← Exposure Intelligence",
+    "kicker": "AI Exposure Evidence Pack",
+    "partnerLink": "Demande partenaire →",
+    "classification": "Archétype FR-CORPORATE-MID · Usage partenaire",
+    "specimen": "Spécimen — non destiné à la distribution",
+    "loading": "Chargement…",
+    "notFound": "Dossier introuvable.",
+    "footerNote": "Ce dossier est construit sur archétype. Aucune donnée client ingérée. Votre cabinet le déploie sous son en-tête.",
+    "footerCta": "Devenir partenaire →"
   },
   "footer": {
     "name": "Exposure Intelligence",

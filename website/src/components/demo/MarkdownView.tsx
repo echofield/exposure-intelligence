@@ -46,7 +46,7 @@ export default function MarkdownView({ markdown }: { markdown: string }) {
     } else if (line.startsWith('> ')) {
       elements.push(
         <blockquote key={i} className="border-l-2 border-steel/40 pl-3 text-ink/55 text-[11px] italic my-1 font-mono">
-          {line.slice(2)}
+          {renderInline(line.slice(2))}
         </blockquote>
       )
     } else if (line.startsWith('| ') && !line.startsWith('|---') && !line.startsWith('| ---')) {

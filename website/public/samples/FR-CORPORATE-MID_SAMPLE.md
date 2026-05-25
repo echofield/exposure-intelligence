@@ -1,359 +1,365 @@
-# AI Exposure Evidence Pack
+# Dossier de preuve technique — Exposition IA
 
-> **Archetype:** FR-CORPORATE-MID
-> **Jurisdiction:** France
-> **Sector:** B2B Professional Services
-> **Prepared for:** [Cabinet conseil — usage sous leur en-tête]
-> **Date:** [DATE]
-> **Reference:** EI-FR-MID-001
-> **Version:** 1.0
-
----
-
-**Important notice:** This document is a structured technical evidence pack prepared to support legal advisory. It does not constitute legal advice, a legal opinion, or a compliance certification. It does not assess regulatory liability or legal compliance status. It identifies technical and organizational exposure indicators that may require legal review and interpretation by qualified counsel.
-
-Findings are based on an archetype-based assessment. No raw client data, personnel records, customer files, internal documentation, or production infrastructure was accessed or reviewed. This report characterizes the exposure profile of a class of entities matching the FR-CORPORATE-MID archetype, not any specific named company.
-
----
-
-## Section 1 — Executive Exposure Summary
-
-### Archetype reviewed
-
-Mid-market B2B professional services entity operating in France, with AI deployment concentrated in org-wide productivity tooling (Microsoft 365 Copilot) and a vendor-managed commercial scoring assistant embedded in the CRM platform. Approximately 150–200M€ revenue, 500–1,500 employees, Paris headquarters.
-
-### Overall exposure profile
-
-The entity carries a **Medium** overall exposure profile. No immediate prohibited-practice trigger is identified. However, three structural gaps create material legal exposure: the absence of an AI use-case inventory across an org-wide Copilot deployment, the lack of a documented human oversight procedure for CRM scoring outputs that may influence employment-adjacent decisions, and vendor contracts that do not address AI-specific data processing obligations. The exposure is manageable and bounded — but the current governance posture creates identifiable legal vulnerabilities, particularly if the CRM scoring tool has been consulted in any HR or performance management context.
-
-**Exposure profile: Medium**
-
-### Top three issues
-
-1. Microsoft 365 Copilot is deployed org-wide without a documented usage policy, formal deployment scope, or defined data handling rules — Copilot processes employee email, meeting transcriptions, and documents without a written policy governing what data may be processed, who bears accountability, or how AI-generated outputs may be used in external communications.
-
-2. The CRM scoring assistant produces individual-level scores assigned to named sales representatives and visible to their commercial managers — no documented human override or challenge procedure exists. Whether these outputs have been referenced in employment decisions cannot be excluded at archetype level. Requires attorney assessment.
-
-3. Neither the Microsoft DPA nor the CRM vendor contract addresses AI-specific processing obligations — the data processing agreement with Microsoft does not explicitly enumerate AI feature processing operations, and the CRM vendor's AI terms are standard and non-negotiable, leaving the entity without contractual auditability, model change notification, or incident reporting rights.
-
-### Legal review triggers
-
-- Any evidence that CRM scoring outputs have been referenced in individual employee performance reviews, territory decisions, or compensation discussions.
-- Any use of Copilot meeting transcriptions or email drafts in HR disciplinary proceedings or performance documentation.
-- Any client-facing deliverable drafted with material Copilot assistance, without disclosure or internal review procedure.
-
----
-
-## Section 2 — Scope & Methodology
-
-### Assessment basis
-
-This report is based on a structured archetype assessment against the FR-CORPORATE-MID profile. No raw client data, personnel records, customer files, source code, or internal documentation was accessed. The assessment characterizes the structural exposure of a recognizable class of French mid-market B2B entities — not a specific named company.
-
-### Input archetype
-
-| Dimension | Value |
+| Dimension | Valeur |
 |---|---|
-| Jurisdiction | France |
-| Sector | B2B professional services |
-| Company size | Mid-market |
-| Revenue band | €150–200M |
-| Employee band | 500–1,500 |
-| AI surface category | Productivity tools + decision support (vendor-managed scoring) |
-| Business function affected | Commercial, HR (indirect), Operations, Executive |
-| Deployment model | Embedded SaaS (Copilot) + Vendor-managed (CRM scoring) |
-| Regulatory sensitivity | Medium |
-| External dependency level | Moderate |
+| Archétype | FR-CORPORATE-MID |
+| Juridiction | France |
+| Secteur | Services professionnels B2B |
+| Préparé pour | [Cabinet conseil — usage sous son en-tête] |
+| Date | [DATE] |
+| Référence | EI-FR-MID-001 |
+| Version | 1.0 |
 
-### Regulatory framework in scope
+---
 
-| Framework | Applicability |
+## Avertissement important
+
+Le présent document est un dossier de preuve technique structuré, établi pour soutenir le conseil juridique. Il ne constitue ni un avis juridique, ni une consultation, ni une certification de conformité. Il n’apprécie ni la responsabilité réglementaire, ni le statut de conformité de l’entité. Il identifie des indicateurs d’exposition techniques et organisationnels susceptibles de requérir une revue et une interprétation par un conseil qualifié.
+
+Les constats reposent sur une évaluation par archétype. Aucune donnée client brute, aucun dossier du personnel, aucun fichier client, aucune documentation interne, aucune infrastructure de production n’a été consulté ou examiné. Ce rapport caractérise le profil d’exposition d’une classe d’entités correspondant à l’archétype FR-CORPORATE-MID, et non une société nommément désignée.
+
+---
+
+## Section 1 — Synthèse d’exposition
+
+### Archétype examiné
+
+Entité de services professionnels B2B de taille intermédiaire opérant en France, dont le déploiement IA se concentre sur un outil de productivité déployé à l’échelle de l’organisation, Microsoft 365 Copilot, et sur un assistant de scoring commercial géré par l’éditeur, intégré à la plateforme CRM. Chiffre d’affaires d’environ 150–200 M€, effectif de 500 à 1 500 personnes, siège à Paris.
+
+### Profil d’exposition global
+
+L’entité présente un profil d’exposition global **moyen**. Aucun déclencheur de pratique interdite n’est identifié à ce stade. Trois lacunes structurelles créent toutefois une exposition juridique matérielle : l’absence d’inventaire des cas d’usage IA pour un déploiement de Copilot à l’échelle de l’organisation, l’absence de procédure de supervision humaine documentée pour les sorties de scoring CRM susceptibles d’influencer des décisions à proximité de l’emploi, et des contrats fournisseurs qui ne traitent pas des obligations de traitement de données spécifiques à l’IA.
+
+L’exposition est maîtrisable et bornée, mais la posture de gouvernance actuelle crée des vulnérabilités juridiques identifiables, en particulier si l’outil de scoring CRM a été consulté dans un contexte RH ou de gestion de la performance.
+
+**Profil d’exposition : Moyen**
+
+### Trois enjeux prioritaires
+
+1. Microsoft 365 Copilot est déployé à l’échelle de l’organisation sans politique d’usage documentée, sans périmètre de déploiement formel, ni règles de traitement des données définies. Copilot traite les courriels des salariés, les transcriptions de réunions et les documents sans politique écrite régissant les données traitables, la responsabilité applicable ou l’usage des sorties générées par l’IA dans les communications externes.
+
+2. L’assistant de scoring CRM produit des scores au niveau individuel, attribués à des commerciaux nommément désignés et visibles par leurs responsables. Aucune procédure documentée de contestation ou de neutralisation humaine n’existe. La question de savoir si ces sorties ont été référencées dans des décisions relatives à l’emploi ne peut être exclue au niveau de l’archétype. Appréciation juridique requise.
+
+3. Ni l’accord de traitement Microsoft ni le contrat de l’éditeur CRM ne traitent des obligations de traitement spécifiques à l’IA. L’accord de traitement conclu avec Microsoft n’énumère pas explicitement les opérations de traitement réalisées par les fonctions IA, et les conditions IA de l’éditeur CRM sont standard et non négociables, laissant l’entité sans auditabilité contractuelle, sans notification de changement de modèle, ni droit de signalement d’incident.
+
+### Déclencheurs de revue juridique
+
+- Tout élément indiquant que les sorties de scoring CRM ont été référencées dans des entretiens d’évaluation individuels, des décisions de territoire ou des discussions de rémunération.
+- Tout usage de transcriptions de réunions ou de brouillons de courriels Copilot dans une procédure disciplinaire RH ou une documentation de performance.
+- Tout livrable destiné au client rédigé avec une assistance Copilot substantielle, sans divulgation ni procédure de revue interne.
+
+---
+
+## Section 2 — Périmètre et méthodologie
+
+### Base de l’évaluation
+
+Ce rapport repose sur une évaluation structurée par archétype, conduite contre le profil FR-CORPORATE-MID. Aucune donnée client brute, aucun dossier du personnel, aucun fichier client, aucun code source, ni documentation interne n’a été consulté. L’évaluation caractérise l’exposition structurelle d’une classe reconnaissable d’entités B2B françaises de taille intermédiaire, et non une société nommément désignée.
+
+### Archétype en entrée
+
+| Dimension | Valeur |
 |---|---|
-| EU Artificial Intelligence Act (Reg. 2024/1689) | Full applicability. Phased enforcement through 2025–2027. Covers prohibited practices, high-risk system obligations, transparency requirements, and general-purpose AI model rules. |
-| GDPR (Reg. 2016/679) | Full applicability. Automated processing, data processor obligations, and data subject rights are directly relevant to this AI surface profile. |
-| Loi Informatique et Libertés (LIL) | French national implementation of GDPR. CNIL is the national supervisory authority and AI Act national competent authority candidate. |
-| Code du travail (France) | French labor law provisions governing workplace technology deployment and employee monitoring are applicable to this AI surface profile. Attorney review required to determine scope and obligations. |
-| CNIL guidelines on AI | CNIL's published guidance on AI and data protection applicable. Includes positions on algorithmic processing and workplace AI. |
-
-### Assumptions and limitations
-
-- This report assumes standard vendor contract terms for Microsoft 365 Copilot (enterprise M365 E3/E5) and a standard mid-market CRM platform (Salesforce or equivalent). Individually negotiated provisions may alter the dependency and auditability analysis.
-- The AI surface profile reflects publicly documented features of the tools in the named categories. Specific configuration choices made by the entity may expand or narrow the exposure.
-- The HR exposure analysis is based on the structural probability that commercial performance metrics are consulted in employee evaluation at entities of this profile. This assumption should be verified in any entity-specific engagement.
-- AI Act enforcement timelines are ongoing. Some provisions cited are phasing in between 2025 and 2027.
-
----
-
-## Section 3 — AI Usage Exposure Map
-
-### Overview
-
-The entity's AI surface is concentrated in two tools deployed across the full organization: Microsoft 365 Copilot embedded in the Microsoft 365 enterprise suite, and a commercial scoring assistant embedded in the CRM platform. Both are vendor-managed. Neither requires internal technical integration beyond licensing and administrative activation. The deployment model creates broad surface coverage at low technical friction — but correspondingly broad exposure without matching governance infrastructure.
-
-### AI surface inventory
-
-| AI tool | Tool type | Deployment model | Business function | Data categories processed | Oversight level |
-|---|---|---|---|---|---|
-| Microsoft 365 Copilot | Productivity AI — email drafting, document summarization, meeting transcription, search | Embedded SaaS (Microsoft 365 enterprise) | All functions: commercial, HR, operations, executive | Employee email content, meeting audio/transcripts, internal documents, calendar data | Not documented. No formal usage policy or review procedure. |
-| CRM scoring assistant | Decision support — lead scores, account health scores, opportunity priority rankings | Vendor-managed (embedded in CRM platform) | Commercial (primary), Operations, HR (indirect) | Individual contact and account data, interaction history, commercial performance data, employee-assigned pipeline metrics | Informal. Scores are consumed by commercial teams without documented override or challenge procedure. |
-
-### Exposure propagation
-
-**Copilot → HR exposure:** Copilot's meeting transcription function, if used in disciplinary hearings, performance review meetings, or recruitment interviews, produces a written record generated by AI. If that record is used in HR decisions, it constitutes AI-assisted processing of employee personal data in an employment context. No evidence exists at archetype level that employees have been formally notified of this capability. Requires attorney assessment.
-
-**CRM scoring → employment exposure:** CRM scoring tools assigned to individual sales representatives generate data points structurally capable of measuring individual employee performance (pipeline conversion rate, lead response score, account penetration score). Individual scores are visible to commercial managers. If these metrics have been consulted in any performance review, bonus calculation, or territory reallocation decision, the tool has crossed from commercial decision support into employment-adjacent automated processing. Whether this has occurred cannot be excluded at archetype level. Requires attorney assessment.
-
-**Copilot → external communications:** Copilot-generated drafts used in client deliverables, external communications, or legal documents without an internal review procedure create a liability surface: inaccuracies in AI-generated outputs used in client-facing work may be attributable to the entity without the mitigating documentation of a review step.
-
-### Shadow AI and undocumented surface
-
-At this archetype level, it is structurally probable that employees use consumer AI tools (ChatGPT, Claude, Gemini, or equivalent) for work tasks that fall outside the formal Copilot deployment. Absent an AI usage policy, there is no basis for the entity to evidence what data has been processed through these tools, under what terms, or whether client or employee personal data has been transmitted to external model providers. This constitutes an undocumented extension of the AI surface.
-
----
-
-## Section 4 — Vendor Dependency View
-
-### Overview
-
-The entity's AI surface is entirely externally sourced. No internal model capability exists. Both tools are controlled by third-party vendors under standard contract terms. Microsoft's enterprise terms are well-documented but do not enumerate all AI processing operations explicitly. The CRM vendor's AI terms are standard, non-negotiable at this entity's size, and do not include specific auditability or model change notification provisions.
-
-### Vendor dependency table
-
-| Vendor category | Dependency type | Workflow criticality | Reversibility | Contract auditability | Key documentation gap |
-|---|---|---|---|---|---|
-| Microsoft 365 Copilot | Embedded in the entity's primary productivity infrastructure | High — Copilot is activated across M365 enterprise license used by all employees | Low — removing Copilot requires administrative deactivation but creates workflow disruption; no documented fallback for AI-assisted tasks | Limited — Microsoft's DPA covers data processor obligations under GDPR but does not enumerate specific AI feature processing operations as distinct ROPA line items | DPA does not explicitly address Copilot AI processing of email, meeting, and document content as enumerated processing operations. No model change notification obligation. |
-| CRM scoring vendor | Embedded in the entity's primary commercial management tool | High — scoring outputs are integrated into daily commercial workflows | Low–Medium — replacing the CRM platform requires full migration; disabling only the scoring feature is possible but may require vendor support. No documented fallback scoring procedure. | Not documented — CRM AI terms are standard and do not include: model auditability, output explanation rights, data deletion obligations specific to AI-processed data, or incident reporting. | No contractual right to audit the scoring model, receive notification of model changes, or obtain explanation of individual score outputs. |
-
-### Contract review triggers
-
-- **Microsoft 365 Copilot DPA:** Review whether the existing data processing addendum explicitly covers the AI processing operations performed by Copilot — specifically email summarization, meeting transcription, document analysis, and search. Confirm data residency terms cover all AI feature processing, not only storage.
-- **CRM vendor AI terms:** Review whether the CRM vendor's terms include any data processor obligations for the scoring assistant's processing of individual contact and employee-assigned data. Confirm whether model change notification, audit rights, and data deletion obligations are present.
-- **Sub-processor disclosure:** Both vendors will sub-process personal data to model infrastructure providers. Confirm that sub-processor lists include AI infrastructure providers and that transfer mechanisms cover all jurisdictions involved.
-
-### Reversibility assessment
-
-**Copilot:** Administratively reversible — the feature can be disabled at tenant level. However, at this archetype size and deployment scope, disabling Copilot creates operational friction across all business functions simultaneously. No documented fallback procedure for AI-assisted drafting or meeting summarization exists. Practical reversibility is Low.
-
-**CRM scoring:** Partially reversible — the scoring feature can be disabled if supported by vendor configuration options. The CRM platform itself is a workflow-critical dependency with multi-year contract terms. Full replacement would require 12–18 months minimum. Scoring feature-only disablement is possible but undocumented. Practical reversibility is Low–Medium.
-
----
-
-## Section 5 — Governance Blind Spots & Evidence Gaps
-
-*This section identifies what documentation should structurally exist for this archetype — and does not. Absence is an evidence signal.*
-
-### What is known
-
-From the archetype's structural profile: Microsoft 365 Copilot is deployed org-wide under an enterprise license. A CRM scoring assistant is active in commercial workflows. Both tools process personal data — employee data in the case of Copilot, employee-assigned and contact personal data in the case of the CRM scoring tool. The applicable regulatory framework is GDPR, the French loi Informatique et Libertés, the EU AI Act (phased enforcement), and the Code du travail for employment-adjacent AI use.
-
-### What is not evidenced
-
-The following documentation items are absent at the archetype level:
-
-- **AI use-case inventory:** No register documenting which AI tools are deployed, by which business function, under what terms, and with what data processing implications. Copilot's expansion across the organization has occurred without a formal inventory update.
-- **Formal deployment scope for Copilot:** No document defining the intended perimeter of Copilot use — which functions are authorized, which use cases are prohibited, and what data categories may be processed through the tool.
-- **AI usage policy:** No written policy governing employee interaction with AI tools — acceptable use, prohibited use cases, external communication rules, and data handling obligations are undocumented.
-- **ROPA entries for AI tools:** The Record of Processing Activities does not contain distinct entries for Copilot AI processing operations or CRM scoring assistant data flows.
-- **Human oversight procedure for CRM scoring:** No documented procedure defining who reviews scoring outputs, under what conditions an override is permitted, and how overrides are recorded.
-- **Employee disclosure of Copilot monitoring capabilities:** No evidence that employees have been formally notified that Copilot's meeting transcription and email analysis functions constitute AI-assisted processing of their work activity.
-- **CSE consultation record:** No evidence that the Works Council has been informed and consulted regarding the deployment of Copilot or the CRM scoring tool. Whether a consultation obligation applies requires attorney assessment.
-
-### What cannot yet be established
-
-The following exposure questions cannot be resolved at the archetype level and require entity-specific verification:
-
-- Whether the CRM scoring assistant's individual metrics have been accessed, referenced, or used in any employee performance review, bonus calculation, or employment decision — this is the primary HR exposure inflection point.
-- Whether Copilot meeting transcriptions have been used in any disciplinary or grievance proceedings.
-- Whether any client-facing deliverable has been drafted with material Copilot assistance, and whether that assistance was disclosed to the client.
-- Whether Microsoft's sub-processor list for Copilot AI features includes infrastructure outside the EEA, and whether the transfer mechanism in the current DPA covers those transfers adequately.
-- The specific configuration of the CRM scoring model — what inputs it uses, how it weights employee-assigned variables, and whether any output constitutes a legal or similarly significant decision.
-
-### Records that should exist
-
-The following documentation would be requested at the outset of any legal review of this archetype:
-
-- [ ] AI use-case register (tools deployed, function, vendor, contractual basis, data category)
-- [ ] Data processing agreements with Microsoft and CRM vendor, specifically covering AI feature processing
-- [ ] ROPA entries for Copilot and CRM scoring assistant as distinct processing operations
-- [ ] Human oversight procedure for CRM scoring outputs
-- [ ] AI usage policy communicated to all employees
-- [ ] CSE consultation record for Copilot and CRM scoring assistant deployments
-- [ ] Employee notification regarding Copilot meeting transcription and email processing capabilities
-- [ ] DPIA for Copilot processing of employee communications and meeting content
-- [ ] Any AI-related incident records (output errors, data handling incidents, model behavior complaints)
-
----
-
-## Section 6 — Regulatory & Operational Exposure Signals
-
-### AI Act exposure signals
-
-| Condition | Severity | Status |
-|---|---|---|
-| CRM scoring assistant generates individual-level employee metrics visible to managers. No classification review has been conducted to assess the tool's regulatory category given its employment-adjacent use pattern. | High | Requires entity-level verification |
-| No assessment of AI tools in use has been conducted against applicable regulatory risk categories. Classification status of both deployed tools is undetermined. | Medium | Confirmed at archetype level |
-| No disclosure to employees that AI tools process their communications, meeting transcriptions, and work activity. | Medium | Confirmed at archetype level |
-
-### Data protection exposure signals
-
-| Condition | Severity | Status |
-|---|---|---|
-| Copilot processes employee personal data (email, meetings, documents). No corresponding entry in the Record of Processing Activities. No data protection impact assessment on file. | High | Confirmed at archetype level |
-| CRM scoring assistant processes individual contact and employee-assigned data. No data processing agreement term explicitly covers the AI scoring feature as a distinct processing operation. | High | Confirmed at archetype level |
-| No documented lawful basis for Copilot's AI processing of employee communications and meeting content. | Medium | Confirmed at archetype level |
-| CRM scoring generates individual-level employee metrics. No documented human review procedure for employment-adjacent uses. Whether these outputs have informed employment decisions requires entity-level verification. | High | Requires entity-level verification |
-
-### Employment and HR exposure signals
-
-CRM scoring outputs are structured at the individual employee level. Scores are assigned to named sales representatives and visible to their direct managers. No documented boundary prevents these outputs from being referenced in employment decisions. No override, challenge, or exclusion record exists.
-
-No record at archetype level that the Works Council was informed before deployment of tools with individual employee monitoring capabilities. No record that employees were notified of AI-assisted processing of their communications and work activity.
-
-If scoring metrics have been consulted in any performance review, bonus calculation, or territory allocation, or if meeting transcriptions have been used in any HR proceeding, both conditions require attorney assessment before the tools continue in their current configuration.
-
-### IP and content exposure signals
-
-Copilot-generated content used in client deliverables, proposals, or legal documents without review creates a specific IP and accuracy liability: the entity cannot evidence what was AI-generated versus human-authored, and cannot demonstrate that AI-generated errors were caught before delivery. Absent an internal review procedure, the entity bears the full liability of all AI-generated content used in client-facing work.
-
-### Procurement and vendor exposure signals
-
-- Microsoft DPA does not enumerate AI feature processing — standard M365 DPA language may not cover Copilot AI operations as distinct processing activities. This creates a gap between actual data processing and documented processing in the ROPA and DPA.
-- CRM vendor AI terms contain no model change notification obligation — the vendor may update the scoring model without informing the entity, potentially changing the basis on which individual scores are generated. The entity has no contractual right to audit the model or challenge its outputs.
-
-### Board and accountability exposure signals
-
-If Copilot-assisted executive summaries or CRM-generated pipeline reports are presented to the board without disclosure of AI assistance and without a documented human review step, senior leadership cannot demonstrate that the information they relied on was reviewed for accuracy prior to board-level decision-making.
-
----
-
-## Section 7 — Technical Mitigation Pathways
-
-*These pathways reduce exposure for this archetype. They do not constitute legal advice. Legal review is required to confirm adequacy of implementation.*
-
-### Priority 1 — Immediate (initiate without waiting for legal review)
-
-- [ ] **AI use-case inventory:** Assign a named owner. Document every AI tool in active use: tool name, vendor, business function, data category, whether a DPA exists, and deployment scope. Copilot and the CRM scoring assistant are the immediate entries. Extend to all other tools as they are identified. This is the prerequisite for every subsequent step.
-
-- [ ] **Vendor register:** Create a two-column register: (1) AI vendor, (2) DPA status / AI processing coverage. For Microsoft: confirm whether the current DPA explicitly covers Copilot AI operations. For CRM vendor: confirm what data processing terms govern the scoring assistant specifically.
-
-- [ ] **Internal AI usage policy — first draft:** Draft a one-page policy covering: (a) which AI tools employees are authorized to use, (b) prohibited use cases (processing client confidential data through consumer AI tools, using AI in disciplinary proceedings without authorization), (c) rules for AI-generated content in external communications. Circulate to HR and Legal for review before publication.
-
-### Priority 2 — Near-term (legal review recommended)
-
-- [ ] **Works Council assessment:** Engage labor law counsel to determine whether Copilot and the CRM scoring assistant required prior Works Council (CSE) consultation, and to structure the appropriate process if not yet completed.
-
-- [ ] **Employee notification — Copilot:** Legal review required to determine scope and form of employee notification regarding Copilot's meeting transcription and email processing capabilities. Do not draft without attorney guidance on applicable requirements.
-
-- [ ] **DPIA for Copilot:** Commission a Data Protection Impact Assessment covering Copilot's processing of employee email, meeting transcriptions, and internal documents. Engage a data protection specialist. The DPIA should specifically address: lawful basis for processing, data minimization configuration options, data retention, and employee rights.
-
-- [ ] **Vendor contract review — Microsoft DPA:** Legal review of the current Microsoft 365 DPA and Copilot-specific terms to confirm: (a) Copilot AI processing operations are enumerated, (b) data residency covers all AI processing operations, (c) sub-processor disclosure is current and transfer mechanisms are adequate.
-
-- [ ] **Vendor contract review — CRM scoring assistant:** Legal review of CRM vendor AI terms to identify: gaps in data processor obligations, absence of model change notification, and absence of audit rights. Assess whether contract renegotiation is feasible or whether compensating controls are required.
-
-### Priority 3 — Structured (legal review required)
-
-- [ ] **AI classification exercise:** Commission a formal review of the CRM scoring assistant against applicable regulatory risk categories, with particular attention to its employment-adjacent use pattern. Engage attorney or qualified technical auditor. Outcome determines whether mandatory obligations apply to the tool's current deployment.
-
-- [ ] **ROPA update:** Add Copilot and CRM scoring assistant as distinct ROPA entries with their own processing purpose, data category, legal basis, retention period, and sub-processor references.
-
-- [ ] **Human oversight procedure — CRM scoring:** Document a formal procedure: who reviews CRM scores before they inform any employment-adjacent decision, what authority they have to override, and how overrides are recorded. Define "employment-adjacent" to include pipeline-to-performance metric linkages.
-
-- [ ] **Procurement questionnaire:** Develop a standard AI governance question set for all new vendor onboarding where AI tools process personal data. Minimum questions: (1) Is a DPA available that covers AI processing operations specifically? (2) What is the model change notification procedure? (3) What data deletion guarantees apply to AI-processed data? (4) What audit rights does the entity have?
-
----
-
-## Section 8 — Escalation Signals for Legal Review
-
-*These conditions, if identified in an entity matching this archetype, require immediate engagement with qualified legal counsel before further AI deployment or continued use.*
-
-| Condition | Risk area | Urgency |
-|---|---|---|
-| CRM scoring outputs have been referenced in any individual employee performance review, bonus decision, or territory allocation | Employment + automated processing | Immediate |
-| Copilot meeting transcriptions have been used in any disciplinary, grievance, or performance documentation | Employment + data protection | Immediate |
-| CRM scoring tool assessed as falling within a regulated high-risk category given its employment-adjacent use | AI Act compliance | Immediate — deployment configuration requires attorney review before continuing |
-| Client-facing deliverable containing material AI-generated content delivered without internal review procedure or client disclosure | Contractual + IP | Near-term |
-| Works Council not consulted prior to deployment of Copilot or CRM scoring assistant | Employment procedure | Near-term |
-| Vendor data processing agreement found not to cover AI feature processing operations as distinct processing activities | Data processing | Near-term |
-| Vendor infrastructure located outside EEA without documented transfer safeguards | Cross-border data | Near-term |
-| Employee complaint or inquiry regarding undisclosed AI processing of their communications or work activity | Employment + regulatory | Immediate if received |
-
----
-
-## Section 9 — Appendix
-
-### A. Archetype input (as submitted)
-
-| Dimension | Value |
+| Juridiction | France |
+| Secteur | Services professionnels B2B |
+| Taille d’entreprise | Mid-market, taille intermédiaire |
+| Tranche de CA | 150–200 M€ |
+| Tranche d’effectif | 500–1 500 |
+| Catégorie de surface IA | Outils de productivité + aide à la décision, scoring géré par l’éditeur |
+| Fonctions concernées | Commercial, RH indirect, Opérations, Direction |
+| Modèle de déploiement | SaaS intégré, Copilot + scoring CRM géré par l’éditeur |
+| Sensibilité réglementaire | Moyenne |
+| Niveau de dépendance externe | Modéré |
+
+### Cadre réglementaire applicable
+
+| Cadre | Applicabilité |
 |---|---|
-| Jurisdiction | France |
-| Sector | B2B professional services |
-| Company size | Mid-market |
-| Revenue band | €150–200M |
-| Employee band | 500–1,500 |
-| AI surface category | Productivity tools + decision support (vendor-managed scoring) |
-| Business function affected | Commercial, HR (indirect), Operations, Executive |
-| Deployment model | Embedded SaaS (Copilot) + Vendor-managed (CRM scoring) |
-| Regulatory sensitivity | Medium |
-| External dependency level | Moderate |
+| Règlement (UE) 2024/1689 sur l’IA, AI Act | Applicable progressivement. Couvre les pratiques interdites, les obligations des systèmes à haut risque, les exigences de transparence et les règles applicables aux modèles d’IA à usage général. Les calendriers de mise en application et les mesures de soutien restent à vérifier au moment de la mission. |
+| RGPD, Règl. (UE) 2016/679 | Pleinement applicable. Le traitement automatisé, les obligations du sous-traitant et les droits des personnes concernées sont directement pertinents pour ce profil de surface IA. |
+| Loi Informatique et Libertés | Transposition française du RGPD. La CNIL est l’autorité de contrôle nationale pour la protection des données et conserve un rôle central lorsque les systèmes IA traitent des données personnelles. |
+| Code du travail | Les dispositions encadrant le déploiement de technologies sur le lieu de travail et la surveillance des salariés s’appliquent à ce profil de surface IA. Une revue par un conseil est requise pour en déterminer la portée et les obligations. |
+| Positions CNIL sur l’IA | Les positions publiées par la CNIL sur l’IA et la protection des données s’appliquent, notamment sur le traitement algorithmique, les AIPD et l’IA au travail. |
 
-### B. Assumptions
+### Hypothèses et limites
 
-- The entity operates a standard Microsoft 365 enterprise license (E3 or E5) with Copilot activated at tenant level. Copilot features are available to all licensed users. No custom model training or fine-tuning has been performed.
-- The CRM scoring assistant is a standard feature of the CRM platform (Salesforce Einstein or functionally equivalent tool). Scores are generated from CRM-internal data only — no external data integration is assumed.
-- The entity's commercial organization is structured around individual sales representatives with assigned accounts and pipeline targets. CRM scores are visible to both sales representatives and their managers.
-- The entity employs between 500 and 1,500 people. A Works Council (CSE) exists and is active. No specific exemption from CSE consultation obligations applies.
-- No healthcare, financial services, or other sector-specific regulatory overlay applies — the entity operates as a general B2B services company without sector regulation beyond the standard French corporate and labor law framework.
-- The entity has no prior CNIL investigation or enforcement action. Regulatory baseline is a clean record.
-
-### C. Evidence checklist
-
-Documents that would be requested at the outset of a legal review of this archetype:
-
-- [ ] Existing AI or digital tool usage policy (or equivalent)
-- [ ] Microsoft 365 enterprise agreement and Data Processing Addendum (including Copilot-specific terms if separately documented)
-- [ ] CRM vendor master agreement and AI/scoring feature terms
-- [ ] Record of Processing Activities (ROPA) — to verify Copilot and CRM entries
-- [ ] Any existing DPIA documentation for digital workplace tools
-- [ ] CSE meeting minutes for the period when Copilot and CRM scoring were deployed
-- [ ] Employee handbooks or IT policy documents covering digital tool use
-- [ ] HR records evidencing the basis for any performance decision where CRM data may have been referenced
-- [ ] Any client contracts containing provisions on AI tool use or data handling
-- [ ] Data retention schedule covering AI-generated outputs (Copilot summaries, transcripts)
-- [ ] Any AI-related incident or complaint records
-
-### D. Terminology
-
-**EU AI Act:** Regulation (EU) 2024/1689 on artificial intelligence. Phased enforcement from 2025 through 2027. Creates different obligation sets depending on AI system risk classification and provider/deployer role. Attorney review required to determine which obligations apply to a specific deployment.
-
-**GDPR:** Regulation (EU) 2016/679. European data protection framework governing the processing of personal data of individuals in the EU/EEA.
-
-**ROPA — Record of Processing Activities:** An internal register that organizations are required to maintain documenting their data processing operations, including purpose, data categories, recipients, and retention periods. AI tools processing personal data must appear as distinct entries.
-
-**DPIA — Data Protection Impact Assessment:** A structured assessment required before undertaking processing operations that are likely to result in high risks to individuals. Evaluates the necessity, proportionality, and risk mitigation of the proposed processing.
-
-**DPA — Data Processing Agreement:** A contract required between a data controller and a data processor when personal data is shared for processing on behalf of the controller. Must address the scope, purpose, and conditions of the processing.
-
-**Evidence gap:** A documentation item that should structurally exist for an entity of this profile but is absent or unverifiable at the archetype level. Absence does not establish a legal violation — it identifies a condition requiring attorney assessment.
-
-**CSE — Comité Social et Économique:** The French Works Council. The employee representative body in French companies. Consultation and information rights regarding workplace technology are determined by applicable labor law provisions — scope requires attorney assessment for any specific deployment.
-
-### E. Next-step questionnaire
-
-For use by the advising attorney in the first client engagement following this report:
-
-1. Has the organization compiled an inventory of all AI tools in active use, by business function?
-2. When was Microsoft 365 Copilot activated? Was there any internal review of data protection implications prior to activation?
-3. Was the CSE informed and consulted before Copilot and the CRM scoring tool were deployed?
-4. Are employees aware that Copilot can transcribe their meetings and process their email content?
-5. Have CRM scoring outputs ever been referenced in a performance review, bonus discussion, or employment decision for an individual sales representative?
-6. Does the current Microsoft DPA explicitly cover Copilot AI processing operations?
-7. What are the CRM vendor's terms governing the scoring assistant's data processing?
-8. Is AI-generated content (Copilot drafts, summaries) used in client deliverables? If yes, is there a review procedure?
-9. Has any employee raised a concern or complaint related to AI tool use?
-10. Is there a designated data protection officer, and are they aware of the current AI tool deployments?
+- Ce rapport suppose des conditions contractuelles standard pour Microsoft 365 Copilot, licence entreprise M365 E3/E5, et pour une plateforme CRM mid-market standard, Salesforce ou équivalent. Des stipulations négociées individuellement peuvent modifier l’analyse de dépendance et d’auditabilité.
+- Le profil de surface IA reflète les fonctionnalités publiquement documentées des outils dans les catégories nommées. Des choix de configuration propres à l’entité peuvent élargir ou restreindre l’exposition.
+- L’analyse de l’exposition RH repose sur la probabilité structurelle que les indicateurs de performance commerciale soient consultés dans l’évaluation des salariés au sein d’entités de ce profil. Cette hypothèse doit être vérifiée lors de toute mission propre à une entité.
+- Les calendriers d’application de l’AI Act sont échelonnés et peuvent être affectés par les mesures européennes de mise en œuvre. Les dates et obligations doivent être confirmées au moment de la revue.
 
 ---
 
-*This document was prepared using an archetype-based assessment methodology against the FR-CORPORATE-MID profile. It does not reflect access to or review of any specific entity's documentation, systems, contracts, or internal data. All findings are structural and require validation against the specific entity's actual operations, contracts, and governance practices before legal conclusions can be drawn.*
+## Section 3 — Cartographie de l’exposition aux usages IA
 
-*[LAW FIRM NAME] | [DATE] | Reference: EI-FR-MID-001*
+### Vue d’ensemble
+
+La surface IA de l’entité se concentre sur deux outils déployés à l’échelle de l’organisation : Microsoft 365 Copilot, intégré à la suite entreprise Microsoft 365, et un assistant de scoring commercial intégré à la plateforme CRM. Les deux sont gérés par l’éditeur. Aucun ne requiert d’intégration technique interne au-delà de la licence et de l’activation administrative.
+
+Le modèle de déploiement crée une large couverture de surface à faible friction technique, mais une exposition correspondante tout aussi large, sans infrastructure de gouvernance équivalente.
+
+### Inventaire de la surface IA
+
+| Outil IA | Type | Fonctions | Données traitées | Supervision |
+|---|---|---|---|---|
+| Microsoft 365 Copilot | Productivité : rédaction de courriels, résumé de documents, transcription de réunions, recherche | Toutes : commercial, RH, opérations, direction | Contenu des courriels, audio/transcriptions de réunions, documents internes, données d’agenda | Non documentée. Aucune politique d’usage ni procédure de revue. |
+| Assistant de scoring CRM | Aide à la décision : scores de leads, scores de santé de compte, priorisation des opportunités | Commercial principal, opérations, RH indirect | Données de contacts et comptes, historique d’interactions, performance commerciale, indicateurs de pipeline attribués aux salariés | Informelle. Scores consommés sans procédure documentée de neutralisation ou de contestation. |
+
+### Propagation de l’exposition
+
+**Copilot → exposition RH :** la fonction de transcription de réunions de Copilot, si elle est utilisée lors d’entretiens disciplinaires, de réunions d’évaluation ou d’entretiens de recrutement, produit un compte rendu généré par l’IA. Si ce compte rendu est utilisé dans des décisions RH, il constitue un traitement assisté par IA de données personnelles de salariés dans un contexte d’emploi. Aucun élément, au niveau de l’archétype, n’indique que les salariés ont été formellement informés de cette capacité. Appréciation juridique requise.
+
+**Scoring CRM → exposition emploi :** les outils de scoring CRM attribués à des commerciaux individuels génèrent des points de données structurellement capables de mesurer la performance individuelle : taux de conversion du pipeline, score de réactivité aux leads, score de pénétration de compte. Les scores individuels sont visibles par les responsables commerciaux. Si ces indicateurs ont été consultés dans une évaluation, un calcul de prime ou une décision de réallocation de territoire, l’outil est passé de l’aide à la décision commerciale à un traitement automatisé à proximité de l’emploi. La survenance de ce cas ne peut être exclue au niveau de l’archétype. Appréciation juridique requise.
+
+**Copilot → communications externes :** les brouillons générés par Copilot utilisés dans des livrables clients, des communications externes ou des documents juridiques sans procédure de revue interne créent une surface de responsabilité. Les inexactitudes des sorties générées par l’IA et utilisées dans le travail destiné au client peuvent être imputées à l’entité, sans la documentation atténuante d’une étape de revue.
+
+### IA fantôme et surface non documentée
+
+À ce niveau d’archétype, il est structurellement probable que des salariés utilisent des outils d’IA grand public, comme ChatGPT, Claude, Gemini ou équivalents, pour des tâches professionnelles hors du déploiement formel de Copilot. En l’absence de politique d’usage de l’IA, l’entité ne dispose d’aucune base pour démontrer quelles données ont été traitées via ces outils, sous quelles conditions, ni si des données personnelles de clients ou de salariés ont été transmises à des fournisseurs de modèles externes. Cela constitue une extension non documentée de la surface IA.
+
+---
+
+## Section 4 — Vue des dépendances fournisseurs
+
+### Vue d’ensemble
+
+La surface IA de l’entité est intégralement d’origine externe. Aucune capacité de modèle interne n’existe. Les deux outils sont contrôlés par des éditeurs tiers sous conditions contractuelles standard. Les conditions entreprise de Microsoft sont bien documentées mais n’énumèrent pas explicitement toutes les opérations de traitement IA. Les conditions IA de l’éditeur CRM sont standard, non négociables à la taille de cette entité, et n’incluent ni clause d’auditabilité spécifique, ni notification de changement de modèle.
+
+### Tableau des dépendances fournisseurs
+
+| Fournisseur | Criticité | Réversibilité | Auditabilité contractuelle | Lacune clé |
+|---|---|---|---|---|
+| Microsoft 365 Copilot | Élevée : activé sur la licence M365 entreprise utilisée par tous les salariés | Faible : la désactivation crée une rupture de flux de travail ; aucun repli documenté | Limitée : le DPA couvre les obligations du sous-traitant au titre du RGPD mais n’énumère pas les opérations IA spécifiques | Le DPA ne traite pas explicitement le traitement IA des courriels, réunions et documents. Aucune obligation de notification de changement de modèle. |
+| Éditeur scoring CRM | Élevée : sorties intégrées aux flux commerciaux quotidiens | Faible à moyenne : remplacement complet lourd ; désactivation du seul scoring possible mais non documentée | Non documentée : les conditions IA n’incluent ni auditabilité du modèle, ni droit d’explication, ni obligation de suppression spécifique, ni signalement d’incident | Aucun droit contractuel d’auditer le modèle, d’être notifié de ses changements, ni d’obtenir l’explication d’un score individuel. |
+
+### Déclencheurs de revue contractuelle
+
+- DPA Microsoft 365 Copilot : vérifier si l’avenant de traitement existant couvre explicitement les opérations IA réalisées par Copilot, notamment résumé de courriels, transcription de réunions, analyse de documents et recherche. Confirmer que les clauses de localisation des données couvrent l’ensemble du traitement IA, et pas uniquement le stockage.
+- Conditions IA de l’éditeur CRM : vérifier si elles incluent des obligations de sous-traitant pour le traitement, par l’assistant de scoring, des données de contacts et des données attribuées aux salariés. Confirmer la présence d’une notification de changement de modèle, de droits d’audit et d’obligations de suppression.
+- Divulgation des sous-traitants ultérieurs : les deux éditeurs sous-traiteront des données personnelles à des fournisseurs d’infrastructure de modèles. Confirmer que les listes de sous-traitants incluent ces fournisseurs d’infrastructure IA et que les mécanismes de transfert couvrent toutes les juridictions concernées.
+
+### Évaluation de la réversibilité
+
+**Copilot :** réversible administrativement. La fonction peut être désactivée au niveau du tenant. Toutefois, à cette taille d’archétype et à ce périmètre de déploiement, la désactivation crée une friction opérationnelle simultanée sur toutes les fonctions. Aucune procédure de repli documentée pour la rédaction ou le résumé assistés n’existe. Réversibilité pratique : faible.
+
+**Scoring CRM :** partiellement réversible. La fonction de scoring peut être désactivée si la configuration de l’éditeur le permet. La plateforme CRM elle-même est une dépendance critique sous contrat pluriannuel. Un remplacement complet exigerait au minimum 12 à 18 mois. La désactivation du seul scoring est possible mais non documentée. Réversibilité pratique : faible à moyenne.
+
+---
+
+## Section 5 — Angles morts de gouvernance et lacunes de preuve
+
+Cette section identifie ce qui devrait structurellement exister pour cet archétype, et qui n’existe pas. L’absence est un signal de preuve.
+
+### Ce qui est connu
+
+Du profil structurel de l’archétype : Microsoft 365 Copilot est déployé à l’échelle de l’organisation sous licence entreprise. Un assistant de scoring CRM est actif dans les flux commerciaux. Les deux outils traitent des données personnelles, données de salariés pour Copilot, données de contacts et données attribuées aux salariés pour l’outil de scoring CRM. Le cadre applicable est le RGPD, la loi Informatique et Libertés, l’AI Act, dont l’application est échelonnée, et le Code du travail pour l’usage de l’IA à proximité de l’emploi.
+
+### Ce qui n’est pas démontré
+
+Les éléments de documentation suivants sont absents au niveau de l’archétype :
+
+- **Inventaire des cas d’usage IA :** aucun registre documentant quels outils IA sont déployés, par quelle fonction, sous quelles conditions, et avec quelles implications de traitement. L’expansion de Copilot s’est faite sans mise à jour d’un inventaire formel.
+- **Périmètre de déploiement formel de Copilot :** aucun document définissant le périmètre d’usage, fonctions autorisées, cas d’usage interdits, catégories de données traitables.
+- **Politique d’usage de l’IA :** aucune politique écrite régissant l’interaction des salariés avec les outils IA, usage acceptable, cas interdits, règles de communication externe, obligations de traitement.
+- **Inscriptions au registre des traitements, ROPA :** le registre ne contient pas d’inscriptions distinctes pour les opérations IA de Copilot ni pour les flux de l’assistant de scoring CRM.
+- **Procédure de supervision humaine du scoring CRM :** aucune procédure documentée définissant qui revoit les sorties, sous quelles conditions une neutralisation est permise, et comment elle est consignée.
+- **Information des salariés sur les capacités de surveillance de Copilot :** aucun élément n’indique que les salariés ont été formellement informés que la transcription de réunions et l’analyse de courriels constituent un traitement assisté par IA de leur activité.
+- **Procès-verbal de consultation du CSE :** aucun élément n’indique que le Comité social et économique a été informé et consulté sur le déploiement de Copilot ou de l’outil de scoring CRM. L’existence d’une obligation de consultation requiert une appréciation juridique.
+
+### Ce qui ne peut être établi à ce stade
+
+Les questions d’exposition suivantes ne peuvent être résolues au niveau de l’archétype et requièrent une vérification propre à l’entité :
+
+- Si les indicateurs individuels de l’assistant de scoring CRM ont été consultés, référencés ou utilisés dans une évaluation, un calcul de prime ou une décision d’emploi. C’est le point d’inflexion principal de l’exposition RH.
+- Si des transcriptions de réunions Copilot ont été utilisées dans une procédure disciplinaire ou un grief.
+- Si un livrable destiné au client a été rédigé avec une assistance Copilot substantielle, et si cette assistance a été divulguée au client.
+- Si la liste des sous-traitants ultérieurs de Microsoft pour les fonctions IA de Copilot inclut une infrastructure hors EEE, et si le mécanisme de transfert du DPA actuel couvre ces transferts de manière adéquate.
+- La configuration précise du modèle de scoring CRM : quelles entrées il utilise, comment il pondère les variables attribuées aux salariés, et si une sortie constitue une décision juridique ou produisant des effets similaires significatifs.
+
+### Documents qui devraient exister
+
+- [ ] Registre des cas d’usage IA : outils déployés, fonction, éditeur, base contractuelle, catégorie de données.
+- [ ] Accords de traitement avec Microsoft et l’éditeur CRM, couvrant spécifiquement le traitement par les fonctions IA.
+- [ ] Inscriptions au registre des traitements pour Copilot et le scoring CRM comme opérations distinctes.
+- [ ] Procédure de supervision humaine des sorties de scoring CRM.
+- [ ] Politique d’usage de l’IA communiquée à l’ensemble des salariés.
+- [ ] Procès-verbal de consultation du CSE pour les déploiements de Copilot et du scoring CRM.
+- [ ] Information des salariés sur la transcription de réunions et le traitement des courriels par Copilot.
+- [ ] AIPD pour le traitement par Copilot des communications et réunions des salariés.
+- [ ] Tout registre d’incident lié à l’IA : erreurs de sortie, incidents de traitement, plaintes sur le comportement du modèle.
+
+---
+
+## Section 6 — Signaux d’exposition réglementaire et opérationnelle
+
+### Signaux d’exposition — AI Act
+
+| Condition | Sévérité | Statut |
+|---|---|---|
+| L’assistant de scoring CRM génère des indicateurs individuels visibles par les responsables. Aucune revue de classification n’a été menée pour apprécier la catégorie réglementaire de l’outil au regard de son usage à proximité de l’emploi. | Élevée | Vérification entité requise |
+| Aucune évaluation des outils IA en usage n’a été menée au regard des catégories de risque applicables. Le statut de classification des deux outils déployés est indéterminé. | Moyenne | Confirmé au niveau archétype |
+| Aucune information aux salariés sur le fait que les outils IA traitent leurs communications, transcriptions de réunions et activité professionnelle. | Moyenne | Confirmé au niveau archétype |
+
+### Signaux d’exposition — protection des données
+
+| Condition | Sévérité | Statut |
+|---|---|---|
+| Copilot traite des données personnelles de salariés : courriels, réunions, documents. Aucune inscription correspondante au registre des traitements. Aucune AIPD au dossier. | Élevée | Confirmé au niveau archétype |
+| L’assistant de scoring CRM traite des données de contacts et des données attribuées aux salariés. Aucune clause de DPA ne couvre explicitement la fonction de scoring IA comme opération distincte. | Élevée | Confirmé au niveau archétype |
+| Aucune base légale documentée pour le traitement par Copilot des communications et réunions des salariés. | Moyenne | Confirmé au niveau archétype |
+| Le scoring CRM génère des indicateurs individuels. Aucune procédure de revue humaine documentée pour les usages à proximité de l’emploi. La question de savoir si ces sorties ont influencé des décisions d’emploi requiert une vérification entité. | Élevée | Vérification entité requise |
+
+### Signaux d’exposition — emploi et RH
+
+Les sorties de scoring CRM sont structurées au niveau du salarié individuel. Les scores sont attribués à des commerciaux nommément désignés et visibles par leurs responsables directs. Aucune frontière documentée n’empêche que ces sorties soient référencées dans des décisions d’emploi. Aucun enregistrement de neutralisation, de contestation ou d’exclusion n’existe.
+
+Aucun élément, au niveau de l’archétype, n’indique que le CSE a été informé avant le déploiement d’outils dotés de capacités de suivi individuel des salariés. Aucun élément n’indique que les salariés ont été informés d’un traitement assisté par IA de leurs communications et de leur activité.
+
+Si des indicateurs de scoring ont été consultés dans une évaluation, un calcul de prime ou une allocation de territoire, ou si des transcriptions de réunions ont été utilisées dans une procédure RH, les deux conditions requièrent une appréciation juridique avant que les outils ne se poursuivent dans leur configuration actuelle.
+
+### Signaux d’exposition — PI et contenu
+
+Le contenu généré par Copilot et utilisé dans des livrables clients, propositions ou documents juridiques sans revue crée une responsabilité spécifique en matière de propriété intellectuelle et d’exactitude. L’entité ne peut démontrer ce qui a été généré par l’IA par opposition à ce qui a été rédigé par un humain, ni démontrer que les erreurs générées par l’IA ont été détectées avant livraison. En l’absence de procédure de revue interne, l’entité supporte l’entière responsabilité de tout contenu généré par l’IA utilisé dans le travail destiné au client.
+
+### Signaux d’exposition — achats et fournisseurs
+
+- Le DPA Microsoft n’énumère pas le traitement par les fonctions IA. Le libellé standard du DPA M365 peut ne pas couvrir les opérations IA de Copilot comme activités de traitement distinctes. Cela crée un écart entre le traitement réel et le traitement documenté au registre et au DPA.
+- Les conditions IA de l’éditeur CRM ne contiennent aucune obligation de notification de changement de modèle. L’éditeur peut mettre à jour le modèle de scoring sans informer l’entité, modifiant potentiellement la base de génération des scores individuels. L’entité ne dispose d’aucun droit contractuel d’auditer le modèle ou d’en contester les sorties.
+
+### Signaux d’exposition — conseil d’administration et redevabilité
+
+Si des synthèses de direction assistées par Copilot ou des rapports de pipeline générés par le CRM sont présentés au conseil sans divulgation de l’assistance IA et sans étape de revue humaine documentée, les dirigeants ne peuvent démontrer que les informations sur lesquelles ils se sont appuyés ont été vérifiées quant à leur exactitude avant la prise de décision au niveau du conseil.
+
+---
+
+## Section 7 — Voies de remédiation technique
+
+Ces voies réduisent l’exposition de cet archétype. Elles ne constituent pas un avis juridique. Une revue juridique est requise pour confirmer l’adéquation de leur mise en œuvre.
+
+### Priorité 1 — Immédiat
+
+1. Inventaire des cas d’usage IA : désigner un responsable nommé. Documenter chaque outil IA en usage actif : nom, éditeur, fonction, catégorie de données, existence d’un DPA, et périmètre de déploiement. Copilot et l’assistant de scoring CRM en sont les premières entrées. Étendre à tous les autres outils au fur et à mesure de leur identification.
+
+2. Registre fournisseurs : créer un registre à deux colonnes, fournisseur IA et statut DPA / couverture du traitement IA. Pour Microsoft, confirmer si le DPA actuel couvre explicitement les opérations IA de Copilot. Pour l’éditeur CRM, confirmer quelles conditions de traitement régissent spécifiquement l’assistant de scoring.
+
+3. Politique interne d’usage de l’IA, premier projet : rédiger une politique d’une page couvrant les outils IA autorisés, les cas d’usage interdits, comme le traitement de données confidentielles client via des outils IA grand public ou l’usage de l’IA dans des procédures disciplinaires sans autorisation, et les règles applicables au contenu généré par l’IA dans les communications externes. Faire revoir par les RH et le juridique avant publication.
+
+### Priorité 2 — Court terme
+
+1. Évaluation CSE : mobiliser un conseil en droit social pour déterminer si Copilot et l’assistant de scoring CRM nécessitaient une consultation préalable du CSE, et pour structurer le processus approprié si elle n’a pas encore été menée.
+
+2. Information des salariés — Copilot : revue juridique requise pour déterminer la portée et la forme de l’information des salariés concernant les capacités de transcription de réunions et de traitement de courriels de Copilot. Ne pas rédiger sans l’avis d’un conseil sur les exigences applicables.
+
+3. AIPD pour Copilot : commander une analyse d’impact relative à la protection des données couvrant le traitement par Copilot des courriels, transcriptions et documents internes des salariés. L’AIPD devra notamment traiter la base légale, les options de configuration de minimisation, la conservation et les droits des salariés.
+
+4. Revue contractuelle — DPA Microsoft : revue juridique du DPA M365 actuel et des conditions propres à Copilot pour confirmer l’énumération des opérations IA de Copilot, la couverture de la localisation des données pour l’ensemble du traitement IA, l’actualité de la divulgation des sous-traitants et l’adéquation des mécanismes de transfert.
+
+5. Revue contractuelle — assistant de scoring CRM : revue juridique des conditions IA de l’éditeur CRM pour identifier les lacunes dans les obligations de sous-traitant, l’absence de notification de changement de modèle et l’absence de droits d’audit. Apprécier si une renégociation est envisageable ou si des mesures compensatoires sont nécessaires.
+
+### Priorité 3 — Structuré
+
+1. Exercice de classification IA : commander une revue formelle de l’assistant de scoring CRM au regard des catégories de risque applicables, avec une attention particulière à son usage à proximité de l’emploi. Le résultat détermine si des obligations contraignantes s’appliquent au déploiement actuel de l’outil.
+
+2. Mise à jour du registre des traitements : ajouter Copilot et l’assistant de scoring CRM comme inscriptions distinctes, avec finalité de traitement, catégorie de données, base légale, durée de conservation et références des sous-traitants propres.
+
+3. Procédure de supervision humaine — scoring CRM : documenter une procédure formelle définissant qui revoit les scores avant qu’ils n’informent une décision à proximité de l’emploi, quelle autorité de neutralisation cette personne détient, et comment les neutralisations sont consignées. Définir « à proximité de l’emploi » comme incluant les liens entre indicateurs de pipeline et performance.
+
+4. Questionnaire d’achat : développer un jeu de questions de gouvernance IA standard pour tout référencement de nouveau fournisseur dont les outils IA traitent des données personnelles. Questions minimales : un DPA couvrant spécifiquement les opérations IA est-il disponible ? Quelle est la procédure de notification de changement de modèle ? Quelles garanties de suppression s’appliquent aux données traitées par l’IA ? Quels droits d’audit l’entité détient-elle ?
+
+---
+
+## Section 8 — Signaux d’escalade pour revue juridique
+
+Ces conditions, si elles sont identifiées dans une entité correspondant à cet archétype, requièrent un engagement immédiat avec un conseil juridique qualifié avant tout nouveau déploiement IA ou poursuite d’usage.
+
+| Condition | Domaine de risque | Urgence |
+|---|---|---|
+| Les sorties de scoring CRM ont été référencées dans une évaluation, une décision de prime ou une allocation de territoire individuelles | Emploi + traitement automatisé | Immédiate |
+| Des transcriptions de réunions Copilot ont été utilisées dans une documentation disciplinaire, de grief ou de performance | Emploi + protection des données | Immédiate |
+| L’outil de scoring CRM est apprécié comme relevant d’une catégorie réglementée à haut risque au regard de son usage à proximité de l’emploi | Conformité AI Act | Immédiate |
+| Livrable client contenant un contenu généré par l’IA substantiel, livré sans procédure de revue interne ni divulgation au client | Contractuel + PI | Court terme |
+| CSE non consulté avant le déploiement de Copilot ou du scoring CRM | Procédure emploi | Court terme |
+| DPA fournisseur jugé ne pas couvrir le traitement par les fonctions IA comme activités distinctes | Traitement de données | Court terme |
+| Infrastructure fournisseur située hors EEE sans garanties de transfert documentées | Transfert transfrontalier | Court terme |
+| Plainte ou demande d’un salarié relative à un traitement IA non divulgué de ses communications ou de son activité | Emploi + réglementaire | Immédiate si reçue |
+
+---
+
+## Section 9 — Annexes
+
+### A. Archétype en entrée
+
+| Dimension | Valeur |
+|---|---|
+| Juridiction | France |
+| Secteur | Services professionnels B2B |
+| Taille d’entreprise | Mid-market |
+| Tranche de CA | 150–200 M€ |
+| Tranche d’effectif | 500–1 500 |
+| Catégorie de surface IA | Outils de productivité + aide à la décision, scoring géré par l’éditeur |
+| Fonctions concernées | Commercial, RH indirect, Opérations, Direction |
+| Modèle de déploiement | SaaS intégré, Copilot + scoring CRM géré par l’éditeur |
+| Sensibilité réglementaire | Moyenne |
+| Niveau de dépendance externe | Modéré |
+
+### B. Hypothèses
+
+- L’entité opère une licence Microsoft 365 entreprise standard, E3 ou E5, avec Copilot activé au niveau du tenant. Les fonctions Copilot sont disponibles pour tous les utilisateurs licenciés. Aucun entraînement ou affinage de modèle personnalisé n’a été réalisé.
+- L’assistant de scoring CRM est une fonction standard de la plateforme CRM, Salesforce Einstein ou équivalent fonctionnel. Les scores sont générés à partir des seules données internes du CRM. Aucune intégration de données externe n’est supposée.
+- L’organisation commerciale est structurée autour de commerciaux individuels dotés de comptes et d’objectifs de pipeline attribués. Les scores CRM sont visibles à la fois par les commerciaux et leurs responsables.
+- L’entité emploie entre 500 et 1 500 personnes. Un CSE existe et est actif. Aucune exemption spécifique aux obligations de consultation du CSE ne s’applique.
+- Aucun régime sectoriel spécifique, santé, services financiers ou autre, ne s’applique. L’entité opère comme une société de services B2B générale, sans réglementation sectorielle au-delà du cadre corporate et social français standard.
+- L’entité n’a fait l’objet d’aucune enquête ou action de la CNIL. La situation réglementaire de référence est vierge.
+
+### C. Liste de contrôle des preuves
+
+Documents qui seraient demandés au début d’une revue juridique de cet archétype :
+
+- [ ] Politique d’usage des outils IA ou numériques existante, ou équivalent.
+- [ ] Contrat-cadre Microsoft 365 entreprise et avenant de traitement, y compris les conditions propres à Copilot si documentées séparément.
+- [ ] Contrat-cadre de l’éditeur CRM et conditions de la fonction IA/scoring.
+- [ ] Registre des traitements, pour vérifier les inscriptions Copilot et scoring CRM.
+- [ ] Toute documentation d’AIPD existante pour les outils numériques de travail.
+- [ ] Procès-verbaux du CSE pour la période de déploiement de Copilot et du scoring CRM.
+- [ ] Règlements intérieurs ou chartes informatiques couvrant l’usage des outils numériques.
+- [ ] Éléments RH justifiant la base de toute décision de performance où des données CRM ont pu être référencées.
+- [ ] Contrats clients contenant des clauses sur l’usage d’outils IA ou le traitement des données.
+- [ ] Calendrier de conservation couvrant les sorties générées par l’IA, résumés Copilot et transcriptions.
+- [ ] Tout registre d’incident ou de plainte lié à l’IA.
+
+### D. Terminologie
+
+**AI Act, Règl. (UE) 2024/1689 :** règlement sur l’intelligence artificielle. Application échelonnée. Crée différents ensembles d’obligations selon la classification de risque du système IA et le rôle de fournisseur ou de déployeur. Une revue par un conseil est requise pour déterminer les obligations applicables à un déploiement donné.
+
+**RGPD, Règl. (UE) 2016/679 :** cadre européen de protection des données régissant le traitement des données personnelles des personnes dans l’UE et l’EEE.
+
+**Registre des traitements, ROPA :** registre interne que les organisations doivent tenir, documentant leurs opérations de traitement : finalité, catégories de données, destinataires, durées de conservation. Les outils IA traitant des données personnelles doivent y figurer comme inscriptions distinctes.
+
+**AIPD, DPIA :** analyse d’impact relative à la protection des données. Évaluation structurée requise avant des traitements susceptibles d’engendrer un risque élevé pour les personnes. Apprécie la nécessité, la proportionnalité et l’atténuation des risques du traitement envisagé.
+
+**DPA, accord de traitement :** contrat requis entre un responsable de traitement et un sous-traitant lorsque des données personnelles sont confiées pour traitement. Doit en préciser la portée, la finalité et les conditions.
+
+**Lacune de preuve :** élément de documentation qui devrait structurellement exister pour une entité de ce profil mais qui est absent ou invérifiable au niveau de l’archétype. L’absence n’établit pas une violation, elle identifie une condition requérant une appréciation juridique.
+
+**CSE — Comité social et économique :** instance représentative du personnel dans les entreprises françaises. Les droits d’information et de consultation relatifs aux technologies de travail sont déterminés par les dispositions du droit social applicables. La portée requiert une appréciation juridique pour tout déploiement donné.
+
+### E. Questionnaire de prochaine étape
+
+À l’usage de l’avocat conseil lors de la première mission client suivant ce rapport :
+
+1. L’organisation a-t-elle établi un inventaire de tous les outils IA en usage actif, par fonction ?
+2. Quand Microsoft 365 Copilot a-t-il été activé ? Une revue des implications protection des données a-t-elle précédé l’activation ?
+3. Le CSE a-t-il été informé et consulté avant le déploiement de Copilot et de l’outil de scoring CRM ?
+4. Les salariés savent-ils que Copilot peut transcrire leurs réunions et traiter le contenu de leurs courriels ?
+5. Des sorties de scoring CRM ont-elles déjà été référencées dans une évaluation, une discussion de prime ou une décision d’emploi concernant un commercial ?
+6. Le DPA Microsoft actuel couvre-t-il explicitement les opérations IA de Copilot ?
+7. Quelles sont les conditions de l’éditeur CRM régissant le traitement de données par l’assistant de scoring ?
+8. Le contenu généré par l’IA, brouillons ou résumés Copilot, est-il utilisé dans des livrables clients ? Si oui, une procédure de revue existe-t-elle ?
+9. Un salarié a-t-il soulevé une préoccupation ou une plainte liée à l’usage d’outils IA ?
+10. Existe-t-il un délégué à la protection des données désigné, et est-il informé des déploiements d’outils IA actuels ?
+
+---
+
+Ce document a été préparé selon une méthodologie d’évaluation par archétype, contre le profil FR-CORPORATE-MID. Il ne reflète ni l’accès ni la revue de la documentation, des systèmes, des contrats ou des données internes d’une entité spécifique. L’ensemble des constats est structurel et requiert une validation contre les opérations, contrats et pratiques de gouvernance réels de l’entité avant toute conclusion juridique.
+
+[NOM DU CABINET] | [DATE] | Référence : EI-FR-MID-001

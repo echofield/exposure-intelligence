@@ -197,6 +197,17 @@
     "validationError": "Select one answer for each question before sending.",
     "successMessage": "Opening your email client with the inquiry details."
   },
+  "samplePage": {
+    "backLink": "← Exposure Intelligence",
+    "kicker": "AI Exposure Evidence Pack",
+    "partnerLink": "Partner inquiry →",
+    "classification": "Archetype FR-CORPORATE-MID · Partner use",
+    "specimen": "Specimen — not for distribution",
+    "loading": "Loading…",
+    "notFound": "Dossier not found.",
+    "footerNote": "This dossier is built from an archetype. No client data ingested. Your firm deploys it under its own letterhead.",
+    "footerCta": "Become a partner →"
+  },
   "footer": {
     "name": "Exposure Intelligence",
     "tagline": "Structured technical evidence for advisory workflows."

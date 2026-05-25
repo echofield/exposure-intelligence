@@ -61,7 +61,7 @@ export default function PartnerInquiry() {
         <p className="mt-4 text-[17px] text-paper/70 leading-[1.55]">
           {t('inquiry.sampleBody')}
         </p>
-        <Button as="a" href="../samples/FR-CORPORATE-MID_SAMPLE.md" variant="primary" className="mt-7">
+        <Button as="a" href="/sample" variant="primary" className="mt-7">
           {t('inquiry.sampleCta')}
         </Button>
       </div>
