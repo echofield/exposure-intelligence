@@ -20,15 +20,15 @@
     "artifactSeverity": "Sévérité",
     "artifactEvidenceGaps": "Lacunes de preuve",
     "signals": [
-      { "label": "Décision automatisée — surface RH", "severity": "High" },
-      { "label": "Lacune d'auditabilité contractuelle", "severity": "Critical" },
-      { "label": "Documentation sous-traitant IA", "severity": "Medium" },
-      { "label": "Réversibilité non vérifiée", "severity": "High" }
+      { "label": "Décision automatisée — RH", "severity": "High" },
+      { "label": "Auditabilité contractuelle fournisseur", "severity": "Critical" },
+      { "label": "Documentation des sous-traitants", "severity": "Medium" },
+      { "label": "Réversibilité non testée", "severity": "High" }
     ],
     "gaps": [
-      { "item": "Registre des systèmes IA", "status": "Non documenté" },
-      { "item": "Fiche technique du modèle", "status": "Non documenté" },
-      { "item": "Procédure de supervision humaine", "status": "Non établissable à ce stade" }
+      { "item": "Registre des systèmes IA", "status": "Non démontré" },
+      { "item": "Documentation des modèles", "status": "Non démontré" },
+      { "item": "Protocole de supervision humaine", "status": "Non établi à ce stade" }
     ]
   },
   "pressure": {
@@ -59,9 +59,9 @@
     },
     "card1PilotNote": "Entrée pilote à partir de 3 k€",
     "coverage": {
-      "card1": ["Carte de surface", "Signaux d'exposition", "Lacunes de preuve", "Déclencheurs d'escalade", "Voies de remédiation"],
-      "card2": ["Carte des portes", "Vue des dépendances", "Architecture de preuve", "Objections acheteur", "Feuille de route remédiation"],
-      "card3": ["Carte des risques", "Concentration dépendances", "Lacunes de preuve", "Conditions transaction", "Post-closing roadmap"]
+      "card1": ["Cartographie des surfaces", "Signaux d'exposition", "Lacunes de preuve", "Déclencheurs d'escalade", "Voies de remédiation"],
+      "card2": ["Cartographie des portes", "Vue des dépendances", "Architecture de preuve", "Cartographie des objections", "Feuille de route remédiation"],
+      "card3": ["Cartographie des risques transaction", "Concentration des dépendances", "Lacunes de preuve", "Impacts sur les termes", "Feuille de route post-closing"]
     },
     "card2": {
       "label": "Marchés régulés",
