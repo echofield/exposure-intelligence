@@ -9,9 +9,9 @@
     "partnerInquiry": "Demande partenaire"
   },
   "hero": {
-    "eyebrow": "Preuve technique en marque blanche pour les cabinets conseil",
-    "headline": "La couche de preuve sous le conseil juridique sur le risque IA.",
-    "subhead": "Des dossiers techniques structurés que votre cabinet déploie sous son propre nom. Basés sur des archétypes. Aucune donnée opérationnelle du client final ingérée. Aucune méthodologie à expliquer.",
+    "eyebrow": "Preuve structurée en marque blanche pour les cabinets conseil",
+    "headline": "La couche de preuve sous la décision.",
+    "subhead": "Des dossiers structurés que votre cabinet déploie sous son nom. L'IA en est le premier terrain.",
     "ctaPrimary": "Lire le dossier d'exemple",
     "ctaSecondary": "Demande partenaire",
     "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
@@ -20,7 +20,7 @@
       { "label": "Index", "value": "EI-3" },
       { "label": "Statut", "value": "Méthode pilote" }
     ],
-    "dossierKicker": "Dossier de preuve technique - Exposition IA",
+    "dossierKicker": "Dossier de preuve structurée - Exposition IA",
     "dossierTitle": "Résumé exécutif d'exposition",
     "artifactCondition": "Condition",
     "artifactSeverity": "Sévérité",
@@ -34,11 +34,11 @@
     "gaps": [
       { "item": "Registre des systèmes IA", "status": "Non démontré" },
       { "item": "Documentation des modèles", "status": "Non démontré" },
-      { "item": "Protocole de supervision humaine", "status": "Non établi à ce stade" }
+      { "item": "Protocole de supervision humaine", "status": "Non démontré" }
     ]
   },
   "pressure": {
-    "p1": "Les entreprises, prestataires et investisseurs européens font face à une exigence concrète : produire des preuves techniques structurées - et non des déclarations d'intention - sur le déploiement de l'IA, l'admissibilité aux marchés et l'exposition dans les transactions.",
+    "p1": "Les déclarations ne suffisent plus. Les décisions à fort enjeu exigent des dossiers de preuve. L'IA en est le premier terrain. La méthode s'étend aux dépendances fournisseurs, aux transactions et aux achats régulés.",
     "p2": "Les régulateurs, acheteurs publics, institutions financières et équipes de transaction ne demandent plus des référentiels de gouvernance. Ils demandent des preuves.",
     "p3": "Les cabinets capables de produire ces preuves pour leurs clients - rapidement, sous leur propre nom - capteront les mandats."
   },
@@ -46,7 +46,7 @@
     "eyebrow": "Modèle opérationnel",
     "heading": "Fonctionnement",
     "artifactLabel": "L'artefact",
-    "artifactBody": "Un artefact de preuve technique structurée. Construit à partir d'un archétype client - secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée opérationnelle du client final ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré comme document signé par votre cabinet.",
+    "artifactBody": "Un artefact de preuve structurée. Construit à partir d'un archétype client - secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée opérationnelle du client final ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré comme document signé par votre cabinet.",
     "partnerLabel": "Le rôle du partenaire",
     "partnerBody": "Le partenaire le déploie sous son en-tête. Comme couche de preuve sous un avis juridique, un mandat de marché public, une note de due diligence ou une présentation au conseil d'administration. L'artefact crée la base factuelle. Le partenaire crée l'interprétation juridique.",
     "doctrine": "L'artefact fait remonter les conditions. L'avocat nomme la loi."
@@ -59,7 +59,7 @@
     "noDataBody": "Aucune donnée opérationnelle du client final n’est ingérée : pas de fichiers clients, pas de dossiers salariés, pas de contrats internes, pas d’accès aux systèmes. Les échanges partenaire, demandes commerciales et métadonnées de relation restent traités comme relation partenaire classique.",
     "protocolEyebrow": "Protocole EI v0.1",
     "protocolHeading": "Une méthodologie partenaire versionnée.",
-    "protocolBody": "Chaque dossier porte une version de protocole, un identifiant d’archétype, un identifiant d’évaluation, une posture de données et une bande EI-Index. L’index est un signal de triage technique pour le flux de conseil, pas une conclusion juridique, un constat de conformité ou une certification.",
+    "protocolBody": "Chaque dossier porte une version de protocole, un identifiant d’archétype, un identifiant d’évaluation, une posture de données et une bande EI-Index. L’index est un signal de triage structuré pour le flux de conseil, pas une conclusion juridique, un constat de conformité ou une certification.",
     "protocolMetrics": [
       { "label": "ID d'évaluation", "value": "EI-FR-MID-001-SAMPLE" },
       { "label": "EI-Index", "value": "EI-3 / Moyen" },
@@ -116,7 +116,7 @@
     "coverageLabel": "Couverture de l'artefact",
     "card1": {
       "label": "Déploiement IA",
-      "situation": "Votre client a déployé des outils IA. Vous avez besoin d'une base de preuve technique structurée avant l'audit de conformité, l'audit social ou la présentation au conseil.",
+      "situation": "Votre client a déployé des outils IA. Vous avez besoin d'une base de preuve structurée avant l'audit de conformité, l'audit social ou la présentation au conseil.",
       "artifact": "Dossier de preuve - Exposition IA",
       "price": "Dossier de preuve à partir de 8 k€",
       "role": "Couche de preuve sous un avis juridique, un avis social ou une revue de protection des données. Livré sous l'en-tête du cabinet.",
@@ -185,7 +185,7 @@
     "heading": "Conçu pour les cabinets boutique",
     "subhead": "Marque blanche. Sous votre en-tête. Sans ingestion de données opérationnelles client.",
     "p1": "L'artefact est construit à partir d'un archétype client, et non à partir des données opérationnelles du client final. Aucun système, contrat, document ou dossier client n'est accédé. Aucun logiciel n'est installé. Aucun accord de traitement portant sur les données opérationnelles du client final n'est requis. Vous recevez un document. Vous le signez. Vous le facturez.",
-    "p2": "Vos clients reçoivent déjà des questions sur le risque IA. Les régulateurs, acheteurs publics, institutions financières et équipes de transaction créent une pression à laquelle les conseils juridiques ne peuvent plus répondre avec des référentiels seuls. Les cabinets capables de répondre à ces questions avec des preuves techniques structurées - sous leur propre nom - tiennent la relation de conseil.",
+    "p2": "Vos clients reçoivent déjà des questions sur le risque IA. Les régulateurs, acheteurs publics, institutions financières et équipes de transaction créent une pression à laquelle les conseils juridiques ne peuvent plus répondre avec des référentiels seuls. Les cabinets capables de répondre à ces questions avec des preuves structurées - sous leur propre nom - tiennent la relation de conseil.",
     "p3": "L'artefact est la couche de preuve. Votre interprétation est l'avis juridique. Cette division du travail vous rend plus précieux pour le client, pas moins.",
     "cta": "Demande partenaire",
     "demoLink": "Voir une démonstration de dossier →",
@@ -197,7 +197,7 @@
     "case1": {
       "context": "Cabinet de droit social · France",
       "title": "Audit social",
-      "situation": "Une ETI a déployé Microsoft Copilot sur l'ensemble de ses effectifs. Un associé en droit social a besoin d'une base de preuve technique structurée avant l'arrivée d'une consultation CSE ou d'un contrôle réglementaire.",
+      "situation": "Une ETI a déployé Microsoft Copilot sur l'ensemble de ses effectifs. Un associé en droit social a besoin d'une base de preuve structurée avant l'arrivée d'une consultation CSE ou d'un contrôle réglementaire.",
       "producesLabel": "Ce que l'artefact produit",
       "produces": "Carte de déploiement IA par fonction métier. Signaux d'exposition RH. Lacunes de documentation. Déclencheurs d'escalade pour l'évaluation juridique du partenaire.",
       "partnerLabel": "Ce que le partenaire en fait",
@@ -265,7 +265,7 @@
   },
   "samplePage": {
     "backLink": "← Exposure Intelligence",
-    "kicker": "Dossier de preuve technique - Exposition IA",
+    "kicker": "Dossier de preuve structurée - Exposition IA",
     "partnerLink": "Demande partenaire →",
     "classification": "Archétype FR-CORPORATE-MID · Usage partenaire",
     "specimen": "Spécimen - non destiné à la distribution",
@@ -284,6 +284,6 @@
   },
   "footer": {
     "name": "Exposure Intelligence",
-    "tagline": "Preuve technique structurée pour les missions de conseil."
+    "tagline": "Preuve structurée pour les missions de conseil."
   }
 }

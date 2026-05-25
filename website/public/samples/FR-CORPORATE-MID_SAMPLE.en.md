@@ -11,16 +11,27 @@
 > **Protocol status:** Partner pilot methodology
 > **Assessment ID:** EI-FR-MID-001-SAMPLE
 > **EI-Index:** EI-3 / Medium
-> **Index posture:** Technical triage indicator only
+> **Index posture:** Structured triage indicator only
 > **Data posture:** No final-client operational data ingested
 
 ---
 
-**Important notice:** This document is a structured technical evidence pack prepared to support legal advisory. It does not constitute legal advice, a legal opinion, or a compliance certification. It does not assess regulatory liability or legal compliance status. It identifies technical and organizational exposure indicators that may require legal review and interpretation by qualified counsel.
+**Important notice:** This document is a structured evidence pack prepared to support legal advisory. It does not constitute legal advice, a legal opinion, or a compliance certification. It does not assess regulatory liability or legal compliance status. It identifies structured exposure indicators that may require legal review and interpretation by qualified counsel.
 
 Findings are based on an archetype-based assessment. No raw client data, personnel records, customer files, internal documentation, or production infrastructure was accessed or reviewed. This report characterizes the exposure profile of a class of entities matching the FR-CORPORATE-MID archetype, not any specific named company.
 
-The EI-Index shown in this dossier is a technical triage indicator intended to orient the advisory partner's review workflow. It is not a legal conclusion, compliance finding, or certification.
+The EI-Index shown in this dossier is a structured triage indicator intended to orient the advisory partner's review workflow. It is not a legal conclusion, compliance finding, or certification.
+
+---
+
+## Methodological status legend
+
+| Status | Definition | Use in this dossier |
+|---|---|---|
+| Established | Confirmed by document, source, or client statement. | Documented tool capability, including Microsoft or CRM vendor documentation, or an item provided within the review perimeter. |
+| Inferred | Probable based on the archetype, not verified. | Structural probability about the entity, its organization, uses, or workflows. |
+| Not evidenced | Expected for this profile, but absent from the examined perimeter or not produced. | Document, register, procedure, DPIA, clause, notification, or evidence item that should exist but is unavailable at archetype level. |
+| To qualify | Requires counsel interpretation. | Legal qualification, regulatory category, Works Council obligation, employment effect, or compliance conclusion. |
 
 ---
 
@@ -34,15 +45,17 @@ Mid-market B2B professional services entity operating in France, with AI deploym
 
 The entity carries a **Medium** overall exposure profile. No immediate prohibited-practice trigger is identified. However, three structural gaps create material legal exposure: the absence of an AI use-case inventory across an org-wide Copilot deployment, the lack of a documented human oversight procedure for CRM scoring outputs that may influence employment-adjacent decisions, and vendor contracts that do not address AI-specific data processing obligations. The exposure is manageable and bounded - but the current governance posture creates identifiable legal vulnerabilities, particularly if the CRM scoring tool has been consulted in any HR or performance management context.
 
+**Methodological status: Inferred - archetype level.** General tool capabilities are established through vendor documentation; internal uses, documentation gaps, and HR decision patterns require entity-level verification.
+
 **Exposure profile: Medium**
 
 ### Top three issues
 
-1. Microsoft 365 Copilot is deployed org-wide without a documented usage policy, formal deployment scope, or defined data handling rules - Copilot processes employee email, meeting transcriptions, and documents without a written policy governing what data may be processed, who bears accountability, or how AI-generated outputs may be used in external communications.
+1. **Established - vendor documentation / Not evidenced:** Microsoft 365 Copilot has capabilities to process email, meeting transcriptions, and documents. Org-wide deployment is part of the archetype; the usage policy, formal deployment scope, and data handling rules are not evidenced in this dossier.
 
-2. The CRM scoring assistant produces individual-level scores assigned to named sales representatives and visible to their commercial managers - no documented human override or challenge procedure exists. Whether these outputs have been referenced in employment decisions cannot be excluded at archetype level. Requires attorney assessment.
+2. **Established - vendor documentation / Inferred - archetype level / To qualify:** the CRM scoring assistant produces commercial scores when the feature is activated. Manager consumption and employment-adjacent use are inferred at archetype level. Any reference to these outputs in employment decisions requires counsel qualification.
 
-3. Neither the Microsoft DPA nor the CRM vendor contract addresses AI-specific processing obligations - the data processing agreement with Microsoft does not explicitly enumerate AI feature processing operations, and the CRM vendor's AI terms are standard and non-negotiable, leaving the entity without contractual auditability, model change notification, or incident reporting rights.
+3. **Not evidenced / To qualify:** AI-specific contractual coverage is not evidenced within the examined perimeter. The Microsoft DPA and CRM vendor terms require counsel review before any conclusion on applicable obligations, auditability, model changes, or incident reporting.
 
 ### Legal review triggers
 
@@ -100,16 +113,16 @@ The entity's AI surface is concentrated in two tools deployed across the full or
 
 ### AI surface inventory
 
-| AI tool | Tool type | Deployment model | Business function | Data categories processed | Oversight level |
-|---|---|---|---|---|---|
-| Microsoft 365 Copilot | Productivity AI - email drafting, document summarization, meeting transcription, search | Embedded SaaS (Microsoft 365 enterprise) | All functions: commercial, HR, operations, executive | Employee email content, meeting audio/transcripts, internal documents, calendar data | Not documented. No formal usage policy or review procedure. |
-| CRM scoring assistant | Decision support - lead scores, account health scores, opportunity priority rankings | Vendor-managed (embedded in CRM platform) | Commercial (primary), Operations, HR (indirect) | Individual contact and account data, interaction history, commercial performance data, employee-assigned pipeline metrics | Informal. Scores are consumed by commercial teams without documented override or challenge procedure. |
+| AI tool | Tool type | Deployment model | Business function | Data categories processed | Oversight level | Status |
+|---|---|---|---|---|---|---|
+| Microsoft 365 Copilot | Productivity AI - email drafting, document summarization, meeting transcription, search | Embedded SaaS (Microsoft 365 enterprise) | All functions: commercial, HR, operations, executive | Employee email content, meeting audio/transcripts, internal documents, calendar data | Not evidenced. No formal usage policy or review procedure produced within the archetype perimeter. | Established - vendor documentation for capabilities ; Not evidenced for entity governance |
+| CRM scoring assistant | Decision support - lead scores, account health scores, opportunity priority rankings | Vendor-managed (embedded in CRM platform) | Commercial (primary), Operations, HR (indirect) | Individual contact and account data, interaction history, commercial performance data, employee-assigned pipeline metrics | Informal at archetype level. Scores are consumed without a documented override or challenge procedure produced. | Established - vendor documentation for feature ; Inferred - archetype level for use ; Not evidenced for procedure |
 
 ### Exposure propagation
 
-**Copilot → HR exposure:** Copilot's meeting transcription function, if used in disciplinary hearings, performance review meetings, or recruitment interviews, produces a written record generated by AI. If that record is used in HR decisions, it constitutes AI-assisted processing of employee personal data in an employment context. No evidence exists at archetype level that employees have been formally notified of this capability. Requires attorney assessment.
+**Copilot → HR exposure:** **Established - vendor documentation:** Copilot has meeting transcription and summarization capabilities. **Inferred - archetype level:** if this capability is used in disciplinary hearings, performance review meetings, or recruitment interviews, it produces a written record generated by AI. **Not evidenced:** no evidence exists at archetype level that employees have been formally notified of this capability. **To qualify:** use of those records in HR decisions requires counsel assessment.
 
-**CRM scoring → employment exposure:** CRM scoring tools assigned to individual sales representatives generate data points structurally capable of measuring individual employee performance (pipeline conversion rate, lead response score, account penetration score). Individual scores are visible to commercial managers. If these metrics have been consulted in any performance review, bonus calculation, or territory reallocation decision, the tool has crossed from commercial decision support into employment-adjacent automated processing. Whether this has occurred cannot be excluded at archetype level. Requires attorney assessment.
+**CRM scoring → employment exposure:** **Established - vendor documentation:** CRM scoring features can generate commercial priority or scoring indicators. **Inferred - archetype level:** when these scores are assigned to individual sales representatives, they can indirectly measure individual employee performance. **To qualify:** if these metrics have been consulted in any performance review, bonus calculation, or territory reallocation decision, the use must be qualified by counsel. Whether this has occurred cannot be excluded at archetype level.
 
 **Copilot → external communications:** Copilot-generated drafts used in client deliverables, external communications, or legal documents without an internal review procedure create a liability surface: inaccuracies in AI-generated outputs used in client-facing work may be attributable to the entity without the mitigating documentation of a review step.
 
@@ -125,12 +138,14 @@ At this archetype level, it is structurally probable that employees use consumer
 
 The entity's AI surface is entirely externally sourced. No internal model capability exists. Both tools are controlled by third-party vendors under standard contract terms. Microsoft's enterprise terms are well-documented but do not enumerate all AI processing operations explicitly. The CRM vendor's AI terms are standard, non-negotiable at this entity's size, and do not include specific auditability or model change notification provisions.
 
+**Methodological status: Established - vendor documentation for product capabilities ; Inferred - archetype level for operational criticality ; Not evidenced for unproduced contractual clauses ; To qualify for legal effect of vendor obligations.**
+
 ### Vendor dependency table
 
-| Vendor category | Dependency type | Workflow criticality | Reversibility | Contract auditability | Key documentation gap |
-|---|---|---|---|---|---|
-| Microsoft 365 Copilot | Embedded in the entity's primary productivity infrastructure | High - Copilot is activated across M365 enterprise license used by all employees | Low - removing Copilot requires administrative deactivation but creates workflow disruption; no documented fallback for AI-assisted tasks | Limited - Microsoft's DPA covers data processor obligations under GDPR but does not enumerate specific AI feature processing operations as distinct ROPA line items | DPA does not explicitly address Copilot AI processing of email, meeting, and document content as enumerated processing operations. No model change notification obligation. |
-| CRM scoring vendor | Embedded in the entity's primary commercial management tool | High - scoring outputs are integrated into daily commercial workflows | Low–Medium - replacing the CRM platform requires full migration; disabling only the scoring feature is possible but may require vendor support. No documented fallback scoring procedure. | Not documented - CRM AI terms are standard and do not include: model auditability, output explanation rights, data deletion obligations specific to AI-processed data, or incident reporting. | No contractual right to audit the scoring model, receive notification of model changes, or obtain explanation of individual score outputs. |
+| Vendor category | Dependency type | Workflow criticality | Reversibility | Contract auditability | Key documentation gap | Status |
+|---|---|---|---|---|---|---|
+| Microsoft 365 Copilot | Embedded in the entity's primary productivity infrastructure | High - Copilot is activated across M365 enterprise license used by all employees | Low - removing Copilot requires administrative deactivation but creates workflow disruption; no documented fallback for AI-assisted tasks | Limited - Microsoft's DPA covers data processor obligations under GDPR but does not enumerate specific AI feature processing operations as distinct ROPA line items | DPA does not explicitly address Copilot AI processing of email, meeting, and document content as enumerated processing operations. No model change notification obligation. | Established - vendor documentation for feature ; Inferred - archetype level for criticality ; Not evidenced for fallback and contract coverage |
+| CRM scoring vendor | Embedded in the entity's primary commercial management tool | High - scoring outputs are integrated into daily commercial workflows | Low-Medium - replacing the CRM platform requires full migration; disabling only the scoring feature is possible but may require vendor support. No documented fallback scoring procedure. | Not evidenced - CRM AI terms produced in the perimeter do not cover model auditability, output explanation rights, data deletion obligations specific to AI-processed data, or incident reporting. | No contractual right to audit the scoring model, receive notification of model changes, or obtain explanation of individual score outputs is evidenced. | Established - vendor documentation for feature ; Inferred - archetype level for criticality ; Not evidenced for contractual rights |
 
 ### Contract review triggers
 
@@ -152,7 +167,11 @@ The entity's AI surface is entirely externally sourced. No internal model capabi
 
 ### What is known
 
-From the archetype's structural profile: Microsoft 365 Copilot is deployed org-wide under an enterprise license. A CRM scoring assistant is active in commercial workflows. Both tools process personal data - employee data in the case of Copilot, employee-assigned and contact personal data in the case of the CRM scoring tool. The applicable regulatory framework is GDPR, the French loi Informatique et Libertés, the EU AI Act (phased enforcement), and the Code du travail for employment-adjacent AI use.
+**Established - vendor documentation:** Microsoft 365 Copilot has drafting, summarization, search, and meeting transcription capabilities ; CRM scoring assistants have commercial scoring functions when activated.
+
+**Inferred - archetype level:** Microsoft 365 Copilot is deployed org-wide under an enterprise license and a CRM scoring assistant is active in commercial workflows. Both tools may process personal data, including employee data in the case of Copilot and employee-assigned or contact personal data in the case of the CRM scoring tool.
+
+**To qualify:** the applicable regulatory framework includes GDPR, the French loi Informatique et Libertés, the EU AI Act (phased enforcement), and the Code du travail for employment-adjacent AI use. Exact obligation scope belongs to counsel.
 
 ### What is not evidenced
 
@@ -198,26 +217,26 @@ The following documentation would be requested at the outset of any legal review
 
 | Condition | Severity | Status |
 |---|---|---|
-| CRM scoring assistant generates individual-level employee metrics visible to managers. No classification review has been conducted to assess the tool's regulatory category given its employment-adjacent use pattern. | High | Requires entity-level verification |
-| No assessment of AI tools in use has been conducted against applicable regulatory risk categories. Classification status of both deployed tools is undetermined. | Medium | Confirmed at archetype level |
-| No disclosure to employees that AI tools process their communications, meeting transcriptions, and work activity. | Medium | Confirmed at archetype level |
+| CRM scoring assistant can generate individual-level metrics visible to managers when the feature is activated. No classification review has been produced to assess the tool's regulatory category given its employment-adjacent use pattern. | High | Established - vendor documentation for capability ; To qualify - counsel / entity verification |
+| No assessment of AI tools in use has been produced against applicable regulatory risk categories. Classification status of both deployed tools is undetermined. | Medium | Not evidenced - expected document absent ; To qualify - counsel |
+| No disclosure to employees that AI tools process their communications, meeting transcriptions, and work activity is produced within the archetype perimeter. | Medium | Not evidenced - archetype level |
 
 ### Data protection exposure signals
 
 | Condition | Severity | Status |
 |---|---|---|
-| Copilot processes employee personal data (email, meetings, documents). No corresponding entry in the Record of Processing Activities. No data protection impact assessment on file. | High | Confirmed at archetype level |
-| CRM scoring assistant processes individual contact and employee-assigned data. No data processing agreement term explicitly covers the AI scoring feature as a distinct processing operation. | High | Confirmed at archetype level |
-| No documented lawful basis for Copilot's AI processing of employee communications and meeting content. | Medium | Confirmed at archetype level |
-| CRM scoring generates individual-level employee metrics. No documented human review procedure for employment-adjacent uses. Whether these outputs have informed employment decisions requires entity-level verification. | High | Requires entity-level verification |
+| Copilot can process employee personal data (email, meetings, documents). No corresponding entry in the Record of Processing Activities or DPIA is produced within the archetype perimeter. | High | Established - vendor documentation for capability ; Not evidenced - ROPA and DPIA |
+| CRM scoring assistant can process individual contact and employee-assigned data. No data processing agreement term explicitly covers the AI scoring feature as a distinct processing operation within the examined perimeter. | High | Established - vendor documentation for capability ; Not evidenced - contract coverage |
+| No documented lawful basis for Copilot's AI processing of employee communications and meeting content is produced. | Medium | Not evidenced - archetype level ; To qualify - counsel |
+| CRM scoring can generate individual-level employee metrics. No documented human review procedure for employment-adjacent uses is produced. Whether these outputs have informed employment decisions requires entity-level verification. | High | Established - vendor documentation for capability ; Not evidenced - procedure ; To qualify - counsel |
 
 ### Employment and HR exposure signals
 
-CRM scoring outputs are structured at the individual employee level. Scores are assigned to named sales representatives and visible to their direct managers. No documented boundary prevents these outputs from being referenced in employment decisions. No override, challenge, or exclusion record exists.
+**Established - vendor documentation / Inferred - archetype level:** CRM scoring outputs can be structured at the individual level when the feature is activated. Visibility by managers and proximity to performance evaluation are inferred at archetype level. **Not evidenced:** no documented boundary prevents these outputs from being referenced in employment decisions. No override, challenge, or exclusion record is produced.
 
-No record at archetype level that the Works Council was informed before deployment of tools with individual employee monitoring capabilities. No record that employees were notified of AI-assisted processing of their communications and work activity.
+**Not evidenced - archetype level:** no record indicates that the Works Council was informed before deployment of tools with individual employee monitoring capabilities. No record indicates that employees were notified of AI-assisted processing of their communications and work activity.
 
-If scoring metrics have been consulted in any performance review, bonus calculation, or territory allocation, or if meeting transcriptions have been used in any HR proceeding, both conditions require attorney assessment before the tools continue in their current configuration.
+**To qualify - counsel:** if scoring metrics have been consulted in any performance review, bonus calculation, or territory allocation, or if meeting transcriptions have been used in any HR proceeding, both conditions require attorney assessment before the tools continue in their current configuration.
 
 ### IP and content exposure signals
 

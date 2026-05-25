@@ -9,9 +9,9 @@
     "partnerInquiry": "Partner inquiry"
   },
   "hero": {
-    "eyebrow": "White-label technical evidence for advisory partners",
-    "headline": "The evidence layer beneath legal advisory on AI risk.",
-    "subhead": "Structured technical dossiers your firm deploys under your name. Archetype-based. No final-client operational data ingested. No methodology to explain.",
+    "eyebrow": "White-label structured evidence for advisory partners",
+    "headline": "The evidence layer beneath the decision.",
+    "subhead": "Structured dossiers your firm deploys under its name. AI is the first proving ground.",
     "ctaPrimary": "Read the sample dossier",
     "ctaSecondary": "Partner inquiry",
     "support": "Used by boutique law firms across France, Switzerland, Luxembourg, and Belgium.",
@@ -34,11 +34,11 @@
     "gaps": [
       { "item": "AI system register", "status": "Not evidenced" },
       { "item": "Model card documentation", "status": "Not evidenced" },
-      { "item": "Human oversight protocol", "status": "Cannot yet be established" }
+      { "item": "Human oversight protocol", "status": "Not evidenced" }
     ]
   },
   "pressure": {
-    "p1": "European companies, vendors, and investors now face a concrete demand: produce structured technical evidence - not policy statements - on AI deployment, procurement admissibility, and transaction exposure.",
+    "p1": "Statements are no longer enough. High-stakes decisions require evidence dossiers. AI is the first proving ground; the method extends to vendor dependencies, transactions, and regulated procurement.",
     "p2": "Regulators, public buyers, financial institutions, and deal teams are not asking for more governance frameworks. They are asking for proof.",
     "p3": "The firms that can produce that proof on behalf of their clients - quickly, under their own name - will capture the mandate."
   },
@@ -46,7 +46,7 @@
     "eyebrow": "Operating model",
     "heading": "How it works",
     "artifactLabel": "The artifact",
-    "artifactBody": "A structured technical evidence artifact. Built from a client archetype - sector, jurisdiction, company size, AI surface. No final-client operational data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered as a document your firm signs.",
+    "artifactBody": "A structured evidence artifact. Built from a client archetype - sector, jurisdiction, company size, AI surface. No final-client operational data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered as a document your firm signs.",
     "partnerLabel": "The partner's role",
     "partnerBody": "The partner deploys it under their letterhead. As the evidence layer beneath a legal opinion, a procurement mandate, a due diligence brief, or a board advisory. The artifact creates the factual base. The partner creates the legal interpretation.",
     "doctrine": "The artifact surfaces conditions. The lawyer names the law."
@@ -59,7 +59,7 @@
     "noDataBody": "No final-client operational data is ingested: no customer files, no personnel files, no internal contracts, no system access. Partner communications, commercial requests, and relationship metadata remain handled as an ordinary partner relationship.",
     "protocolEyebrow": "EI Protocol v0.1",
     "protocolHeading": "A versioned partner pilot methodology.",
-    "protocolBody": "Each dossier carries a protocol version, archetype ID, assessment ID, data posture, and EI-Index band. The index is a technical triage signal for advisory workflow, not a legal conclusion, compliance finding, or certification.",
+    "protocolBody": "Each dossier carries a protocol version, archetype ID, assessment ID, data posture, and EI-Index band. The index is a structured triage signal for advisory workflow, not a legal conclusion, compliance finding, or certification.",
     "protocolMetrics": [
       { "label": "Assessment ID", "value": "EI-FR-MID-001-SAMPLE" },
       { "label": "EI-Index", "value": "EI-3 / Medium" },
@@ -116,7 +116,7 @@
     "coverageLabel": "Artifact coverage",
     "card1": {
       "label": "AI Deployment",
-      "situation": "Your client has deployed AI tools. You need a structured technical evidence base before the compliance review, employment audit, or board presentation.",
+      "situation": "Your client has deployed AI tools. You need a structured evidence base before the compliance review, employment audit, or board presentation.",
       "artifact": "AI Exposure Evidence Pack",
       "price": "Evidence pack from €8k",
       "role": "Evidence layer beneath a legal opinion, an employment advisory, or a data protection review. Delivered under the firm's letterhead.",
@@ -185,7 +185,7 @@
     "heading": "Built for boutique law firms",
     "subhead": "White-label. Under your letterhead. No final-client operational data ingestion.",
     "p1": "The artifact is built from a client archetype, not from final-client operational data. No client systems, contracts, records, or documents are accessed. No software is installed. No processing agreement covering final-client operational data is required. You receive a document. You sign it. You bill it.",
-    "p2": "Your clients are already receiving AI risk questions. Regulators, public buyers, financial institutions, and deal teams are creating pressure that legal advisors cannot answer with frameworks alone. The firms that can answer those questions with structured technical evidence - under their own name - hold the advisory relationship.",
+    "p2": "Your clients are already receiving AI risk questions. Regulators, public buyers, financial institutions, and deal teams are creating pressure that legal advisors cannot answer with frameworks alone. The firms that can answer those questions with structured evidence - under their own name - hold the advisory relationship.",
     "p3": "The artifact is the evidence layer. Your interpretation is the legal opinion. That division of labor makes you more valuable to the client, not less.",
     "cta": "Partner inquiry",
     "demoLink": "See a live dossier demo →",
@@ -197,7 +197,7 @@
     "case1": {
       "context": "Corporate law boutique · France",
       "title": "Employment audit",
-      "situation": "A mid-market company has deployed Microsoft Copilot across its workforce. An employment partner needs a structured technical evidence base before a works council consultation or a regulatory review arrives.",
+      "situation": "A mid-market company has deployed Microsoft Copilot across its workforce. An employment partner needs a structured evidence base before a works council consultation or a regulatory review arrives.",
       "producesLabel": "What the artifact produces",
       "produces": "AI deployment map by business function. HR exposure signals. Evidence gaps in documentation. Escalation triggers for the partner's legal assessment.",
       "partnerLabel": "What the partner does with it",
@@ -284,6 +284,6 @@
   },
   "footer": {
     "name": "Exposure Intelligence",
-    "tagline": "Structured technical evidence for advisory workflows."
+    "tagline": "Structured evidence for advisory workflows."
   }
 }

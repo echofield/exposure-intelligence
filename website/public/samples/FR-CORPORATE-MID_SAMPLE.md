@@ -1,4 +1,4 @@
-# Dossier de preuve technique - Exposition IA
+# Dossier de preuve structurée - Exposition IA
 
 | Dimension | Valeur |
 |---|---|
@@ -13,18 +13,29 @@
 | Statut du protocole | Méthodologie pilote partenaire |
 | ID d'évaluation | EI-FR-MID-001-SAMPLE |
 | EI-Index | EI-3 / Moyen |
-| Posture de l'index | Indicateur de triage technique uniquement |
+| Posture de l'index | Indicateur de triage structuré uniquement |
 | Posture de données | Aucune donnée opérationnelle du client final ingérée |
 
 ---
 
 ## Avertissement important
 
-Le présent document est un dossier de preuve technique structuré, établi pour soutenir le conseil juridique. Il ne constitue ni un avis juridique, ni une consultation, ni une certification de conformité. Il n’apprécie ni la responsabilité réglementaire, ni le statut de conformité de l’entité. Il identifie des indicateurs d’exposition techniques et organisationnels susceptibles de requérir une revue et une interprétation par un conseil qualifié.
+Le présent document est un dossier de preuve structurée, établi pour soutenir le conseil juridique. Il ne constitue ni un avis juridique, ni une consultation, ni une certification de conformité. Il n’apprécie ni la responsabilité réglementaire, ni le statut de conformité de l’entité. Il identifie des indicateurs d’exposition structurés susceptibles de requérir une revue et une interprétation par un conseil qualifié.
 
 Les constats reposent sur une évaluation par archétype. Aucune donnée client brute, aucun dossier du personnel, aucun fichier client, aucune documentation interne, aucune infrastructure de production n’a été consulté ou examiné. Ce rapport caractérise le profil d’exposition d’une classe d’entités correspondant à l’archétype FR-CORPORATE-MID, et non une société nommément désignée.
 
-L’EI-Index figurant dans ce dossier est un indicateur de triage technique destiné à orienter le flux de revue du partenaire conseil. Il ne constitue ni une conclusion juridique, ni un constat de conformité, ni une certification.
+L’EI-Index figurant dans ce dossier est un indicateur de triage structuré destiné à orienter le flux de revue du partenaire conseil. Il ne constitue ni une conclusion juridique, ni un constat de conformité, ni une certification.
+
+---
+
+## Légende méthodologique
+
+| Statut | Définition | Usage dans ce dossier |
+|---|---|---|
+| Établi | Confirmé par document, source ou déclaration client. | Caractéristique documentée d’un outil, notamment documentation éditeur Microsoft ou CRM, ou élément fourni dans le périmètre de revue. |
+| Inféré | Probable selon l’archétype, non vérifié. | Probabilité structurelle sur l’entité, son organisation, ses usages ou ses flux. |
+| Non démontré | Attendu pour ce profil, mais absent du périmètre examiné ou non produit. | Document, registre, procédure, AIPD, clause, notification ou preuve qui devrait exister mais n’est pas disponible au niveau archétype. |
+| À qualifier | Nécessite l’interprétation du conseil. | Qualification juridique, catégorie réglementaire, obligation CSE, effet sur l’emploi ou conclusion de conformité. |
 
 ---
 
@@ -40,15 +51,17 @@ L’entité présente un profil d’exposition global **moyen**. Aucun déclench
 
 L’exposition est maîtrisable et bornée, mais la posture de gouvernance actuelle crée des vulnérabilités juridiques identifiables, en particulier si l’outil de notation CRM a été consulté dans un contexte RH ou de gestion de la performance.
 
+**Statut méthodologique : Inféré - niveau archétype.** Les capacités générales des outils sont établies par documentation éditeur ; les usages internes, lacunes documentaires et décisions RH restent à vérifier au niveau de l’entité.
+
 **Profil d’exposition : Moyen**
 
 ### Trois enjeux prioritaires
 
-1. Microsoft 365 Copilot est déployé à l’échelle de l’organisation sans politique d’usage documentée, sans périmètre de déploiement formel, ni règles de traitement des données définies. Copilot traite les courriels des salariés, les transcriptions de réunions et les documents sans politique écrite régissant les données traitables, la responsabilité applicable ou l’usage des sorties générées par l’IA dans les communications externes.
+1. **Établi - doc éditeur / Non démontré :** Microsoft 365 Copilot dispose de capacités de traitement des courriels, transcriptions de réunions et documents. Le déploiement à l’échelle de l’organisation est posé par l’archétype ; la politique d’usage, le périmètre formel et les règles de traitement ne sont pas démontrés au niveau du dossier.
 
-2. L’assistant de notation CRM produit des scores au niveau individuel, attribués à des commerciaux nommément désignés et visibles par leurs responsables. Aucune procédure documentée de contestation ou de neutralisation humaine n’existe. La question de savoir si ces sorties ont été référencées dans des décisions relatives à l’emploi ne peut être exclue au niveau de l’archétype. Appréciation juridique requise.
+2. **Établi - doc éditeur / Inféré - niveau archétype / À qualifier :** l’assistant de notation CRM produit des scores commerciaux au niveau individuel lorsque cette fonction est activée. L’usage de ces scores par des responsables et leur proximité avec des décisions d’emploi sont inférés au niveau archétype. Toute référence dans une décision relative à l’emploi requiert une qualification par le conseil.
 
-3. Ni l’accord de traitement Microsoft ni le contrat de l’éditeur CRM ne traitent des obligations de traitement spécifiques à l’IA. L’accord de traitement conclu avec Microsoft n’énumère pas explicitement les opérations de traitement réalisées par les fonctions IA, et les conditions IA de l’éditeur CRM sont standard et non négociables, laissant l’entité sans auditabilité contractuelle, sans notification de changement de modèle, ni droit de signalement d’incident.
+3. **Non démontré / À qualifier :** la couverture contractuelle spécifique aux opérations IA n’est pas démontrée dans le périmètre examiné. L’accord de traitement Microsoft et les conditions de l’éditeur CRM doivent être qualifiés par le conseil avant toute conclusion sur les obligations applicables, l’auditabilité, les changements de modèle ou le signalement d’incident.
 
 ### Déclencheurs de revue juridique
 
@@ -108,16 +121,16 @@ Le modèle de déploiement crée une large couverture de surface à faible frict
 
 ### Inventaire de la surface IA
 
-| Outil IA | Type | Fonctions | Données traitées | Supervision |
-|---|---|---|---|---|
-| Microsoft 365 Copilot | Productivité : rédaction de courriels, résumé de documents, transcription de réunions, recherche | Toutes : commercial, RH, opérations, direction | Contenu des courriels, audio/transcriptions de réunions, documents internes, données d’agenda | Non documentée. Aucune politique d’usage ni procédure de revue. |
-| Assistant de notation CRM | Aide à la décision : scores de prospects, scores de santé de compte, priorisation des opportunités | Commercial principal, opérations, RH indirect | Données de contacts et comptes, historique d’interactions, performance commerciale, indicateurs de tunnel commercial attribués aux salariés | Informelle. Scores consommés sans procédure documentée de neutralisation ou de contestation. |
+| Outil IA | Type | Fonctions | Données traitées | Supervision | Statut |
+|---|---|---|---|---|---|
+| Microsoft 365 Copilot | Productivité : rédaction de courriels, résumé de documents, transcription de réunions, recherche | Toutes : commercial, RH, opérations, direction | Contenu des courriels, audio/transcriptions de réunions, documents internes, données d’agenda | Non démontrée. Aucune politique d’usage ni procédure de revue produite dans le périmètre archétype. | Établi - doc éditeur pour les capacités ; Non démontré pour la gouvernance entité |
+| Assistant de notation CRM | Aide à la décision : scores de prospects, scores de santé de compte, priorisation des opportunités | Commercial principal, opérations, RH indirect | Données de contacts et comptes, historique d’interactions, performance commerciale, indicateurs de tunnel commercial attribués aux salariés | Informelle au niveau archétype. Scores consommés sans procédure documentée de neutralisation ou de contestation produite. | Établi - doc éditeur pour la fonction ; Inféré - niveau archétype pour l’usage ; Non démontré pour la procédure |
 
 ### Propagation de l’exposition
 
-**Copilot → exposition RH :** la fonction de transcription de réunions de Copilot, si elle est utilisée lors d’entretiens disciplinaires, de réunions d’évaluation ou d’entretiens de recrutement, produit un compte rendu généré par l’IA. Si ce compte rendu est utilisé dans des décisions RH, il constitue un traitement assisté par IA de données personnelles de salariés dans un contexte d’emploi. Aucun élément, au niveau de l’archétype, n’indique que les salariés ont été formellement informés de cette capacité. Appréciation juridique requise.
+**Copilot → exposition RH :** **Établi - doc éditeur :** Copilot dispose de capacités de transcription et de résumé de réunions. **Inféré - niveau archétype :** si cette capacité est utilisée lors d’entretiens disciplinaires, de réunions d’évaluation ou d’entretiens de recrutement, elle produit un compte rendu généré par l’IA. **Non démontré :** aucun élément, au niveau de l’archétype, n’indique que les salariés ont été formellement informés de cette capacité. **À qualifier :** l’usage de ces comptes rendus dans des décisions RH requiert une appréciation juridique.
 
-**Notation CRM → exposition emploi :** les outils de notation CRM attribués à des commerciaux individuels génèrent des points de données structurellement capables de mesurer la performance individuelle : taux de conversion du tunnel commercial, score de réactivité aux prospects, score de pénétration de compte. Les scores individuels sont visibles par les responsables commerciaux. Si ces indicateurs ont été consultés dans une évaluation, un calcul de prime ou une décision de réallocation de territoire, l’outil est passé de l’aide à la décision commerciale à un traitement automatisé à proximité de l’emploi. La survenance de ce cas ne peut être exclue au niveau de l’archétype. Appréciation juridique requise.
+**Notation CRM → exposition emploi :** **Établi - doc éditeur :** les fonctions de notation CRM peuvent générer des scores ou indicateurs de priorité commerciale. **Inféré - niveau archétype :** lorsque ces scores sont attribués à des commerciaux individuels, ils peuvent mesurer indirectement la performance individuelle. **À qualifier :** si ces indicateurs ont été consultés dans une évaluation, un calcul de prime ou une décision de réallocation de territoire, l’usage doit être qualifié par le conseil. La survenance de ce cas ne peut être exclue au niveau de l’archétype.
 
 **Copilot → communications externes :** les brouillons générés par Copilot utilisés dans des livrables clients, des communications externes ou des documents juridiques sans procédure de revue interne créent une surface de responsabilité. Les inexactitudes des sorties générées par l’IA et utilisées dans le travail destiné au client peuvent être imputées à l’entité, sans la documentation atténuante d’une étape de revue.
 
@@ -133,12 +146,14 @@ Le modèle de déploiement crée une large couverture de surface à faible frict
 
 La surface IA de l’entité est intégralement d’origine externe. Aucune capacité de modèle interne n’existe. Les deux outils sont contrôlés par des éditeurs tiers sous conditions contractuelles standard. Les conditions entreprise de Microsoft sont bien documentées mais n’énumèrent pas explicitement toutes les opérations de traitement IA. Les conditions IA de l’éditeur CRM sont standard, non négociables à la taille de cette entité, et n’incluent ni clause d’auditabilité spécifique, ni notification de changement de modèle.
 
+**Statut méthodologique : Établi - doc éditeur pour les capacités produit ; Inféré - niveau archétype pour la criticité opérationnelle ; Non démontré pour les clauses contractuelles non produites ; À qualifier pour la portée juridique des obligations fournisseur.**
+
 ### Tableau des dépendances fournisseurs
 
-| Fournisseur | Criticité | Réversibilité | Auditabilité contractuelle | Lacune clé |
-|---|---|---|---|---|
-| Microsoft 365 Copilot | Élevée : activé sur la licence M365 entreprise utilisée par tous les salariés | Faible : la désactivation crée une rupture de flux de travail ; aucun repli documenté | Limitée : l’accord de traitement couvre les obligations du sous-traitant au titre du RGPD mais n’énumère pas les opérations IA spécifiques | L’accord de traitement ne traite pas explicitement le traitement IA des courriels, réunions et documents. Aucune obligation de notification de changement de modèle. |
-| Éditeur de notation CRM | Élevée : sorties intégrées aux flux commerciaux quotidiens | Faible à moyenne : remplacement complet lourd ; désactivation de la seule notation possible mais non documentée | Non documentée : les conditions IA n’incluent ni auditabilité du modèle, ni droit d’explication, ni obligation de suppression spécifique, ni signalement d’incident | Aucun droit contractuel d’auditer le modèle, d’être notifié de ses changements, ni d’obtenir l’explication d’un score individuel. |
+| Fournisseur | Criticité | Réversibilité | Auditabilité contractuelle | Lacune clé | Statut |
+|---|---|---|---|---|---|
+| Microsoft 365 Copilot | Élevée : activé sur la licence M365 entreprise utilisée par tous les salariés | Faible : la désactivation crée une rupture de flux de travail ; aucun repli documenté | Limitée : l’accord de traitement couvre les obligations du sous-traitant au titre du RGPD mais n’énumère pas les opérations IA spécifiques | L’accord de traitement ne traite pas explicitement le traitement IA des courriels, réunions et documents. Aucune obligation de notification de changement de modèle. | Établi - doc éditeur pour la fonction ; Inféré - niveau archétype pour la criticité ; Non démontré pour le repli et la couverture contractuelle |
+| Éditeur de notation CRM | Élevée : sorties intégrées aux flux commerciaux quotidiens | Faible à moyenne : remplacement complet lourd ; désactivation de la seule notation possible mais non documentée | Non démontrée : les conditions IA produites dans le périmètre ne couvrent ni auditabilité du modèle, ni droit d’explication, ni obligation de suppression spécifique, ni signalement d’incident | Aucun droit contractuel d’auditer le modèle, d’être notifié de ses changements, ni d’obtenir l’explication d’un score individuel n’est démontré. | Établi - doc éditeur pour la fonction ; Inféré - niveau archétype pour la criticité ; Non démontré pour les droits contractuels |
 
 ### Déclencheurs de revue contractuelle
 
@@ -160,7 +175,11 @@ Cette section identifie ce qui devrait structurellement exister pour cet archét
 
 ### Ce qui est connu
 
-Du profil structurel de l’archétype : Microsoft 365 Copilot est déployé à l’échelle de l’organisation sous licence entreprise. Un assistant de notation CRM est actif dans les flux commerciaux. Les deux outils traitent des données personnelles, données de salariés pour Copilot, données de contacts et données attribuées aux salariés pour l’outil de notation CRM. Le cadre applicable est le RGPD, la loi Informatique et Libertés, le règlement IA, dont l’application est échelonnée, et le Code du travail pour l’usage de l’IA à proximité de l’emploi.
+**Établi - doc éditeur :** Microsoft 365 Copilot comporte des capacités de rédaction, résumé, recherche et transcription ; les assistants de notation CRM comportent des fonctions de scoring commercial lorsqu’elles sont activées.
+
+**Inféré - niveau archétype :** Microsoft 365 Copilot est déployé à l’échelle de l’organisation sous licence entreprise et un assistant de notation CRM est actif dans les flux commerciaux. Les deux outils sont susceptibles de traiter des données personnelles, données de salariés pour Copilot, données de contacts et données attribuées aux salariés pour l’outil de notation CRM.
+
+**À qualifier :** le cadre applicable inclut le RGPD, la loi Informatique et Libertés, le règlement IA, dont l’application est échelonnée, et le Code du travail pour l’usage de l’IA à proximité de l’emploi. La portée exacte des obligations relève du conseil.
 
 ### Ce qui n’est pas démontré
 
@@ -204,26 +223,26 @@ Les questions d’exposition suivantes ne peuvent être résolues au niveau de l
 
 | Condition | Sévérité | Statut |
 |---|---|---|
-| L’assistant de notation CRM génère des indicateurs individuels visibles par les responsables. Aucune revue de classification n’a été menée pour apprécier la catégorie réglementaire de l’outil au regard de son usage à proximité de l’emploi. | Élevée | Vérification entité requise |
-| Aucune évaluation des outils IA en usage n’a été menée au regard des catégories de risque applicables. Le statut de classification des deux outils déployés est indéterminé. | Moyenne | Confirmé au niveau archétype |
-| Aucune information aux salariés sur le fait que les outils IA traitent leurs communications, transcriptions de réunions et activité professionnelle. | Moyenne | Confirmé au niveau archétype |
+| L’assistant de notation CRM peut générer des indicateurs individuels visibles par les responsables lorsque la fonction est activée. Aucune revue de classification n’a été produite pour apprécier la catégorie réglementaire de l’outil au regard de son usage à proximité de l’emploi. | Élevée | Établi - doc éditeur pour la capacité ; À qualifier - conseil / vérification entité |
+| Aucune évaluation des outils IA en usage n’a été produite au regard des catégories de risque applicables. Le statut de classification des deux outils déployés est indéterminé. | Moyenne | Non démontré - document attendu absent ; À qualifier - conseil |
+| Aucune information aux salariés sur le fait que les outils IA traitent leurs communications, transcriptions de réunions et activité professionnelle n’est produite dans le périmètre archétype. | Moyenne | Non démontré - niveau archétype |
 
 ### Signaux d’exposition - protection des données
 
 | Condition | Sévérité | Statut |
 |---|---|---|
-| Copilot traite des données personnelles de salariés : courriels, réunions, documents. Aucune inscription correspondante au registre des traitements. Aucune AIPD au dossier. | Élevée | Confirmé au niveau archétype |
-| L’assistant de notation CRM traite des données de contacts et des données attribuées aux salariés. Aucune clause d’accord de traitement ne couvre explicitement la fonction de notation IA comme opération distincte. | Élevée | Confirmé au niveau archétype |
-| Aucune base légale documentée pour le traitement par Copilot des communications et réunions des salariés. | Moyenne | Confirmé au niveau archétype |
-| La notation CRM génère des indicateurs individuels. Aucune procédure de revue humaine documentée pour les usages à proximité de l’emploi. La question de savoir si ces sorties ont influencé des décisions d’emploi requiert une vérification entité. | Élevée | Vérification entité requise |
+| Copilot peut traiter des données personnelles de salariés : courriels, réunions, documents. Aucune inscription correspondante au registre des traitements ni AIPD n’est produite dans le périmètre archétype. | Élevée | Établi - doc éditeur pour la capacité ; Non démontré - registre et AIPD |
+| L’assistant de notation CRM peut traiter des données de contacts et des données attribuées aux salariés. Aucune clause d’accord de traitement ne couvre explicitement la fonction de notation IA comme opération distincte dans le périmètre examiné. | Élevée | Établi - doc éditeur pour la capacité ; Non démontré - couverture contractuelle |
+| Aucune base légale documentée pour le traitement par Copilot des communications et réunions des salariés n’est produite. | Moyenne | Non démontré - niveau archétype ; À qualifier - conseil |
+| La notation CRM peut générer des indicateurs individuels. Aucune procédure de revue humaine documentée pour les usages à proximité de l’emploi n’est produite. La question de savoir si ces sorties ont influencé des décisions d’emploi requiert une vérification entité. | Élevée | Établi - doc éditeur pour la capacité ; Non démontré - procédure ; À qualifier - conseil |
 
 ### Signaux d’exposition - emploi et RH
 
-Les sorties de notation CRM sont structurées au niveau du salarié individuel. Les scores sont attribués à des commerciaux nommément désignés et visibles par leurs responsables directs. Aucune frontière documentée n’empêche que ces sorties soient référencées dans des décisions d’emploi. Aucun enregistrement de neutralisation, de contestation ou d’exclusion n’existe.
+**Établi - doc éditeur / Inféré - niveau archétype :** les sorties de notation CRM peuvent être structurées au niveau individuel lorsque la fonction est activée. Leur visibilité par des responsables et leur proximité avec l’évaluation de performance sont inférées au niveau archétype. **Non démontré :** aucune frontière documentée n’empêche que ces sorties soient référencées dans des décisions d’emploi. Aucun enregistrement de neutralisation, de contestation ou d’exclusion n’est produit.
 
-Aucun élément, au niveau de l’archétype, n’indique que le CSE a été informé avant le déploiement d’outils dotés de capacités de suivi individuel des salariés. Aucun élément n’indique que les salariés ont été informés d’un traitement assisté par IA de leurs communications et de leur activité.
+**Non démontré - niveau archétype :** aucun élément n’indique que le CSE a été informé avant le déploiement d’outils dotés de capacités de suivi individuel des salariés. Aucun élément n’indique que les salariés ont été informés d’un traitement assisté par IA de leurs communications et de leur activité.
 
-Si des indicateurs de notation ont été consultés dans une évaluation, un calcul de prime ou une allocation de territoire, ou si des transcriptions de réunions ont été utilisées dans une procédure RH, les deux conditions requièrent une appréciation juridique avant que les outils ne se poursuivent dans leur configuration actuelle.
+**À qualifier - conseil :** si des indicateurs de notation ont été consultés dans une évaluation, un calcul de prime ou une allocation de territoire, ou si des transcriptions de réunions ont été utilisées dans une procédure RH, les deux conditions requièrent une appréciation juridique avant que les outils ne se poursuivent dans leur configuration actuelle.
 
 ### Signaux d’exposition - PI et contenu
 

@@ -21,7 +21,7 @@ export default function Hero() {
       aria-labelledby="hero-title"
     >
       {/* Copy */}
-      <div className="max-w-[760px]">
+      <div className="relative z-20 max-w-[720px]">
         <p className="text-2xs font-bold uppercase tracking-[0.14em] text-copper mb-3.5">
           {t('hero.eyebrow')}
         </p>
@@ -52,7 +52,7 @@ export default function Hero() {
       </div>
 
       {/* Dossier artifact preview */}
-      <div className="relative min-h-[520px] hidden lg:block" aria-label="Dossier preview">
+      <div className="relative z-0 min-h-[520px] hidden lg:block" aria-label="Dossier preview">
         {/* Back leaf */}
         <div
           className="absolute right-0 top-7 w-[min(100%,390px)] min-h-[500px] border border-ink/15 bg-[#d0c8b8] rotate-[3deg]"
