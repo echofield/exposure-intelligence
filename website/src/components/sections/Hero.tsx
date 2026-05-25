@@ -3,22 +3,14 @@ import { useTranslation } from 'react-i18next'
 import Button from '../ui/Button'
 import SeverityBadge from '../ui/SeverityBadge'
 
-// Static dossier preview data — archetype-based, no client data
-const SIGNALS = [
-  { label: 'Automated decision — HR surface', severity: 'High' as const },
-  { label: 'Vendor contract auditability gap', severity: 'Critical' as const },
-  { label: 'Sub-processor documentation', severity: 'Medium' as const },
-  { label: 'Reversibility not tested', severity: 'High' as const },
-]
 
-const GAPS = [
-  { item: 'AI system register', status: 'Not evidenced' },
-  { item: 'Model card documentation', status: 'Not evidenced' },
-  { item: 'Human oversight protocol', status: 'Cannot yet be established' },
-]
+type Signal = { label: string; severity: 'Critical' | 'High' | 'Medium' | 'Low' }
+type Gap = { item: string; status: string }
 
 export default function Hero() {
   const { t } = useTranslation()
+  const signals = t('hero.signals', { returnObjects: true }) as Signal[]
+  const gaps = t('hero.gaps', { returnObjects: true }) as Gap[]
 
   return (
     <section
@@ -85,7 +77,7 @@ export default function Hero() {
               <span className="font-mono text-[10px] uppercase tracking-widest text-ink/50">{t('hero.artifactCondition')}</span>
               <span className="font-mono text-[10px] uppercase tracking-widest text-ink/50">{t('hero.artifactSeverity')}</span>
             </div>
-            {SIGNALS.map((s) => (
+            {signals.map((s) => (
               <div key={s.label} className="grid grid-cols-[1fr_auto] gap-3 items-center px-3 py-2.5 bg-white/50">
                 <span className="text-[12px] text-ink/80 leading-tight">{s.label}</span>
                 <SeverityBadge level={s.severity} />
@@ -98,7 +90,7 @@ export default function Hero() {
             {t('hero.artifactEvidenceGaps')}
           </p>
           <div className="border border-ink/12 divide-y divide-ink/10">
-            {GAPS.map((g) => (
+            {gaps.map((g) => (
               <div key={g.item} className="grid grid-cols-[1fr_auto] gap-2 items-center px-3 py-2 bg-white/50">
                 <span className="text-[12px] text-ink/70">{g.item}</span>
                 <span className="font-mono text-[10px] text-ink/40 whitespace-nowrap">{g.status}</span>

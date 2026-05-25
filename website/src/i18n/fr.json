@@ -18,7 +18,18 @@
     "dossierTitle": "Résumé exécutif d'exposition",
     "artifactCondition": "Condition",
     "artifactSeverity": "Sévérité",
-    "artifactEvidenceGaps": "Lacunes de preuve"
+    "artifactEvidenceGaps": "Lacunes de preuve",
+    "signals": [
+      { "label": "Décision automatisée — surface RH", "severity": "High" },
+      { "label": "Lacune d'auditabilité contractuelle", "severity": "Critical" },
+      { "label": "Documentation sous-traitant IA", "severity": "Medium" },
+      { "label": "Réversibilité non vérifiée", "severity": "High" }
+    ],
+    "gaps": [
+      { "item": "Registre des systèmes IA", "status": "Non documenté" },
+      { "item": "Fiche technique du modèle", "status": "Non documenté" },
+      { "item": "Procédure de supervision humaine", "status": "Non établissable à ce stade" }
+    ]
   },
   "pressure": {
     "p1": "Les entreprises, prestataires et investisseurs européens font face à une exigence concrète : produire des preuves techniques structurées — et non des déclarations d'intention — sur le déploiement de l'IA, l'admissibilité aux marchés et l'exposition dans les transactions.",

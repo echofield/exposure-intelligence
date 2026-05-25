@@ -18,7 +18,18 @@
     "dossierTitle": "Executive Exposure Summary",
     "artifactCondition": "Condition",
     "artifactSeverity": "Severity",
-    "artifactEvidenceGaps": "Evidence Gaps"
+    "artifactEvidenceGaps": "Evidence Gaps",
+    "signals": [
+      { "label": "Automated decision — HR surface", "severity": "High" },
+      { "label": "Vendor contract auditability gap", "severity": "Critical" },
+      { "label": "Sub-processor documentation", "severity": "Medium" },
+      { "label": "Reversibility not tested", "severity": "High" }
+    ],
+    "gaps": [
+      { "item": "AI system register", "status": "Not evidenced" },
+      { "item": "Model card documentation", "status": "Not evidenced" },
+      { "item": "Human oversight protocol", "status": "Cannot yet be established" }
+    ]
   },
   "pressure": {
     "p1": "European companies, vendors, and investors now face a concrete demand: produce structured technical evidence — not policy statements — on AI deployment, procurement admissibility, and transaction exposure.",
