@@ -12,10 +12,16 @@ type ListBlock = {
   items: string[]
 }
 
+type ProtocolMetric = {
+  label: string
+  value: string
+}
+
 export default function MethodTrust() {
   const { t } = useTranslation()
   const cards = t('method.cards', { returnObjects: true }) as Card[]
   const lists = t('method.lists', { returnObjects: true }) as ListBlock[]
+  const protocolMetrics = t('method.protocolMetrics', { returnObjects: true }) as ProtocolMetric[]
 
   return (
     <section
@@ -45,6 +51,34 @@ export default function MethodTrust() {
         </div>
 
         <div>
+          <div className="mb-[12px] border border-ink/12 bg-ink text-paper p-5">
+            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-copper">
+              {t('method.protocolEyebrow')}
+            </p>
+            <div className="mt-3 grid grid-cols-1 md:grid-cols-[minmax(0,0.9fr)_minmax(260px,1fr)] gap-5 items-start">
+              <div>
+                <h3 className="text-[24px] leading-[1.2] text-paper">
+                  {t('method.protocolHeading')}
+                </h3>
+                <p className="mt-3 text-[14px] text-paper/72 leading-[1.55]">
+                  {t('method.protocolBody')}
+                </p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-1 gap-2">
+                {protocolMetrics.map((item) => (
+                  <div key={item.label} className="border border-white/15 bg-white/[0.04] px-3 py-2.5">
+                    <p className="font-mono text-[9px] uppercase tracking-[0.12em] text-paper/40">
+                      {item.label}
+                    </p>
+                    <p className="mt-1 font-mono text-[12px] font-bold text-paper">
+                      {item.value}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-[12px]">
             {cards.map((card) => (
               <article key={card.title} className="border border-ink/12 bg-[rgba(250,248,241,0.78)] p-5 min-h-[210px]">

@@ -3,10 +3,13 @@ import { useTranslation } from 'react-i18next'
 import MarkdownView from '../demo/MarkdownView'
 import LangToggle from '../ui/LangToggle'
 
+type ProtocolMeta = { label: string; value: string }
+
 export default function SamplePage() {
   const { t, i18n } = useTranslation()
   const [content, setContent] = useState('')
   const [loading, setLoading] = useState(true)
+  const protocolMeta = t('samplePage.protocolMeta', { returnObjects: true }) as ProtocolMeta[]
   const language = i18n.resolvedLanguage || i18n.language
   const samplePath = language.startsWith('en')
     ? '/samples/FR-CORPORATE-MID_SAMPLE.en.md'
@@ -80,6 +83,18 @@ export default function SamplePage() {
           <span className="font-mono text-[10px] uppercase tracking-widest text-ink/25">
             {t('samplePage.specimen')}
           </span>
+        </div>
+        <div className="mb-6 grid grid-cols-2 md:grid-cols-4 gap-px border border-ink/10 bg-ink/10">
+          {protocolMeta.map((item) => (
+            <div key={item.label} className="bg-[rgba(250,248,241,0.82)] px-3 py-2.5">
+              <p className="font-mono text-[9px] uppercase tracking-[0.12em] text-ink/35">
+                {item.label}
+              </p>
+              <p className="mt-1 font-mono text-[11px] font-bold text-ink/75">
+                {item.value}
+              </p>
+            </div>
+          ))}
         </div>
 
         {loading ? (

@@ -9,6 +9,12 @@
 | Date | [DATE] |
 | Référence | EI-FR-MID-001 |
 | Version | 1.0 |
+| Protocole | Protocole EI v0.1 |
+| Statut du protocole | Méthodologie pilote partenaire |
+| ID d'évaluation | EI-FR-MID-001-SAMPLE |
+| EI-Index | EI-3 / Moyen |
+| Posture de l'index | Indicateur de triage technique uniquement |
+| Posture de données | Aucune donnée opérationnelle du client final ingérée |
 
 ---
 
@@ -17,6 +23,8 @@
 Le présent document est un dossier de preuve technique structuré, établi pour soutenir le conseil juridique. Il ne constitue ni un avis juridique, ni une consultation, ni une certification de conformité. Il n’apprécie ni la responsabilité réglementaire, ni le statut de conformité de l’entité. Il identifie des indicateurs d’exposition techniques et organisationnels susceptibles de requérir une revue et une interprétation par un conseil qualifié.
 
 Les constats reposent sur une évaluation par archétype. Aucune donnée client brute, aucun dossier du personnel, aucun fichier client, aucune documentation interne, aucune infrastructure de production n’a été consulté ou examiné. Ce rapport caractérise le profil d’exposition d’une classe d’entités correspondant à l’archétype FR-CORPORATE-MID, et non une société nommément désignée.
+
+L’EI-Index figurant dans ce dossier est un indicateur de triage technique destiné à orienter le flux de revue du partenaire conseil. Il ne constitue ni une conclusion juridique, ni un constat de conformité, ni une certification.
 
 ---
 

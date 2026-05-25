@@ -15,6 +15,11 @@
     "ctaPrimary": "Read the sample dossier",
     "ctaSecondary": "Partner inquiry",
     "support": "Used by boutique law firms across France, Switzerland, Luxembourg, and Belgium.",
+    "protocolMeta": [
+      { "label": "Protocol", "value": "EI v0.1" },
+      { "label": "Index", "value": "EI-3" },
+      { "label": "Status", "value": "Pilot method" }
+    ],
     "dossierKicker": "AI Exposure Evidence Pack",
     "dossierTitle": "Executive Exposure Summary",
     "artifactCondition": "Condition",
@@ -52,6 +57,14 @@
     "lead": "Exposure Intelligence produces an evidence base from a verifiable archetype: jurisdiction, sector, company size, AI surface, exposed functions, and vendor dependencies. The result is a dossier of conditions, not a legal conclusion.",
     "noDataLabel": "Reduced processing surface",
     "noDataBody": "No final-client operational data is ingested: no customer files, no personnel files, no internal contracts, no system access. Partner communications, commercial requests, and relationship metadata remain handled as an ordinary partner relationship.",
+    "protocolEyebrow": "EI Protocol v0.1",
+    "protocolHeading": "A versioned partner pilot methodology.",
+    "protocolBody": "Each dossier carries a protocol version, archetype ID, assessment ID, data posture, and EI-Index band. The index is a technical triage signal for advisory workflow, not a legal conclusion, compliance finding, or certification.",
+    "protocolMetrics": [
+      { "label": "Assessment ID", "value": "EI-FR-MID-001-SAMPLE" },
+      { "label": "EI-Index", "value": "EI-3 / Medium" },
+      { "label": "Data posture", "value": "No operational data" }
+    ],
     "cards": [
       {
         "label": "Input",
@@ -256,6 +269,12 @@
     "partnerLink": "Partner inquiry →",
     "classification": "Archetype FR-CORPORATE-MID · Partner use",
     "specimen": "Specimen - not for distribution",
+    "protocolMeta": [
+      { "label": "Protocol", "value": "EI v0.1" },
+      { "label": "Assessment ID", "value": "EI-FR-MID-001-SAMPLE" },
+      { "label": "EI-Index", "value": "EI-3 / Medium" },
+      { "label": "Status", "value": "Partner pilot" }
+    ],
     "loading": "Loading…",
     "notFound": "Dossier not found.",
     "footerNote": "This dossier is built from an archetype. No final-client operational data ingested. Your firm deploys it under its own letterhead.",

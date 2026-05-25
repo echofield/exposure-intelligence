@@ -6,11 +6,13 @@ import SeverityBadge from '../ui/SeverityBadge'
 
 type Signal = { label: string; severity: string }
 type Gap = { item: string; status: string }
+type ProtocolMeta = { label: string; value: string }
 
 export default function Hero() {
   const { t } = useTranslation()
   const signals = t('hero.signals', { returnObjects: true }) as Signal[]
   const gaps = t('hero.gaps', { returnObjects: true }) as Gap[]
+  const protocolMeta = t('hero.protocolMeta', { returnObjects: true }) as ProtocolMeta[]
 
   return (
     <section
@@ -68,6 +70,19 @@ export default function Hero() {
           <h2 className="mt-4 font-serif text-[28px] leading-[1.2]">
             {t('hero.dossierTitle')}
           </h2>
+
+          <div className="mt-5 grid grid-cols-3 gap-px border border-ink/12 bg-ink/10">
+            {protocolMeta.map((item) => (
+              <div key={item.label} className="bg-white/55 px-2.5 py-2">
+                <p className="font-mono text-[8px] uppercase tracking-[0.12em] text-ink/35">
+                  {item.label}
+                </p>
+                <p className="mt-1 font-mono text-[10px] font-bold text-ink/75">
+                  {item.value}
+                </p>
+              </div>
+            ))}
+          </div>
 
           <div className="h-px bg-ink/18 my-7" />
 

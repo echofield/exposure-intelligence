@@ -7,12 +7,20 @@
 > **Date:** [DATE]
 > **Reference:** EI-FR-MID-001
 > **Version:** 1.0
+> **Protocol:** EI Protocol v0.1
+> **Protocol status:** Partner pilot methodology
+> **Assessment ID:** EI-FR-MID-001-SAMPLE
+> **EI-Index:** EI-3 / Medium
+> **Index posture:** Technical triage indicator only
+> **Data posture:** No final-client operational data ingested
 
 ---
 
 **Important notice:** This document is a structured technical evidence pack prepared to support legal advisory. It does not constitute legal advice, a legal opinion, or a compliance certification. It does not assess regulatory liability or legal compliance status. It identifies technical and organizational exposure indicators that may require legal review and interpretation by qualified counsel.
 
 Findings are based on an archetype-based assessment. No raw client data, personnel records, customer files, internal documentation, or production infrastructure was accessed or reviewed. This report characterizes the exposure profile of a class of entities matching the FR-CORPORATE-MID archetype, not any specific named company.
+
+The EI-Index shown in this dossier is a technical triage indicator intended to orient the advisory partner's review workflow. It is not a legal conclusion, compliance finding, or certification.
 
 ---
 

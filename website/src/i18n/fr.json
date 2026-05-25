@@ -15,6 +15,11 @@
     "ctaPrimary": "Lire le dossier d'exemple",
     "ctaSecondary": "Demande partenaire",
     "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
+    "protocolMeta": [
+      { "label": "Protocole", "value": "EI v0.1" },
+      { "label": "Index", "value": "EI-3" },
+      { "label": "Statut", "value": "Méthode pilote" }
+    ],
     "dossierKicker": "Dossier de preuve technique - Exposition IA",
     "dossierTitle": "Résumé exécutif d'exposition",
     "artifactCondition": "Condition",
@@ -52,6 +57,14 @@
     "lead": "Exposure Intelligence produit une base de preuve à partir d’un archétype vérifiable : juridiction, secteur, taille, surface IA, fonctions exposées et dépendances fournisseurs. Le résultat est un dossier de conditions, pas une conclusion juridique.",
     "noDataLabel": "Surface de traitement réduite",
     "noDataBody": "Aucune donnée opérationnelle du client final n’est ingérée : pas de fichiers clients, pas de dossiers salariés, pas de contrats internes, pas d’accès aux systèmes. Les échanges partenaire, demandes commerciales et métadonnées de relation restent traités comme relation partenaire classique.",
+    "protocolEyebrow": "Protocole EI v0.1",
+    "protocolHeading": "Une méthodologie partenaire versionnée.",
+    "protocolBody": "Chaque dossier porte une version de protocole, un identifiant d’archétype, un identifiant d’évaluation, une posture de données et une bande EI-Index. L’index est un signal de triage technique pour le flux de conseil, pas une conclusion juridique, un constat de conformité ou une certification.",
+    "protocolMetrics": [
+      { "label": "ID d'évaluation", "value": "EI-FR-MID-001-SAMPLE" },
+      { "label": "EI-Index", "value": "EI-3 / Moyen" },
+      { "label": "Posture données", "value": "Aucune donnée opérationnelle" }
+    ],
     "cards": [
       {
         "label": "Entrée",
@@ -256,6 +269,12 @@
     "partnerLink": "Demande partenaire →",
     "classification": "Archétype FR-CORPORATE-MID · Usage partenaire",
     "specimen": "Spécimen - non destiné à la distribution",
+    "protocolMeta": [
+      { "label": "Protocole", "value": "EI v0.1" },
+      { "label": "ID d'évaluation", "value": "EI-FR-MID-001-SAMPLE" },
+      { "label": "EI-Index", "value": "EI-3 / Moyen" },
+      { "label": "Statut", "value": "Pilote partenaire" }
+    ],
     "loading": "Chargement…",
     "notFound": "Dossier introuvable.",
     "footerNote": "Ce dossier est construit sur archétype. Aucune donnée opérationnelle du client final n’est ingérée. Votre cabinet le déploie sous son en-tête.",
