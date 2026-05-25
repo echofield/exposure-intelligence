@@ -7,3 +7,5 @@ engine/generated/*.pdf
 *.log
 .DS_Store
 Thumbs.db
+
+.vercel
