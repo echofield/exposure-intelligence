@@ -15,7 +15,10 @@
     "ctaSecondary": "Demande partenaire",
     "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
     "dossierKicker": "AI Exposure Evidence Pack",
-    "dossierTitle": "Résumé exécutif d'exposition"
+    "dossierTitle": "Résumé exécutif d'exposition",
+    "artifactCondition": "Condition",
+    "artifactSeverity": "Sévérité",
+    "artifactEvidenceGaps": "Lacunes de preuve"
   },
   "pressure": {
     "p1": "Les entreprises, prestataires et investisseurs européens font face à une exigence concrète : produire des preuves techniques structurées — et non des déclarations d'intention — sur le déploiement de l'IA, l'admissibilité aux marchés et l'exposition dans les transactions.",
@@ -44,6 +47,11 @@
       "cta": "Voir l'offre"
     },
     "card1PilotNote": "Entrée pilote à partir de 3 k€",
+    "coverage": {
+      "card1": ["Carte de surface", "Signaux d'exposition", "Lacunes de preuve", "Déclencheurs d'escalade", "Voies de remédiation"],
+      "card2": ["Carte des portes", "Vue des dépendances", "Architecture de preuve", "Objections acheteur", "Feuille de route remédiation"],
+      "card3": ["Carte des risques", "Concentration dépendances", "Lacunes de preuve", "Conditions transaction", "Post-closing roadmap"]
+    },
     "card2": {
       "label": "Marchés régulés",
       "situation": "Votre client vend à des acheteurs régulés — administrations, banques, assureurs, systèmes de santé — et les contrats bloquent au stade juridique ou DPO. Ou votre client concourt à des appels d'offres publics et a besoin d'une architecture de preuve plus solide.",

@@ -11,12 +11,15 @@ import UseCases from './components/sections/UseCases'
 import OriginationPilot from './components/sections/OriginationPilot'
 import PartnerInquiry from './components/sections/PartnerInquiry'
 import DemoPage from './components/demo/DemoPage'
+import SamplePage from './components/sample/SamplePage'
 
 const path = typeof window !== 'undefined' ? window.location.pathname : '/'
 const isDemo = path.startsWith('/demo')
+const isSample = path.startsWith('/sample')
 
 export default function App() {
   if (isDemo) return <DemoPage />
+  if (isSample) return <SamplePage />
 
   return (
     <>

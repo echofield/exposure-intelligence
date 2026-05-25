@@ -92,6 +92,16 @@ export default function MarkdownView({ markdown }: { markdown: string }) {
         )
       }
       continue
+    } else if (line.startsWith('- [ ] ') || line.startsWith('- [x] ')) {
+      const checked = line.startsWith('- [x] ')
+      elements.push(
+        <div key={i} className="flex gap-2.5 text-[12px] text-ink-soft my-1 pl-1">
+          <span className={`mt-0.5 flex-shrink-0 w-3.5 h-3.5 border ${checked ? 'border-steel bg-steel/15' : 'border-ink/30'} flex items-center justify-center`}>
+            {checked && <span className="text-steel text-[8px] font-bold">✓</span>}
+          </span>
+          <span className="leading-[1.6]">{renderInline(line.slice(6))}</span>
+        </div>
+      )
     } else if (line.startsWith('- ')) {
       elements.push(
         <div key={i} className="flex gap-2 text-[12px] text-ink-soft my-0.5 pl-1">

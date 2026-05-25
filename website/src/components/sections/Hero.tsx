@@ -44,7 +44,7 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-wrap gap-3 mt-8">
-          <Button as="a" href="../samples/FR-CORPORATE-MID_SAMPLE.md" variant="primary">
+          <Button as="a" href="/sample" variant="primary">
             {t('hero.ctaPrimary')}
           </Button>
           <Button as="a" href="#inquiry" variant="secondary">
@@ -82,8 +82,8 @@ export default function Hero() {
           {/* Exposure signals table */}
           <div className="border border-ink/12 divide-y divide-ink/10">
             <div className="grid grid-cols-[1fr_auto] gap-3 px-3 py-1.5 bg-ink/5">
-              <span className="font-mono text-[10px] uppercase tracking-widest text-ink/50">Condition</span>
-              <span className="font-mono text-[10px] uppercase tracking-widest text-ink/50">Severity</span>
+              <span className="font-mono text-[10px] uppercase tracking-widest text-ink/50">{t('hero.artifactCondition')}</span>
+              <span className="font-mono text-[10px] uppercase tracking-widest text-ink/50">{t('hero.artifactSeverity')}</span>
             </div>
             {SIGNALS.map((s) => (
               <div key={s.label} className="grid grid-cols-[1fr_auto] gap-3 items-center px-3 py-2.5 bg-white/50">
@@ -95,7 +95,7 @@ export default function Hero() {
 
           {/* Evidence gaps */}
           <p className="mt-5 font-mono text-[10px] uppercase tracking-widest text-ink/40 mb-2">
-            Evidence Gaps
+            {t('hero.artifactEvidenceGaps')}
           </p>
           <div className="border border-ink/12 divide-y divide-ink/10">
             {GAPS.map((g) => (

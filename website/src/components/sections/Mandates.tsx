@@ -1,14 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-// Artifact coverage — taken directly from the dossier section grammar
-// Accurate at archetype level, no claims beyond what the artifact produces
-const COVERAGE: Record<string, string[]> = {
-  card1: ['Surface map', 'Exposure signals', 'Evidence gaps', 'Escalation triggers', 'Remediation pathways'],
-  card2: ['Gate map', 'Dependency view', 'Evidence architecture', 'Buyer objection map', 'Remediation roadmap'],
-  card3: ['Deal risk map', 'Dependency concentration', 'Evidence gaps', 'Deal-term implications', 'Post-close roadmap'],
-}
-
 const indices = ['01', '02', '03']
 const cards = ['card1', 'card2', 'card3'] as const
 
@@ -66,7 +58,7 @@ export default function Mandates() {
                 {t('mandates.coverageLabel')}
               </p>
               <div className="flex flex-wrap gap-1.5">
-                {COVERAGE[card].map((item) => (
+                {(t(`mandates.coverage.${card}`, { returnObjects: true }) as string[]).map((item: string) => (
                   <span
                     key={item}
                     className="font-mono text-[10px] px-2 py-0.5 border border-ink/15 text-ink/50 bg-white/50"

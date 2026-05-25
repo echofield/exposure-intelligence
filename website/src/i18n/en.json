@@ -15,7 +15,10 @@
     "ctaSecondary": "Partner inquiry",
     "support": "Used by boutique law firms across France, Switzerland, Luxembourg, and Belgium.",
     "dossierKicker": "AI Exposure Evidence Pack",
-    "dossierTitle": "Executive Exposure Summary"
+    "dossierTitle": "Executive Exposure Summary",
+    "artifactCondition": "Condition",
+    "artifactSeverity": "Severity",
+    "artifactEvidenceGaps": "Evidence Gaps"
   },
   "pressure": {
     "p1": "European companies, vendors, and investors now face a concrete demand: produce structured technical evidence — not policy statements — on AI deployment, procurement admissibility, and transaction exposure.",
@@ -44,6 +47,11 @@
       "cta": "See the offer"
     },
     "card1PilotNote": "Pilot entry from €3k",
+    "coverage": {
+      "card1": ["Surface map", "Exposure signals", "Evidence gaps", "Escalation triggers", "Remediation pathways"],
+      "card2": ["Gate map", "Dependency view", "Evidence architecture", "Buyer objection map", "Remediation roadmap"],
+      "card3": ["Deal risk map", "Dependency concentration", "Evidence gaps", "Deal-term implications", "Post-close roadmap"]
+    },
     "card2": {
       "label": "Regulated Procurement",
       "situation": "Your client sells to regulated buyers — public administrations, banks, insurers, health systems — and deals are stalling at legal or DPO review. Or your client competes for public tenders and needs stronger evidence architecture.",
