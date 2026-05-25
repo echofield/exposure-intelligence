@@ -4,7 +4,7 @@ import Button from '../ui/Button'
 import SeverityBadge from '../ui/SeverityBadge'
 
 
-type Signal = { label: string; severity: 'Critical' | 'High' | 'Medium' | 'Low' }
+type Signal = { label: string; severity: string }
 type Gap = { item: string; status: string }
 
 export default function Hero() {

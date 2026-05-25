@@ -25,8 +25,20 @@ const config: Record<Severity, { bg: string; text: string; dot: string }> = {
   },
 }
 
-export default function SeverityBadge({ level }: { level: Severity }) {
-  const c = config[level]
+const normalizedSeverity: Record<string, Severity> = {
+  Critical: 'Critical',
+  Critique: 'Critical',
+  High: 'High',
+  Élevée: 'High',
+  Elevee: 'High',
+  Medium: 'Medium',
+  Moyenne: 'Medium',
+  Low: 'Low',
+  Faible: 'Low',
+}
+
+export default function SeverityBadge({ level }: { level: string }) {
+  const c = config[normalizedSeverity[level] ?? 'Medium']
   return (
     <span
       className={`inline-flex items-center gap-1.5 px-2 py-0.5 font-mono text-2xs font-medium uppercase tracking-widest ${c.bg} ${c.text}`}

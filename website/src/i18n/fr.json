@@ -14,16 +14,16 @@
     "ctaPrimary": "Lire le dossier d'exemple",
     "ctaSecondary": "Demande partenaire",
     "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
-    "dossierKicker": "AI Exposure Evidence Pack",
+    "dossierKicker": "Dossier de preuve technique — Exposition IA",
     "dossierTitle": "Résumé exécutif d'exposition",
     "artifactCondition": "Condition",
     "artifactSeverity": "Sévérité",
     "artifactEvidenceGaps": "Lacunes de preuve",
     "signals": [
-      { "label": "Décision automatisée — RH", "severity": "High" },
-      { "label": "Auditabilité contractuelle fournisseur", "severity": "Critical" },
-      { "label": "Documentation des sous-traitants", "severity": "Medium" },
-      { "label": "Réversibilité non testée", "severity": "High" }
+      { "label": "Décision automatisée — RH", "severity": "Élevée" },
+      { "label": "Auditabilité contractuelle fournisseur", "severity": "Critique" },
+      { "label": "Documentation des sous-traitants", "severity": "Moyenne" },
+      { "label": "Réversibilité non testée", "severity": "Élevée" }
     ],
     "gaps": [
       { "item": "Registre des systèmes IA", "status": "Non démontré" },
@@ -52,7 +52,7 @@
     "card1": {
       "label": "Déploiement IA",
       "situation": "Votre client a déployé des outils IA. Vous avez besoin d'une base de preuve technique structurée avant l'audit de conformité, l'audit social ou la présentation au conseil.",
-      "artifact": "AI Exposure Evidence Pack",
+      "artifact": "Dossier de preuve — Exposition IA",
       "price": "Dossier de preuve à partir de 8 k€",
       "role": "Couche de preuve sous un avis juridique, un avis social ou une revue de protection des données. Livré sous l'en-tête du cabinet.",
       "cta": "Voir l'offre"
@@ -61,20 +61,20 @@
     "coverage": {
       "card1": ["Cartographie des surfaces", "Signaux d'exposition", "Lacunes de preuve", "Déclencheurs d'escalade", "Voies de remédiation"],
       "card2": ["Cartographie des portes", "Vue des dépendances", "Architecture de preuve", "Cartographie des objections", "Feuille de route remédiation"],
-      "card3": ["Cartographie des risques transaction", "Concentration des dépendances", "Lacunes de preuve", "Impacts sur les termes", "Feuille de route post-closing"]
+      "card3": ["Cartographie des risques transaction", "Concentration des dépendances", "Lacunes de preuve", "Impacts sur les termes", "Feuille de route post-acquisition"]
     },
     "card2": {
       "label": "Marchés régulés",
       "situation": "Votre client vend à des acheteurs régulés — administrations, banques, assureurs, systèmes de santé — et les contrats bloquent au stade juridique ou DPO. Ou votre client concourt à des appels d'offres publics et a besoin d'une architecture de preuve plus solide.",
-      "artifact": "Sovereign Procurement Dossier · Construction Procurement Dossier",
+      "artifact": "Dossier d'achat souverain · Dossier d'achat construction",
       "price": "À partir de 25 k€ (analyse d'alerte rapide)",
       "role": "Structuration d'accès au marché. Transforme un blocage d'achat en mandat de structuration facturable. Livré sous l'en-tête du cabinet.",
       "cta": "Voir l'offre"
     },
     "card3": {
       "label": "Transaction",
-      "situation": "Votre client évalue une cible européenne avec une dépendance IA significative. Vous avez besoin d'intelligence transactionnelle sur la concentration des dépendances, l'exposition des données clients, les incohérences contractuelles et le coût de remédiation post-closing.",
-      "artifact": "PE AI Dependency Diligence Pack",
+      "situation": "Votre client évalue une cible européenne avec une dépendance IA significative. Vous avez besoin d'intelligence transactionnelle sur la concentration des dépendances, l'exposition des données clients, les incohérences contractuelles et le coût de remédiation post-acquisition.",
+      "artifact": "Dossier de diligence — Dépendances IA PE",
       "price": "À partir de 15 k€ (analyse d'alerte rapide)",
       "role": "Instrument d'intelligence transactionnelle. Traduit le narratif IA en position de souscription étayée par les preuves. Livré sous l'en-tête du cabinet.",
       "cta": "Voir l'offre"
@@ -86,21 +86,21 @@
     "subhead": "Deux artefacts phares pour les mandats où la couche de preuve doit porter le poids d'une campagne d'achat public régulé, d'une transaction ou d'une revue de portefeuille.",
     "sovereign": {
       "meta": "Marchés publics · Marchés régulés",
-      "title": "Sovereign Procurement Dossier",
+      "title": "Dossier d'achat souverain",
       "lead": "L'architecture de preuve, de contrat et de réversibilité qui permet à un acheteur régulé de dire oui.",
-      "body1": "Conçu pour les éditeurs SaaS européens et les prestataires de services IA visant des acheteurs publics, des acteurs de la santé, du secteur financier ou des infrastructures critiques exigeant des preuves de souveraineté, la réversibilité DORA et la clarté sur le rôle au regard de l'AI Act.",
-      "body2": "Couvre six portes d'achat : souveraineté et données sensibles, résilience opérationnelle et réversibilité, rôle et usage prévu au titre de l'AI Act, protection des données et sous-traitance, responsabilité produit, et critères d'achat stratégiques.",
-      "body3": "Livraisons : matrice de contrôle de souveraineté, architecture de réversibilité DORA, matrice rôle/usage AI Act, carte des objections acheteur, programme de clauses contractuelles, feuille de route de remédiation complète et pack de réponse aux appels d'offres.",
+      "body1": "Conçu pour les éditeurs SaaS européens et les prestataires de services IA visant des acheteurs publics, des acteurs de la santé, du secteur financier ou des infrastructures critiques exigeant des preuves de souveraineté, la réversibilité DORA et la clarté sur le rôle au regard du règlement IA.",
+      "body2": "Couvre six portes d'achat : souveraineté et données sensibles, résilience opérationnelle et réversibilité, rôle et usage prévu au titre du règlement IA, protection des données et sous-traitance, responsabilité produit, et critères d'achat stratégiques.",
+      "body3": "Livraisons : matrice de contrôle de souveraineté, architecture de réversibilité DORA, matrice rôle/usage règlement IA, carte des objections acheteur, programme de clauses contractuelles, feuille de route de remédiation complète et dossier de réponse aux appels d'offres.",
       "price": "Analyse d'alerte à partir de 25 k€ · Dossier complet à partir de 75 k€",
       "cta": "Lire l'aperçu du dossier"
     },
     "pe": {
       "meta": "Transaction · M&A · Capital-investissement",
-      "title": "PE AI Dependency Diligence Pack",
+      "title": "Dossier de diligence — Dépendances IA PE",
       "lead": "L'intelligence transactionnelle qui sépare la prime de narratif IA de la prime de contrôle IA.",
-      "body1": "Conçu pour les sponsors PE, les conseils en M&A et les operating partners évaluant des cibles SaaS européennes où la dépendance IA influe sur la valorisation, la rétention clients, l'accès réglementaire et l'intégration post-closing.",
-      "body2": "Couvre : concentration des dépendances, risque de substitution de modèle, opacité des flux de données, exposition des données clients, rétention de prompts et d'outputs, dépendance sous-traitants, provenance IP, incohérence architecturale contractuelle, réversibilité et fragilité de valorisation.",
-      "body3": "Livraisons : carte de concentration des dépendances, assessment des deal-killers, cartes d'objections pour le sponsor, le conseil et le prêteur, liste de demandes de preuves sur trois niveaux de priorité, feuille de route de remédiation post-closing et synthèse conseil.",
+      "body1": "Conçu pour les fonds PE, les conseils en M&A et les partenaires opérationnels évaluant des cibles SaaS européennes où la dépendance IA influe sur la valorisation, la rétention clients, l'accès réglementaire et l'intégration post-acquisition.",
+      "body2": "Couvre : concentration des dépendances, risque de substitution de modèle, opacité des flux de données, exposition des données clients, conservation des requêtes et des sorties, dépendance aux sous-traitants, provenance PI, incohérence entre architecture et contrats, réversibilité et fragilité de valorisation.",
+      "body3": "Livraisons : carte de concentration des dépendances, évaluation des risques rédhibitoires, cartes d'objections pour le fonds, le conseil et le prêteur, liste de demandes de preuves sur trois niveaux de priorité, feuille de route de remédiation post-acquisition et synthèse conseil.",
       "price": "Analyse d'alerte à partir de 15 k€ · Due diligence complète à partir de 40 k€ · Revue de portefeuille à partir de 150 k€",
       "cta": "Lire l'aperçu du dossier"
     },
@@ -112,7 +112,7 @@
       "item2Title": "Sovereign Procurement",
       "item2Body": "Carte des portes, architecture de preuve, réversibilité et gestion des objections acheteur.",
       "item3Title": "PE AI Dependency",
-      "item3Body": "Concentration des dépendances, substitution de modèle, fragilité de valorisation et contrôles Jour-1."
+      "item3Body": "Concentration des dépendances, substitution de modèle, fragilité de valorisation et contrôles du jour 1."
     }
   },
   "partners": {
@@ -150,11 +150,11 @@
     "case3": {
       "context": "Conseil en M&A · Advisory capital-investissement",
       "title": "Due diligence PE",
-      "situation": "Un sponsor PE évalue une cible européenne en HR-tech. L'IA est centrale dans le narratif produit et dans le multiple. Le comité d'investissement doit savoir si la dépendance IA est un actif ou une fragilité avant la signature.",
+      "situation": "Un fonds PE évalue une cible européenne en technologie RH. L'IA est centrale dans le narratif produit et dans le multiple. Le comité d'investissement doit savoir si la dépendance IA est un actif ou une fragilité avant la signature.",
       "producesLabel": "Ce que l'artefact produit",
-      "produces": "Carte de concentration des dépendances IA. Assessment d'exposition des données clients. Revue des incohérences architecturales contractuelles. Éléments d'ajustement de valorisation. Feuille de route de remédiation post-closing.",
+      "produces": "Carte de concentration des dépendances IA. Évaluation de l'exposition des données clients. Revue des incohérences architecturales contractuelles. Éléments d'ajustement de valorisation. Feuille de route de remédiation post-acquisition.",
       "partnerLabel": "Ce que le partenaire en fait",
-      "partner": "L'utilise comme instrument d'intelligence transactionnelle pour le prix, le séquestre, les garanties et le plan d'intégration Jour-1. Le facture comme support à la transaction. Le sponsor clôt sur des preuves, pas sur le narratif IA."
+      "partner": "L'utilise comme instrument d'intelligence transactionnelle pour le prix, le séquestre, les garanties et le plan d'intégration du jour 1. Le facture comme support à la transaction. Le fonds clôt sur des preuves, pas sur le narratif IA."
     }
   },
   "origination": {
@@ -174,7 +174,7 @@
   "inquiry": {
     "sampleEyebrow": "Dossier d'exemple",
     "sampleHeading": "Lire le dossier d'exemple.",
-    "sampleBody": "Le dossier FR-CORPORATE-MID est un dossier de preuve complet pour une ETI française de services B2B utilisant Microsoft Copilot et un assistant de scoring CRM. Aucune explication requise. L'artefact parle de lui-même.",
+    "sampleBody": "Le dossier FR-CORPORATE-MID est un dossier de preuve complet pour une ETI française de services B2B utilisant Microsoft Copilot et un assistant de notation CRM. Aucune explication requise. L'artefact parle de lui-même.",
     "sampleCta": "Lire le dossier",
     "formEyebrow": "Partenaires conseil",
     "formHeading": "Demande partenaire",
@@ -199,7 +199,7 @@
   },
   "samplePage": {
     "backLink": "← Exposure Intelligence",
-    "kicker": "AI Exposure Evidence Pack",
+    "kicker": "Dossier de preuve technique — Exposition IA",
     "partnerLink": "Demande partenaire →",
     "classification": "Archétype FR-CORPORATE-MID · Usage partenaire",
     "specimen": "Spécimen — non destiné à la distribution",
