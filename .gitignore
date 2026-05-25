@@ -1,6 +1,7 @@
 node_modules/
 website/node_modules/
 website/dist/
+dist/
 engine/generated/*.md
 engine/generated/*.pdf
 *.log
