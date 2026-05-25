@@ -42,7 +42,7 @@ export default function Mandates() {
               </p>
             </div>
 
-            {/* Artifact name — leads the card */}
+            {/* Artifact name - leads the card */}
             <h3 className="text-[20px] leading-[1.28] mb-4">
               {t(`mandates.${card}.artifact`)}
             </h3>
@@ -52,7 +52,7 @@ export default function Mandates() {
               {t(`mandates.${card}.situation`)}
             </p>
 
-            {/* Coverage — structural metadata in mono */}
+            {/* Coverage - structural metadata in mono */}
             <div className="mt-6 pt-5 border-t border-ink/10">
               <p className="font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-ink/35 mb-2.5">
                 {t('mandates.coverageLabel')}
@@ -69,7 +69,7 @@ export default function Mandates() {
               </div>
             </div>
 
-            {/* Price — entry path prominent */}
+            {/* Price - entry path prominent */}
             <div className="mt-5 pt-5 border-t border-ink/10">
               <p className="font-bold text-oxblood text-[14px]">
                 {t(`mandates.${card}.price`)}

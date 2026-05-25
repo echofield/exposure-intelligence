@@ -15,13 +15,13 @@
     "ctaPrimary": "Lire le dossier d'exemple",
     "ctaSecondary": "Demande partenaire",
     "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
-    "dossierKicker": "Dossier de preuve technique — Exposition IA",
+    "dossierKicker": "Dossier de preuve technique - Exposition IA",
     "dossierTitle": "Résumé exécutif d'exposition",
     "artifactCondition": "Condition",
     "artifactSeverity": "Sévérité",
     "artifactEvidenceGaps": "Lacunes de preuve",
     "signals": [
-      { "label": "Décision automatisée — RH", "severity": "Élevée" },
+      { "label": "Décision automatisée - RH", "severity": "Élevée" },
       { "label": "Auditabilité contractuelle fournisseur", "severity": "Critique" },
       { "label": "Documentation des sous-traitants", "severity": "Moyenne" },
       { "label": "Réversibilité non testée", "severity": "Élevée" }
@@ -33,15 +33,15 @@
     ]
   },
   "pressure": {
-    "p1": "Les entreprises, prestataires et investisseurs européens font face à une exigence concrète : produire des preuves techniques structurées — et non des déclarations d'intention — sur le déploiement de l'IA, l'admissibilité aux marchés et l'exposition dans les transactions.",
+    "p1": "Les entreprises, prestataires et investisseurs européens font face à une exigence concrète : produire des preuves techniques structurées - et non des déclarations d'intention - sur le déploiement de l'IA, l'admissibilité aux marchés et l'exposition dans les transactions.",
     "p2": "Les régulateurs, acheteurs publics, institutions financières et équipes de transaction ne demandent plus des référentiels de gouvernance. Ils demandent des preuves.",
-    "p3": "Les cabinets capables de produire ces preuves pour leurs clients — rapidement, sous leur propre nom — capteront les mandats."
+    "p3": "Les cabinets capables de produire ces preuves pour leurs clients - rapidement, sous leur propre nom - capteront les mandats."
   },
   "model": {
     "eyebrow": "Modèle opérationnel",
     "heading": "Fonctionnement",
     "artifactLabel": "L'artefact",
-    "artifactBody": "Un artefact de preuve technique structurée. Construit à partir d'un archétype client — secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée opérationnelle du client final ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré comme document signé par votre cabinet.",
+    "artifactBody": "Un artefact de preuve technique structurée. Construit à partir d'un archétype client - secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée opérationnelle du client final ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré comme document signé par votre cabinet.",
     "partnerLabel": "Le rôle du partenaire",
     "partnerBody": "Le partenaire le déploie sous son en-tête. Comme couche de preuve sous un avis juridique, un mandat de marché public, une note de due diligence ou une présentation au conseil d'administration. L'artefact crée la base factuelle. Le partenaire crée l'interprétation juridique.",
     "doctrine": "L'artefact fait remonter les conditions. L'avocat nomme la loi."
@@ -104,7 +104,7 @@
     "card1": {
       "label": "Déploiement IA",
       "situation": "Votre client a déployé des outils IA. Vous avez besoin d'une base de preuve technique structurée avant l'audit de conformité, l'audit social ou la présentation au conseil.",
-      "artifact": "Dossier de preuve — Exposition IA",
+      "artifact": "Dossier de preuve - Exposition IA",
       "price": "Dossier de preuve à partir de 8 k€",
       "role": "Couche de preuve sous un avis juridique, un avis social ou une revue de protection des données. Livré sous l'en-tête du cabinet.",
       "cta": "Voir l'offre"
@@ -117,7 +117,7 @@
     },
     "card2": {
       "label": "Marchés régulés",
-      "situation": "Votre client vend à des acheteurs régulés — administrations, banques, assureurs, systèmes de santé — et les contrats bloquent au stade juridique ou DPO. Ou votre client concourt à des appels d'offres publics et a besoin d'une architecture de preuve plus solide.",
+      "situation": "Votre client vend à des acheteurs régulés - administrations, banques, assureurs, systèmes de santé - et les contrats bloquent au stade juridique ou DPO. Ou votre client concourt à des appels d'offres publics et a besoin d'une architecture de preuve plus solide.",
       "artifact": "Dossier d'achat souverain · Dossier d'achat construction",
       "price": "À partir de 25 k€ (analyse d'alerte rapide)",
       "role": "Structuration d'accès au marché. Transforme un blocage d'achat en mandat de structuration facturable. Livré sous l'en-tête du cabinet.",
@@ -126,7 +126,7 @@
     "card3": {
       "label": "Transaction",
       "situation": "Votre client évalue une cible européenne avec une dépendance IA significative. Vous avez besoin d'intelligence transactionnelle sur la concentration des dépendances, l'exposition des données clients, les incohérences contractuelles et le coût de remédiation post-acquisition.",
-      "artifact": "Dossier de diligence — Dépendances IA PE",
+      "artifact": "Dossier de diligence - Dépendances IA PE",
       "price": "À partir de 15 k€ (analyse d'alerte rapide)",
       "role": "Instrument d'intelligence transactionnelle. Traduit le narratif IA en position de souscription étayée par les preuves. Livré sous l'en-tête du cabinet.",
       "cta": "Voir l'offre"
@@ -148,7 +148,7 @@
     },
     "pe": {
       "meta": "Transaction · M&A · Capital-investissement",
-      "title": "Dossier de diligence — Dépendances IA PE",
+      "title": "Dossier de diligence - Dépendances IA PE",
       "lead": "L'intelligence transactionnelle qui sépare la prime de narratif IA de la prime de contrôle IA.",
       "body1": "Conçu pour les fonds PE, les conseils en M&A et les partenaires opérationnels évaluant des cibles SaaS européennes où la dépendance IA influe sur la valorisation, la rétention clients, l'accès réglementaire et l'intégration post-acquisition.",
       "body2": "Couvre : concentration des dépendances, risque de substitution de modèle, opacité des flux de données, exposition des données clients, conservation des requêtes et des sorties, dépendance aux sous-traitants, provenance PI, incohérence entre architecture et contrats, réversibilité et fragilité de valorisation.",
@@ -172,7 +172,7 @@
     "heading": "Conçu pour les cabinets boutique",
     "subhead": "Marque blanche. Sous votre en-tête. Sans ingestion de données opérationnelles client.",
     "p1": "L'artefact est construit à partir d'un archétype client, et non à partir des données opérationnelles du client final. Aucun système, contrat, document ou dossier client n'est accédé. Aucun logiciel n'est installé. Aucun accord de traitement portant sur les données opérationnelles du client final n'est requis. Vous recevez un document. Vous le signez. Vous le facturez.",
-    "p2": "Vos clients reçoivent déjà des questions sur le risque IA. Les régulateurs, acheteurs publics, institutions financières et équipes de transaction créent une pression à laquelle les conseils juridiques ne peuvent plus répondre avec des référentiels seuls. Les cabinets capables de répondre à ces questions avec des preuves techniques structurées — sous leur propre nom — tiennent la relation de conseil.",
+    "p2": "Vos clients reçoivent déjà des questions sur le risque IA. Les régulateurs, acheteurs publics, institutions financières et équipes de transaction créent une pression à laquelle les conseils juridiques ne peuvent plus répondre avec des référentiels seuls. Les cabinets capables de répondre à ces questions avec des preuves techniques structurées - sous leur propre nom - tiennent la relation de conseil.",
     "p3": "L'artefact est la couche de preuve. Votre interprétation est l'avis juridique. Cette division du travail vous rend plus précieux pour le client, pas moins.",
     "cta": "Demande partenaire",
     "demoLink": "Voir une démonstration de dossier →",
@@ -213,7 +213,7 @@
     "eyebrow": "Pilote origination",
     "heading": "Intelligence d'origination privée.",
     "subhead": "Sur dossier. Partenaires sélectionnés uniquement.",
-    "body": "Pour les partenaires qui conseillent des clients sur des transactions, des restructurations ou des mandats stratégiques où l'identification précoce de l'exposition IA — avant l'ouverture formelle de la due diligence — modifie l'économie de l'engagement. L'accès est sur dossier et examiné individuellement.",
+    "body": "Pour les partenaires qui conseillent des clients sur des transactions, des restructurations ou des mandats stratégiques où l'identification précoce de l'exposition IA - avant l'ouverture formelle de la due diligence - modifie l'économie de l'engagement. L'accès est sur dossier et examiné individuellement.",
     "signalLabel": "Ce que cela fait remonter",
     "signals": [
       "Fenêtres d'approche avant l'ouverture formelle des mandats",
@@ -243,8 +243,8 @@
     "q2d": "Belgique",
     "q2e": "Autre",
     "q3legend": "Avez-vous un premier client en tête ?",
-    "q3a": "Oui — j'ai un client spécifique qui pourrait s'engager dans les 90 prochains jours",
-    "q3b": "Pas encore — j'évalue le produit pour ma pratique",
+    "q3a": "Oui - j'ai un client spécifique qui pourrait s'engager dans les 90 prochains jours",
+    "q3b": "Pas encore - j'évalue le produit pour ma pratique",
     "submit": "Envoyer la demande",
     "commitment": "Réponse sous 48 heures. Premier échange : appel de cadrage, pas de pitch.",
     "validationError": "Sélectionnez une réponse pour chaque question avant d'envoyer.",
@@ -252,10 +252,10 @@
   },
   "samplePage": {
     "backLink": "← Exposure Intelligence",
-    "kicker": "Dossier de preuve technique — Exposition IA",
+    "kicker": "Dossier de preuve technique - Exposition IA",
     "partnerLink": "Demande partenaire →",
     "classification": "Archétype FR-CORPORATE-MID · Usage partenaire",
-    "specimen": "Spécimen — non destiné à la distribution",
+    "specimen": "Spécimen - non destiné à la distribution",
     "loading": "Chargement…",
     "notFound": "Dossier introuvable.",
     "footerNote": "Ce dossier est construit sur archétype. Aucune donnée opérationnelle du client final n’est ingérée. Votre cabinet le déploie sous son en-tête.",

@@ -3,7 +3,7 @@ import { fetchProducts, generateDossier, exportPdf } from '../../api/engine'
 import type { Product, DossierOptions, GenerateResult } from '../../api/engine'
 import MarkdownView from './MarkdownView'
 
-// Embedded sample intakes — archetype-based, no client data
+// Embedded sample intakes - archetype-based, no client data
 const INTAKES: Record<string, Record<string, unknown>> = {
   'fr-corporate-mid': {
     archetypeId: 'FR-CORPORATE-MID',
@@ -87,8 +87,8 @@ const INTAKES: Record<string, Record<string, unknown>> = {
 }
 
 const INTAKE_LABELS: Record<string, string> = {
-  'fr-corporate-mid': 'FR-CORPORATE-MID — Services B2B · France · Mid-market',
-  'pe-saas-target':   'PE-SAAS-TARGET — SaaS · Transaction · Dépendance élevée',
+  'fr-corporate-mid': 'FR-CORPORATE-MID - Services B2B · France · Mid-market',
+  'pe-saas-target':   'PE-SAAS-TARGET - SaaS · Transaction · Dépendance élevée',
 }
 
 const today = new Date().toISOString().slice(0, 10)
@@ -222,7 +222,7 @@ export default function DemoPage() {
           {backend === 'down' && (
             <span className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 border border-high/30 bg-high/8 text-high text-[10px] font-mono uppercase tracking-widest">
               <span className="w-1.5 h-1.5 rounded-full bg-high flex-shrink-0" />
-              Moteur hors ligne — npm run engine:server
+              Moteur hors ligne - npm run engine:server
             </span>
           )}
           {backend === 'ok' && (
@@ -241,10 +241,10 @@ export default function DemoPage() {
         <aside className="w-full lg:w-[400px] flex-shrink-0 border-r border-ink/10 bg-[rgba(250,248,241,0.55)] overflow-y-auto">
           <div className="p-6 space-y-8">
 
-            {/* 01 — Product */}
+            {/* 01 - Product */}
             <section>
               <p className="font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-ink/35 mb-3">
-                01 — Produit
+                01 - Produit
               </p>
               <div className="space-y-1.5">
                 {products.length === 0 && (
@@ -273,10 +273,10 @@ export default function DemoPage() {
               </div>
             </section>
 
-            {/* 02 — Archetype */}
+            {/* 02 - Archetype */}
             <section>
               <p className="font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-ink/35 mb-3">
-                02 — Archétype de test
+                02 - Archétype de test
               </p>
               <div className="space-y-1.5">
                 {Object.entries(INTAKE_LABELS).map(([key, label]) => (
@@ -295,10 +295,10 @@ export default function DemoPage() {
               </div>
             </section>
 
-            {/* 03 — Partner metadata */}
+            {/* 03 - Partner metadata */}
             <section>
               <p className="font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-ink/35 mb-3">
-                03 — Métadonnées cabinet
+                03 - Métadonnées cabinet
               </p>
               <div className="space-y-3">
                 {(

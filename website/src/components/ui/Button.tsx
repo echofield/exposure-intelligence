@@ -10,7 +10,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const variants: Record<Variant, string> = {
   primary:
-    'bg-moss text-white border border-transparent hover:-translate-y-px',
+    'bg-ink text-paper border border-ink hover:-translate-y-px',
   secondary:
     'bg-white/40 text-ink border border-ink/25 hover:-translate-y-px',
   ghost:

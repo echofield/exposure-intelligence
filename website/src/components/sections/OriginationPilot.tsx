@@ -30,7 +30,7 @@ export default function OriginationPilot() {
             </p>
           </div>
 
-          {/* Right — signals + CTA */}
+          {/* Right - signals + CTA */}
           <div className="border border-white/10 bg-white/[0.04] p-8">
             <p className="font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-white/35 mb-5">
               {t('origination.signalLabel')}

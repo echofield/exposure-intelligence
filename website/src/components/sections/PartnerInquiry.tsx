@@ -65,7 +65,7 @@ export default function PartnerInquiry() {
           {t('inquiry.sampleBody')}
         </p>
         <div className="mt-7 flex flex-wrap gap-3">
-          <Button as="a" href="/sample" variant="primary">
+          <Button as="a" href="/sample" variant="light">
             {t('inquiry.sampleCta')}
           </Button>
           <a

@@ -1,11 +1,11 @@
-# Dossier de preuve technique — Exposition IA
+# Dossier de preuve technique - Exposition IA
 
 | Dimension | Valeur |
 |---|---|
 | Archétype | FR-CORPORATE-MID |
 | Juridiction | France |
 | Secteur | Services professionnels B2B |
-| Préparé pour | [Cabinet conseil — usage sous son en-tête] |
+| Préparé pour | [Cabinet conseil - usage sous son en-tête] |
 | Date | [DATE] |
 | Référence | EI-FR-MID-001 |
 | Version | 1.0 |
@@ -20,7 +20,7 @@ Les constats reposent sur une évaluation par archétype. Aucune donnée client 
 
 ---
 
-## Section 1 — Synthèse d’exposition
+## Section 1 - Synthèse d’exposition
 
 ### Archétype examiné
 
@@ -50,7 +50,7 @@ L’exposition est maîtrisable et bornée, mais la posture de gouvernance actue
 
 ---
 
-## Section 2 — Périmètre et méthodologie
+## Section 2 - Périmètre et méthodologie
 
 ### Base de l’évaluation
 
@@ -90,7 +90,7 @@ Ce rapport repose sur une évaluation structurée par archétype, conduite contr
 
 ---
 
-## Section 3 — Cartographie de l’exposition aux usages IA
+## Section 3 - Cartographie de l’exposition aux usages IA
 
 ### Vue d’ensemble
 
@@ -119,7 +119,7 @@ Le modèle de déploiement crée une large couverture de surface à faible frict
 
 ---
 
-## Section 4 — Vue des dépendances fournisseurs
+## Section 4 - Vue des dépendances fournisseurs
 
 ### Vue d’ensemble
 
@@ -146,7 +146,7 @@ La surface IA de l’entité est intégralement d’origine externe. Aucune capa
 
 ---
 
-## Section 5 — Angles morts de gouvernance et lacunes de preuve
+## Section 5 - Angles morts de gouvernance et lacunes de preuve
 
 Cette section identifie ce qui devrait structurellement exister pour cet archétype, et qui n’existe pas. L’absence est un signal de preuve.
 
@@ -190,9 +190,9 @@ Les questions d’exposition suivantes ne peuvent être résolues au niveau de l
 
 ---
 
-## Section 6 — Signaux d’exposition réglementaire et opérationnelle
+## Section 6 - Signaux d’exposition réglementaire et opérationnelle
 
-### Signaux d’exposition — règlement IA
+### Signaux d’exposition - règlement IA
 
 | Condition | Sévérité | Statut |
 |---|---|---|
@@ -200,7 +200,7 @@ Les questions d’exposition suivantes ne peuvent être résolues au niveau de l
 | Aucune évaluation des outils IA en usage n’a été menée au regard des catégories de risque applicables. Le statut de classification des deux outils déployés est indéterminé. | Moyenne | Confirmé au niveau archétype |
 | Aucune information aux salariés sur le fait que les outils IA traitent leurs communications, transcriptions de réunions et activité professionnelle. | Moyenne | Confirmé au niveau archétype |
 
-### Signaux d’exposition — protection des données
+### Signaux d’exposition - protection des données
 
 | Condition | Sévérité | Statut |
 |---|---|---|
@@ -209,7 +209,7 @@ Les questions d’exposition suivantes ne peuvent être résolues au niveau de l
 | Aucune base légale documentée pour le traitement par Copilot des communications et réunions des salariés. | Moyenne | Confirmé au niveau archétype |
 | La notation CRM génère des indicateurs individuels. Aucune procédure de revue humaine documentée pour les usages à proximité de l’emploi. La question de savoir si ces sorties ont influencé des décisions d’emploi requiert une vérification entité. | Élevée | Vérification entité requise |
 
-### Signaux d’exposition — emploi et RH
+### Signaux d’exposition - emploi et RH
 
 Les sorties de notation CRM sont structurées au niveau du salarié individuel. Les scores sont attribués à des commerciaux nommément désignés et visibles par leurs responsables directs. Aucune frontière documentée n’empêche que ces sorties soient référencées dans des décisions d’emploi. Aucun enregistrement de neutralisation, de contestation ou d’exclusion n’existe.
 
@@ -217,26 +217,26 @@ Aucun élément, au niveau de l’archétype, n’indique que le CSE a été inf
 
 Si des indicateurs de notation ont été consultés dans une évaluation, un calcul de prime ou une allocation de territoire, ou si des transcriptions de réunions ont été utilisées dans une procédure RH, les deux conditions requièrent une appréciation juridique avant que les outils ne se poursuivent dans leur configuration actuelle.
 
-### Signaux d’exposition — PI et contenu
+### Signaux d’exposition - PI et contenu
 
 Le contenu généré par Copilot et utilisé dans des livrables clients, propositions ou documents juridiques sans revue crée une responsabilité spécifique en matière de propriété intellectuelle et d’exactitude. L’entité ne peut démontrer ce qui a été généré par l’IA par opposition à ce qui a été rédigé par un humain, ni démontrer que les erreurs générées par l’IA ont été détectées avant livraison. En l’absence de procédure de revue interne, l’entité supporte l’entière responsabilité de tout contenu généré par l’IA utilisé dans le travail destiné au client.
 
-### Signaux d’exposition — achats et fournisseurs
+### Signaux d’exposition - achats et fournisseurs
 
 - L’accord de traitement Microsoft n’énumère pas le traitement par les fonctions IA. Le libellé standard de l’accord de traitement M365 peut ne pas couvrir les opérations IA de Copilot comme activités de traitement distinctes. Cela crée un écart entre le traitement réel et le traitement documenté au registre et dans l’accord de traitement.
 - Les conditions IA de l’éditeur CRM ne contiennent aucune obligation de notification de changement de modèle. L’éditeur peut mettre à jour le modèle de notation sans informer l’entité, modifiant potentiellement la base de génération des scores individuels. L’entité ne dispose d’aucun droit contractuel d’auditer le modèle ou d’en contester les sorties.
 
-### Signaux d’exposition — conseil d’administration et redevabilité
+### Signaux d’exposition - conseil d’administration et redevabilité
 
 Si des synthèses de direction assistées par Copilot ou des rapports de tunnel commercial générés par le CRM sont présentés au conseil sans divulgation de l’assistance IA et sans étape de revue humaine documentée, les dirigeants ne peuvent démontrer que les informations sur lesquelles ils se sont appuyés ont été vérifiées quant à leur exactitude avant la prise de décision au niveau du conseil.
 
 ---
 
-## Section 7 — Voies de remédiation technique
+## Section 7 - Voies de remédiation technique
 
 Ces voies réduisent l’exposition de cet archétype. Elles ne constituent pas un avis juridique. Une revue juridique est requise pour confirmer l’adéquation de leur mise en œuvre.
 
-### Priorité 1 — Immédiat
+### Priorité 1 - Immédiat
 
 1. Inventaire des cas d’usage IA : désigner un responsable nommé. Documenter chaque outil IA en usage actif : nom, éditeur, fonction, catégorie de données, existence d’un accord de traitement, et périmètre de déploiement. Copilot et l’assistant de notation CRM en sont les premières entrées. Étendre à tous les autres outils au fur et à mesure de leur identification.
 
@@ -244,31 +244,31 @@ Ces voies réduisent l’exposition de cet archétype. Elles ne constituent pas 
 
 3. Politique interne d’usage de l’IA, premier projet : rédiger une politique d’une page couvrant les outils IA autorisés, les cas d’usage interdits, comme le traitement de données confidentielles client via des outils IA grand public ou l’usage de l’IA dans des procédures disciplinaires sans autorisation, et les règles applicables au contenu généré par l’IA dans les communications externes. Faire revoir par les RH et le juridique avant publication.
 
-### Priorité 2 — Court terme
+### Priorité 2 - Court terme
 
 1. Évaluation CSE : mobiliser un conseil en droit social pour déterminer si Copilot et l’assistant de notation CRM nécessitaient une consultation préalable du CSE, et pour structurer le processus approprié si elle n’a pas encore été menée.
 
-2. Information des salariés — Copilot : revue juridique requise pour déterminer la portée et la forme de l’information des salariés concernant les capacités de transcription de réunions et de traitement de courriels de Copilot. Ne pas rédiger sans l’avis d’un conseil sur les exigences applicables.
+2. Information des salariés - Copilot : revue juridique requise pour déterminer la portée et la forme de l’information des salariés concernant les capacités de transcription de réunions et de traitement de courriels de Copilot. Ne pas rédiger sans l’avis d’un conseil sur les exigences applicables.
 
 3. AIPD pour Copilot : commander une analyse d’impact relative à la protection des données couvrant le traitement par Copilot des courriels, transcriptions et documents internes des salariés. L’AIPD devra notamment traiter la base légale, les options de configuration de minimisation, la conservation et les droits des salariés.
 
-4. Revue contractuelle — accord de traitement Microsoft : revue juridique de l’accord de traitement M365 actuel et des conditions propres à Copilot pour confirmer l’énumération des opérations IA de Copilot, la couverture de la localisation des données pour l’ensemble du traitement IA, l’actualité de la divulgation des sous-traitants et l’adéquation des mécanismes de transfert.
+4. Revue contractuelle - accord de traitement Microsoft : revue juridique de l’accord de traitement M365 actuel et des conditions propres à Copilot pour confirmer l’énumération des opérations IA de Copilot, la couverture de la localisation des données pour l’ensemble du traitement IA, l’actualité de la divulgation des sous-traitants et l’adéquation des mécanismes de transfert.
 
-5. Revue contractuelle — assistant de notation CRM : revue juridique des conditions IA de l’éditeur CRM pour identifier les lacunes dans les obligations de sous-traitant, l’absence de notification de changement de modèle et l’absence de droits d’audit. Apprécier si une renégociation est envisageable ou si des mesures compensatoires sont nécessaires.
+5. Revue contractuelle - assistant de notation CRM : revue juridique des conditions IA de l’éditeur CRM pour identifier les lacunes dans les obligations de sous-traitant, l’absence de notification de changement de modèle et l’absence de droits d’audit. Apprécier si une renégociation est envisageable ou si des mesures compensatoires sont nécessaires.
 
-### Priorité 3 — Structuré
+### Priorité 3 - Structuré
 
 1. Exercice de classification IA : commander une revue formelle de l’assistant de notation CRM au regard des catégories de risque applicables, avec une attention particulière à son usage à proximité de l’emploi. Le résultat détermine si des obligations contraignantes s’appliquent au déploiement actuel de l’outil.
 
 2. Mise à jour du registre des traitements : ajouter Copilot et l’assistant de notation CRM comme inscriptions distinctes, avec finalité de traitement, catégorie de données, base légale, durée de conservation et références des sous-traitants propres.
 
-3. Procédure de supervision humaine — notation CRM : documenter une procédure formelle définissant qui revoit les scores avant qu’ils n’informent une décision à proximité de l’emploi, quelle autorité de neutralisation cette personne détient, et comment les neutralisations sont consignées. Définir « à proximité de l’emploi » comme incluant les liens entre indicateurs de tunnel commercial et performance.
+3. Procédure de supervision humaine - notation CRM : documenter une procédure formelle définissant qui revoit les scores avant qu’ils n’informent une décision à proximité de l’emploi, quelle autorité de neutralisation cette personne détient, et comment les neutralisations sont consignées. Définir « à proximité de l’emploi » comme incluant les liens entre indicateurs de tunnel commercial et performance.
 
 4. Questionnaire d’achat : développer un jeu de questions de gouvernance IA standard pour tout référencement de nouveau fournisseur dont les outils IA traitent des données personnelles. Questions minimales : un accord de traitement couvrant spécifiquement les opérations IA est-il disponible ? Quelle est la procédure de notification de changement de modèle ? Quelles garanties de suppression s’appliquent aux données traitées par l’IA ? Quels droits d’audit l’entité détient-elle ?
 
 ---
 
-## Section 8 — Signaux d’escalade pour revue juridique
+## Section 8 - Signaux d’escalade pour revue juridique
 
 Ces conditions, si elles sont identifiées dans une entité correspondant à cet archétype, requièrent un engagement immédiat avec un conseil juridique qualifié avant tout nouveau déploiement IA ou poursuite d’usage.
 
@@ -285,7 +285,7 @@ Ces conditions, si elles sont identifiées dans une entité correspondant à cet
 
 ---
 
-## Section 9 — Annexes
+## Section 9 - Annexes
 
 ### A. Archétype en entrée
 
@@ -341,7 +341,7 @@ Documents qui seraient demandés au début d’une revue juridique de cet arché
 
 **Lacune de preuve :** élément de documentation qui devrait structurellement exister pour une entité de ce profil mais qui est absent ou invérifiable au niveau de l’archétype. L’absence n’établit pas une violation, elle identifie une condition requérant une appréciation juridique.
 
-**CSE — Comité social et économique :** instance représentative du personnel dans les entreprises françaises. Les droits d’information et de consultation relatifs aux technologies de travail sont déterminés par les dispositions du droit social applicables. La portée requiert une appréciation juridique pour tout déploiement donné.
+**CSE - Comité social et économique :** instance représentative du personnel dans les entreprises françaises. Les droits d’information et de consultation relatifs aux technologies de travail sont déterminés par les dispositions du droit social applicables. La portée requiert une appréciation juridique pour tout déploiement donné.
 
 ### E. Questionnaire de prochaine étape
 

@@ -21,7 +21,7 @@
     "artifactSeverity": "Severity",
     "artifactEvidenceGaps": "Evidence Gaps",
     "signals": [
-      { "label": "Automated decision — HR surface", "severity": "High" },
+      { "label": "Automated decision - HR surface", "severity": "High" },
       { "label": "Vendor contract auditability gap", "severity": "Critical" },
       { "label": "Sub-processor documentation", "severity": "Medium" },
       { "label": "Reversibility not tested", "severity": "High" }
@@ -33,15 +33,15 @@
     ]
   },
   "pressure": {
-    "p1": "European companies, vendors, and investors now face a concrete demand: produce structured technical evidence — not policy statements — on AI deployment, procurement admissibility, and transaction exposure.",
+    "p1": "European companies, vendors, and investors now face a concrete demand: produce structured technical evidence - not policy statements - on AI deployment, procurement admissibility, and transaction exposure.",
     "p2": "Regulators, public buyers, financial institutions, and deal teams are not asking for more governance frameworks. They are asking for proof.",
-    "p3": "The firms that can produce that proof on behalf of their clients — quickly, under their own name — will capture the mandate."
+    "p3": "The firms that can produce that proof on behalf of their clients - quickly, under their own name - will capture the mandate."
   },
   "model": {
     "eyebrow": "Operating model",
     "heading": "How it works",
     "artifactLabel": "The artifact",
-    "artifactBody": "A structured technical evidence artifact. Built from a client archetype — sector, jurisdiction, company size, AI surface. No final-client operational data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered as a document your firm signs.",
+    "artifactBody": "A structured technical evidence artifact. Built from a client archetype - sector, jurisdiction, company size, AI surface. No final-client operational data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered as a document your firm signs.",
     "partnerLabel": "The partner's role",
     "partnerBody": "The partner deploys it under their letterhead. As the evidence layer beneath a legal opinion, a procurement mandate, a due diligence brief, or a board advisory. The artifact creates the factual base. The partner creates the legal interpretation.",
     "doctrine": "The artifact surfaces conditions. The lawyer names the law."
@@ -117,7 +117,7 @@
     },
     "card2": {
       "label": "Regulated Procurement",
-      "situation": "Your client sells to regulated buyers — public administrations, banks, insurers, health systems — and deals are stalling at legal or DPO review. Or your client competes for public tenders and needs stronger evidence architecture.",
+      "situation": "Your client sells to regulated buyers - public administrations, banks, insurers, health systems - and deals are stalling at legal or DPO review. Or your client competes for public tenders and needs stronger evidence architecture.",
       "artifact": "Sovereign Procurement Dossier · Construction Procurement Dossier",
       "price": "From €25k (red-flag scan)",
       "role": "Market-access structuring. Converts procurement delay into a billable deal-structuring mandate. Delivered under the firm's letterhead.",
@@ -172,11 +172,11 @@
     "heading": "Built for boutique law firms",
     "subhead": "White-label. Under your letterhead. No final-client operational data ingestion.",
     "p1": "The artifact is built from a client archetype, not from final-client operational data. No client systems, contracts, records, or documents are accessed. No software is installed. No processing agreement covering final-client operational data is required. You receive a document. You sign it. You bill it.",
-    "p2": "Your clients are already receiving AI risk questions. Regulators, public buyers, financial institutions, and deal teams are creating pressure that legal advisors cannot answer with frameworks alone. The firms that can answer those questions with structured technical evidence — under their own name — hold the advisory relationship.",
+    "p2": "Your clients are already receiving AI risk questions. Regulators, public buyers, financial institutions, and deal teams are creating pressure that legal advisors cannot answer with frameworks alone. The firms that can answer those questions with structured technical evidence - under their own name - hold the advisory relationship.",
     "p3": "The artifact is the evidence layer. Your interpretation is the legal opinion. That division of labor makes you more valuable to the client, not less.",
     "cta": "Partner inquiry",
     "demoLink": "See a live dossier demo →",
-    "note": "For boutique law firms only. Three questions. Response within 48 hours. First conversation is a scoping call — not a pitch."
+    "note": "For boutique law firms only. Three questions. Response within 48 hours. First conversation is a scoping call - not a pitch."
   },
   "useCases": {
     "eyebrow": "Use cases",
@@ -213,7 +213,7 @@
     "eyebrow": "Origination Pilot",
     "heading": "Private origination intelligence.",
     "subhead": "By application. Selected advisory partners only.",
-    "body": "For partners advising clients on transactions, restructurings, or strategic mandates where early identification of AI exposure — before formal diligence opens — changes the economics of the engagement. Access is by application and reviewed individually.",
+    "body": "For partners advising clients on transactions, restructurings, or strategic mandates where early identification of AI exposure - before formal diligence opens - changes the economics of the engagement. Access is by application and reviewed individually.",
     "signalLabel": "What it surfaces",
     "signals": [
       "Approach windows before formal mandates open",
@@ -243,10 +243,10 @@
     "q2d": "Belgium",
     "q2e": "Other",
     "q3legend": "Do you have a first client in mind?",
-    "q3a": "Yes — I have a specific client who would engage in the next 90 days",
-    "q3b": "Not yet — I am evaluating the product for my practice",
+    "q3a": "Yes - I have a specific client who would engage in the next 90 days",
+    "q3b": "Not yet - I am evaluating the product for my practice",
     "submit": "Send inquiry",
-    "commitment": "Response within 48 hours. First conversation is a scoping call — not a pitch deck.",
+    "commitment": "Response within 48 hours. First conversation is a scoping call - not a pitch deck.",
     "validationError": "Select one answer for each question before sending.",
     "successMessage": "Opening your email client with the inquiry details."
   },
@@ -255,7 +255,7 @@
     "kicker": "AI Exposure Evidence Pack",
     "partnerLink": "Partner inquiry →",
     "classification": "Archetype FR-CORPORATE-MID · Partner use",
-    "specimen": "Specimen — not for distribution",
+    "specimen": "Specimen - not for distribution",
     "loading": "Loading…",
     "notFound": "Dossier not found.",
     "footerNote": "This dossier is built from an archetype. No final-client operational data ingested. Your firm deploys it under its own letterhead.",

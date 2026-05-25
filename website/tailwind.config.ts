@@ -10,16 +10,16 @@ export default {
         paper: '#f4f1ea',
         'paper-deep': '#e6dfd1',
         stone: '#b5ab9c',
-        // Dark palette — deep navy / steel
+        // Dark palette - deep navy / steel
         // Register: Bloomberg terminal + legal memo + intelligence advisory
         navy: '#16243a',
         'navy-mid': '#1c2e46',
         'navy-light': '#253752',
-        steel: '#4a6878',  // single cold accent — links, focus states, signals
-        slate: '#1e2830',  // secondary dark ground — advisory partners section
-        copper: '#9a6b45', // warm — eyebrow labels only
+        steel: '#4a6878',  // single cold accent - links, focus states, signals
+        slate: '#1e2830',  // secondary dark ground - advisory partners section
+        copper: '#9a6b45', // warm - eyebrow labels only
         oxblood: '#6e3832',
-        // Severity — reserved exclusively, never decorative
+        // Severity - reserved exclusively, never decorative
         critical: '#b23a38',
         high: '#c05b30',
         medium: '#7a6b40',

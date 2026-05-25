@@ -50,7 +50,7 @@ export default function MarkdownView({ markdown }: { markdown: string }) {
         </blockquote>
       )
     } else if (line.startsWith('| ') && !line.startsWith('|---') && !line.startsWith('| ---')) {
-      // Table — collect all consecutive table lines
+      // Table - collect all consecutive table lines
       const tableLines: string[] = []
       while (i < lines.length && lines[i].startsWith('|')) {
         if (!lines[i].replace(/\s/g, '').match(/^\|[-:]+\|/)) {
