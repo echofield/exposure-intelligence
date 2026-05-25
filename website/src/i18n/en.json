@@ -1,6 +1,7 @@
 {
   "nav": {
     "howItWorks": "How it works",
+    "method": "Method",
     "mandates": "Mandates",
     "dossiers": "Dossiers",
     "forPartners": "For Advisory Partners",
@@ -10,7 +11,7 @@
   "hero": {
     "eyebrow": "White-label technical evidence for advisory partners",
     "headline": "The evidence layer beneath legal advisory on AI risk.",
-    "subhead": "Structured technical dossiers your firm deploys under your name. Archetype-based. No client data ingested. No methodology to explain.",
+    "subhead": "Structured technical dossiers your firm deploys under your name. Archetype-based. No final-client operational data ingested. No methodology to explain.",
     "ctaPrimary": "Read the sample dossier",
     "ctaSecondary": "Partner inquiry",
     "support": "Used by boutique law firms across France, Switzerland, Luxembourg, and Belgium.",
@@ -40,10 +41,61 @@
     "eyebrow": "Operating model",
     "heading": "How it works",
     "artifactLabel": "The artifact",
-    "artifactBody": "A structured technical evidence artifact. Built from a client archetype — sector, jurisdiction, company size, AI surface. No client data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered as a document your firm signs.",
+    "artifactBody": "A structured technical evidence artifact. Built from a client archetype — sector, jurisdiction, company size, AI surface. No final-client operational data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered as a document your firm signs.",
     "partnerLabel": "The partner's role",
     "partnerBody": "The partner deploys it under their letterhead. As the evidence layer beneath a legal opinion, a procurement mandate, a due diligence brief, or a board advisory. The artifact creates the factual base. The partner creates the legal interpretation.",
     "doctrine": "The artifact surfaces conditions. The lawyer names the law."
+  },
+  "method": {
+    "eyebrow": "Method and trust",
+    "heading": "What we process. What we do not touch.",
+    "lead": "Exposure Intelligence produces an evidence base from a verifiable archetype: jurisdiction, sector, company size, AI surface, exposed functions, and vendor dependencies. The result is a dossier of conditions, not a legal conclusion.",
+    "noDataLabel": "Reduced processing surface",
+    "noDataBody": "No final-client operational data is ingested: no customer files, no personnel files, no internal contracts, no system access. Partner communications, commercial requests, and relationship metadata remain handled as an ordinary partner relationship.",
+    "cards": [
+      {
+        "label": "Input",
+        "title": "Archetype",
+        "body": "Sector, country, company size, affected functions, known AI tools, deployment model, and external dependency level."
+      },
+      {
+        "label": "Method",
+        "title": "Structured readout",
+        "body": "Surface mapping, exposure signals, evidence gaps, vendor dependencies, and legal escalation triggers."
+      },
+      {
+        "label": "Output",
+        "title": "Partner dossier",
+        "body": "A document your firm can deploy under its letterhead as the factual layer beneath an opinion, diligence brief, or board note."
+      }
+    ],
+    "lists": [
+      {
+        "title": "The dossier establishes",
+        "items": [
+          "Plausible AI surfaces for the archetype",
+          "Evidence records that should exist",
+          "Issues to escalate to legal counsel"
+        ]
+      },
+      {
+        "title": "The dossier does not conclude",
+        "items": [
+          "Regulatory liability",
+          "Compliance status",
+          "Legal advice or certification"
+        ]
+      },
+      {
+        "title": "When to go custom",
+        "items": [
+          "Internal or modified open-source models",
+          "Hybrid or on-premise AI infrastructure",
+          "Negotiated contracts or real logs to inspect"
+        ]
+      }
+    ],
+    "boundary": "For specific, hybrid, or heavily customized AI infrastructure, the dossier serves as a scoping base before a custom technical review run by the partner or its experts."
   },
   "mandates": {
     "eyebrow": "Offer family",
@@ -118,8 +170,8 @@
   "partners": {
     "eyebrow": "For Advisory Partners",
     "heading": "Built for boutique law firms",
-    "subhead": "White-label. Under your letterhead. No data-processing surface.",
-    "p1": "The artifact is built from a client archetype, not from client data. No client systems, contracts, records, or documents are accessed. No software is installed. No processing agreement is required. You receive a document. You sign it. You bill it.",
+    "subhead": "White-label. Under your letterhead. No final-client operational data ingestion.",
+    "p1": "The artifact is built from a client archetype, not from final-client operational data. No client systems, contracts, records, or documents are accessed. No software is installed. No processing agreement covering final-client operational data is required. You receive a document. You sign it. You bill it.",
     "p2": "Your clients are already receiving AI risk questions. Regulators, public buyers, financial institutions, and deal teams are creating pressure that legal advisors cannot answer with frameworks alone. The firms that can answer those questions with structured technical evidence — under their own name — hold the advisory relationship.",
     "p3": "The artifact is the evidence layer. Your interpretation is the legal opinion. That division of labor makes you more valuable to the client, not less.",
     "cta": "Partner inquiry",
@@ -176,6 +228,7 @@
     "sampleHeading": "Read the sample dossier.",
     "sampleBody": "The FR-CORPORATE-MID sample is a fully worked AI Exposure Evidence Pack for a French mid-market B2B services company using Microsoft Copilot and a CRM scoring assistant. No explanation required. The artifact speaks for itself.",
     "sampleCta": "Read the sample",
+    "sampleDownload": "Download dossier",
     "formEyebrow": "For Advisory Partners",
     "formHeading": "Partner inquiry",
     "formSubhead": "For boutique law firms evaluating Exposure Intelligence as a distribution channel.",
@@ -205,7 +258,9 @@
     "specimen": "Specimen — not for distribution",
     "loading": "Loading…",
     "notFound": "Dossier not found.",
-    "footerNote": "This dossier is built from an archetype. No client data ingested. Your firm deploys it under its own letterhead.",
+    "footerNote": "This dossier is built from an archetype. No final-client operational data ingested. Your firm deploys it under its own letterhead.",
+    "printCta": "Export PDF",
+    "downloadCta": "Download Markdown",
     "footerCta": "Become a partner →"
   },
   "footer": {

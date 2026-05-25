@@ -11,6 +11,7 @@ export default function SamplePage() {
   const samplePath = language.startsWith('en')
     ? '/samples/FR-CORPORATE-MID_SAMPLE.en.md'
     : '/samples/FR-CORPORATE-MID_SAMPLE.md'
+  const handlePrint = () => window.print()
 
   useEffect(() => {
     let cancelled = false
@@ -37,7 +38,7 @@ export default function SamplePage() {
     <div className="min-h-screen" style={{ background: '#f5f0e8' }}>
       {/* Minimal nav strip */}
       <div
-        className="border-b border-ink/12 px-5 py-3.5 flex items-center justify-between"
+        className="no-print border-b border-ink/12 px-5 py-3.5 flex items-center justify-between"
         style={{ background: '#fffdf6' }}
       >
         <a
@@ -52,12 +53,21 @@ export default function SamplePage() {
           </span>
           <span className="font-mono text-[10px] text-ink/25">EI-FR-MID-001</span>
         </div>
-        <a
-          href="/#inquiry"
-          className="font-mono text-[11px] uppercase tracking-[0.10em] font-bold text-steel hover:text-navy transition-colors border-b border-steel/50 pb-px"
-        >
-          {t('samplePage.partnerLink')}
-        </a>
+        <div className="flex items-center gap-4">
+          <button
+            type="button"
+            onClick={handlePrint}
+            className="font-mono text-[11px] uppercase tracking-[0.10em] font-bold text-steel hover:text-navy transition-colors border-b border-steel/50 pb-px"
+          >
+            {t('samplePage.printCta')}
+          </button>
+          <a
+            href="/#inquiry"
+            className="font-mono text-[11px] uppercase tracking-[0.10em] font-bold text-steel hover:text-navy transition-colors border-b border-steel/50 pb-px"
+          >
+            {t('samplePage.partnerLink')}
+          </a>
+        </div>
         <LangToggle />
       </div>
 
@@ -78,7 +88,7 @@ export default function SamplePage() {
           </div>
         ) : content ? (
           <div
-            className="border border-ink/12 shadow-[0_32px_80px_rgba(28,31,27,0.10)]"
+            className="print-surface border border-ink/12 shadow-[0_32px_80px_rgba(28,31,27,0.10)]"
             style={{ background: '#fffdf6', padding: 'clamp(28px,5vw,60px)' }}
           >
             <MarkdownView markdown={content} />
@@ -91,16 +101,25 @@ export default function SamplePage() {
 
         {/* Footer CTA */}
         {!loading && content && (
-          <div className="mt-10 border-t border-ink/10 pt-7 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="no-print mt-10 border-t border-ink/10 pt-7 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <p className="text-[14px] text-ink-soft leading-[1.55] max-w-[520px]">
               {t('samplePage.footerNote')}
             </p>
-            <a
-              href="/#inquiry"
-              className="flex-shrink-0 font-mono text-[12px] font-bold uppercase tracking-[0.10em] text-steel hover:text-navy transition-colors border-b border-steel pb-px"
-            >
-              {t('samplePage.footerCta')}
-            </a>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href={samplePath}
+                download
+                className="flex-shrink-0 font-mono text-[12px] font-bold uppercase tracking-[0.10em] text-steel hover:text-navy transition-colors border-b border-steel pb-px"
+              >
+                {t('samplePage.downloadCta')}
+              </a>
+              <a
+                href="/#inquiry"
+                className="flex-shrink-0 font-mono text-[12px] font-bold uppercase tracking-[0.10em] text-steel hover:text-navy transition-colors border-b border-steel pb-px"
+              >
+                {t('samplePage.footerCta')}
+              </a>
+            </div>
           </div>
         )}
       </div>

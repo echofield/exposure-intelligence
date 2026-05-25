@@ -1,6 +1,7 @@
 {
   "nav": {
     "howItWorks": "Fonctionnement",
+    "method": "Méthode",
     "mandates": "Mandats",
     "dossiers": "Dossiers",
     "forPartners": "Partenaires conseil",
@@ -10,7 +11,7 @@
   "hero": {
     "eyebrow": "Preuve technique en marque blanche pour les cabinets conseil",
     "headline": "La couche de preuve sous le conseil juridique sur le risque IA.",
-    "subhead": "Des dossiers techniques structurés que votre cabinet déploie sous son propre nom. Basés sur des archétypes. Aucune donnée client ingérée. Aucune méthodologie à expliquer.",
+    "subhead": "Des dossiers techniques structurés que votre cabinet déploie sous son propre nom. Basés sur des archétypes. Aucune donnée opérationnelle du client final ingérée. Aucune méthodologie à expliquer.",
     "ctaPrimary": "Lire le dossier d'exemple",
     "ctaSecondary": "Demande partenaire",
     "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
@@ -40,10 +41,61 @@
     "eyebrow": "Modèle opérationnel",
     "heading": "Fonctionnement",
     "artifactLabel": "L'artefact",
-    "artifactBody": "Un artefact de preuve technique structurée. Construit à partir d'un archétype client — secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée client ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré comme document signé par votre cabinet.",
+    "artifactBody": "Un artefact de preuve technique structurée. Construit à partir d'un archétype client — secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée opérationnelle du client final ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré comme document signé par votre cabinet.",
     "partnerLabel": "Le rôle du partenaire",
     "partnerBody": "Le partenaire le déploie sous son en-tête. Comme couche de preuve sous un avis juridique, un mandat de marché public, une note de due diligence ou une présentation au conseil d'administration. L'artefact crée la base factuelle. Le partenaire crée l'interprétation juridique.",
     "doctrine": "L'artefact fait remonter les conditions. L'avocat nomme la loi."
+  },
+  "method": {
+    "eyebrow": "Méthode et confiance",
+    "heading": "Ce que nous traitons. Ce que nous ne touchons pas.",
+    "lead": "Exposure Intelligence produit une base de preuve à partir d’un archétype vérifiable : juridiction, secteur, taille, surface IA, fonctions exposées et dépendances fournisseurs. Le résultat est un dossier de conditions, pas une conclusion juridique.",
+    "noDataLabel": "Surface de traitement réduite",
+    "noDataBody": "Aucune donnée opérationnelle du client final n’est ingérée : pas de fichiers clients, pas de dossiers salariés, pas de contrats internes, pas d’accès aux systèmes. Les échanges partenaire, demandes commerciales et métadonnées de relation restent traités comme relation partenaire classique.",
+    "cards": [
+      {
+        "label": "Entrée",
+        "title": "Archétype",
+        "body": "Secteur, pays, taille, fonctions concernées, outils IA connus, modèle de déploiement et niveau de dépendance externe."
+      },
+      {
+        "label": "Méthode",
+        "title": "Lecture structurée",
+        "body": "Cartographie des surfaces, signaux d’exposition, lacunes de preuve, dépendances fournisseurs et déclencheurs d’escalade."
+      },
+      {
+        "label": "Sortie",
+        "title": "Dossier cabinet",
+        "body": "Document exploitable sous en-tête partenaire, comme couche factuelle sous un avis, une diligence ou une note au conseil."
+      }
+    ],
+    "lists": [
+      {
+        "title": "Le dossier établit",
+        "items": [
+          "Les surfaces IA plausibles pour l’archétype",
+          "Les documents de preuve qui devraient exister",
+          "Les points à escalader vers le conseil juridique"
+        ]
+      },
+      {
+        "title": "Le dossier ne conclut pas",
+        "items": [
+          "Responsabilité réglementaire",
+          "Statut de conformité",
+          "Avis juridique ou certification"
+        ]
+      },
+      {
+        "title": "Passage au sur-mesure",
+        "items": [
+          "Modèles internes ou open source modifiés",
+          "Infrastructure IA hybride ou sur site",
+          "Contrats négociés ou logs réels à examiner"
+        ]
+      }
+    ],
+    "boundary": "Pour les infrastructures IA spécifiques, hybrides ou fortement personnalisées, le dossier sert de base de cadrage avant une revue technique sur mesure conduite par le partenaire ou ses experts."
   },
   "mandates": {
     "eyebrow": "Famille d'offres",
@@ -118,8 +170,8 @@
   "partners": {
     "eyebrow": "Partenaires conseil",
     "heading": "Conçu pour les cabinets boutique",
-    "subhead": "Marque blanche. Sous votre en-tête. Sans surface de traitement de données.",
-    "p1": "L'artefact est construit à partir d'un archétype client, et non à partir des données du client. Aucun système, contrat, document ou dossier client n'est accédé. Aucun logiciel n'est installé. Aucun accord de traitement n'est requis. Vous recevez un document. Vous le signez. Vous le facturez.",
+    "subhead": "Marque blanche. Sous votre en-tête. Sans ingestion de données opérationnelles client.",
+    "p1": "L'artefact est construit à partir d'un archétype client, et non à partir des données opérationnelles du client final. Aucun système, contrat, document ou dossier client n'est accédé. Aucun logiciel n'est installé. Aucun accord de traitement portant sur les données opérationnelles du client final n'est requis. Vous recevez un document. Vous le signez. Vous le facturez.",
     "p2": "Vos clients reçoivent déjà des questions sur le risque IA. Les régulateurs, acheteurs publics, institutions financières et équipes de transaction créent une pression à laquelle les conseils juridiques ne peuvent plus répondre avec des référentiels seuls. Les cabinets capables de répondre à ces questions avec des preuves techniques structurées — sous leur propre nom — tiennent la relation de conseil.",
     "p3": "L'artefact est la couche de preuve. Votre interprétation est l'avis juridique. Cette division du travail vous rend plus précieux pour le client, pas moins.",
     "cta": "Demande partenaire",
@@ -176,6 +228,7 @@
     "sampleHeading": "Lire le dossier d'exemple.",
     "sampleBody": "Le dossier FR-CORPORATE-MID est un dossier de preuve complet pour une ETI française de services B2B utilisant Microsoft Copilot et un assistant de notation CRM. Aucune explication requise. L'artefact parle de lui-même.",
     "sampleCta": "Lire le dossier",
+    "sampleDownload": "Télécharger le dossier",
     "formEyebrow": "Partenaires conseil",
     "formHeading": "Demande partenaire",
     "formSubhead": "Pour les cabinets boutique qui évaluent Exposure Intelligence comme canal de distribution.",
@@ -205,7 +258,9 @@
     "specimen": "Spécimen — non destiné à la distribution",
     "loading": "Chargement…",
     "notFound": "Dossier introuvable.",
-    "footerNote": "Ce dossier est construit sur archétype. Aucune donnée client ingérée. Votre cabinet le déploie sous son en-tête.",
+    "footerNote": "Ce dossier est construit sur archétype. Aucune donnée opérationnelle du client final n’est ingérée. Votre cabinet le déploie sous son en-tête.",
+    "printCta": "Exporter PDF",
+    "downloadCta": "Télécharger Markdown",
     "footerCta": "Devenir partenaire →"
   },
   "footer": {

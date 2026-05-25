@@ -5,6 +5,7 @@ import Button from '../ui/Button'
 
 const NAV_LINKS = [
   { key: 'nav.howItWorks', href: '#model' },
+  { key: 'nav.method', href: '#method' },
   { key: 'nav.mandates', href: '#mandates' },
   { key: 'nav.dossiers', href: '#dossiers' },
   { key: 'nav.forPartners', href: '#partners' },

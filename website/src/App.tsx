@@ -4,6 +4,7 @@ import Footer from './components/layout/Footer'
 import Hero from './components/sections/Hero'
 import Pressure from './components/sections/Pressure'
 import HowItWorks from './components/sections/HowItWorks'
+import MethodTrust from './components/sections/MethodTrust'
 import Mandates from './components/sections/Mandates'
 import FlagshipDossiers from './components/sections/FlagshipDossiers'
 import AdvisoryPartners from './components/sections/AdvisoryPartners'
@@ -28,6 +29,7 @@ export default function App() {
         <Hero />
         <Pressure />
         <HowItWorks />
+        <MethodTrust />
         <Mandates />
         <FlagshipDossiers />
         <AdvisoryPartners />

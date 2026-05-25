@@ -9,9 +9,12 @@ type FormState = {
 }
 
 export default function PartnerInquiry() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [form, setForm] = useState<FormState>({ context: '', jurisdiction: '', client: '' })
   const [status, setStatus] = useState('')
+  const samplePath = i18n.language.startsWith('en')
+    ? '/samples/FR-CORPORATE-MID_SAMPLE.en.md'
+    : '/samples/FR-CORPORATE-MID_SAMPLE.md'
 
   const handleRadio = (field: keyof FormState) => (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm((f) => ({ ...f, [field]: e.target.value }))
@@ -61,9 +64,18 @@ export default function PartnerInquiry() {
         <p className="mt-4 text-[17px] text-paper/70 leading-[1.55]">
           {t('inquiry.sampleBody')}
         </p>
-        <Button as="a" href="/sample" variant="primary" className="mt-7">
-          {t('inquiry.sampleCta')}
-        </Button>
+        <div className="mt-7 flex flex-wrap gap-3">
+          <Button as="a" href="/sample" variant="primary">
+            {t('inquiry.sampleCta')}
+          </Button>
+          <a
+            href={samplePath}
+            download
+            className="inline-flex items-center justify-center min-h-[48px] px-[18px] py-[13px] text-sm font-bold transition-transform duration-150 cursor-pointer bg-transparent text-paper border border-paper/30 hover:-translate-y-px"
+          >
+            {t('inquiry.sampleDownload')}
+          </a>
+        </div>
       </div>
 
       {/* Form */}
