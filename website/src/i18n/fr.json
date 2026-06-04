@@ -473,6 +473,68 @@
     "downloadCta": "Télécharger Markdown",
     "footerCta": "Candidater comme Founding Partner ->"
   },
+  "modelCgp": {
+    "eyebrow": "Modèle opérationnel",
+    "heading": "Fonctionnement",
+    "artifactLabel": "L'artefact",
+    "artifactBody": "Un dossier d'exposition patrimoniale structurée. Construit à partir d'un archétype client — profil du dirigeant, structures détenues, actifs, régimes. Aucune donnée patrimoniale réelle ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré sous le nom de votre cabinet.",
+    "partnerLabel": "Votre rôle",
+    "partnerBody": "Vous présentez le dossier sous votre en-tête comme couche d'analyse sous votre conseil patrimonial. Vous tenez la relation client, vous facturez la valeur ajoutée de votre expertise. Le dossier fournit la cartographie structurée.",
+    "doctrine": "Le dossier cartographie l'exposition. Vous structurez la stratégie."
+  },
+  "methodCgp": {
+    "eyebrow": "Méthode et confiance",
+    "heading": "Ce que nous traitons. Ce que nous ne touchons pas.",
+    "lead": "Exposure Intelligence produit une base d'analyse à partir d'un archétype vérifiable : profil du dirigeant, structures détenues, actifs et régimes. Le résultat est un dossier de conditions, pas une conclusion juridique ou fiscale.",
+    "noDataLabel": "Surface de traitement réduite",
+    "noDataBody": "Aucune donnée patrimoniale réelle du foyer n'est ingérée : pas d'actes, pas de déclarations fiscales, pas de relevés bancaires, pas de contrats. Les échanges partenaire, demandes commerciales et métadonnées de relation restent traités comme relation partenaire classique.",
+    "protocolEyebrow": "Protocole EI v0.1",
+    "protocolHeading": "Une méthodologie partenaire versionnée.",
+    "protocolBody": "Chaque dossier porte une version de protocole, un identifiant d'archétype, un identifiant d'évaluation, une posture de données et une bande EI-Index. L'index est un signal de triage structuré pour le flux de conseil, pas une conclusion juridique, fiscale ou une certification.",
+    "protocolMetrics": [
+      { "label": "ID d'évaluation", "value": "EI-PAT-IDF-001-SAMPLE" },
+      { "label": "EI-Index", "value": "EP-3 / Moyen" },
+      { "label": "Posture données", "value": "Aucune donnée opérationnelle" }
+    ],
+    "cards": [
+      { "label": "Entrée", "title": "Archétype patrimonial", "body": "Profil du dirigeant, structures détenues — holding, SCI, société opérationnelle —, actifs étrangers, régime matrimonial présumé, configuration du conseil actuel." },
+      { "label": "Méthode", "title": "Lecture structurée", "body": "Cartographie des surfaces, signaux d'exposition par domaine — responsabilité, transmission, régime matrimonial, fiscalité, actifs étrangers —, lacunes de preuve et déclencheurs d'escalade." },
+      { "label": "Sortie", "title": "Dossier cabinet", "body": "Document exploitable sous en-tête partenaire, comme base structurée pour la première mission client ou la revue patrimoniale annuelle." }
+    ],
+    "lists": [
+      { "title": "Le dossier établit", "items": ["Les surfaces d'exposition patrimoniale de l'archétype", "Les documents qui devraient exister et sont absents", "Les points requérant une revue par un conseil qualifié"] },
+      { "title": "Le dossier ne conclut pas", "items": ["Responsabilité civile ou fiscale", "Situation réelle du foyer", "Avis juridique ou recommandation d'investissement"] }
+    ]
+  },
+  "inquiryCgp": {
+    "sampleEyebrow": "Dossier d'exemple",
+    "sampleKicker": "FR-PATRIMOINE-IDF · EI-PAT-IDF-001",
+    "sampleHeading": "Lire le dossier d'exemple.",
+    "sampleBody": "Un dossier d'exposition patrimoniale complet pour un dirigeant de PME en Île-de-France : holding familiale, SCI, actif au Portugal, conjoint co-gérant. Aucune explication requise. L'artefact parle de lui-même.",
+    "sampleCta": "Lire le dossier",
+    "sampleDownload": "Télécharger",
+    "formEyebrow": "Partenaires CGP",
+    "formHeading": "Devenir partenaire",
+    "formSubhead": "Pour les cabinets CGP indépendants qui évaluent Exposure Intelligence comme capacité de conseil monétisable.",
+    "q1legend": "Quel profil client est le plus représentatif de votre book ?",
+    "q1a": "Dirigeants de PME / ETI avec structures holding",
+    "q1b": "Chefs d'entreprise en approche de cession",
+    "q1c": "Familles patrimoniales avec actifs diversifiés",
+    "q1d": "Professions libérales et indépendants",
+    "q2legend": "Dans quelle zone exercez-vous principalement ?",
+    "q2a": "Paris",
+    "q2b": "Neuilly / Hauts-de-Seine",
+    "q2c": "IDF (hors Paris / 92)",
+    "q2d": "France entière",
+    "q3legend": "Avez-vous un client en tête pour un test ?",
+    "q3a": "Oui — client dirigeant avec holding ou structure complexe",
+    "q3b": "Oui — client avec actif étranger ou transmission en cours",
+    "q3c": "Pas encore — j'évalue l'adéquation",
+    "submit": "Envoyer la demande",
+    "commitment": "Réponse sous 48h. Test sur un client offert si valeur perçue < 3× votre achat.",
+    "validationError": "Sélectionnez une réponse pour chaque question avant d'envoyer.",
+    "successMessage": "Ouverture de votre client email avec les détails de la demande."
+  },
   "footer": {
     "name": "Exposure Intelligence",
     "tagline": "Preuve structurée pour les missions de conseil."

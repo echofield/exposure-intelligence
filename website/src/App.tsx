@@ -4,6 +4,9 @@ import VerticalGateway from './components/gateway/VerticalGateway'
 import VerticalStrip from './components/gateway/VerticalStrip'
 import Hero from './components/sections/Hero'
 import HeroCGP from './components/sections/HeroCGP'
+import HowItWorksCGP from './components/sections/HowItWorksCGP'
+import MethodTrustCGP from './components/sections/MethodTrustCGP'
+import PartnerInquiryCGP from './components/sections/PartnerInquiryCGP'
 import Pressure from './components/sections/Pressure'
 import HowItWorks from './components/sections/HowItWorks'
 import MethodTrust from './components/sections/MethodTrust'
@@ -49,9 +52,9 @@ export default function App() {
       ) : (
         <main>
           <HeroCGP />
-          <HowItWorks />
-          <MethodTrust />
-          <PartnerInquiry />
+          <HowItWorksCGP />
+          <MethodTrustCGP />
+          <PartnerInquiryCGP />
         </main>
       )}
       <Footer />

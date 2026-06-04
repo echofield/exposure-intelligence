@@ -473,6 +473,68 @@
     "downloadCta": "Download Markdown",
     "footerCta": "Apply as a Founding Partner ->"
   },
+  "modelCgp": {
+    "eyebrow": "Operating model",
+    "heading": "How it works",
+    "artifactLabel": "The artifact",
+    "artifactBody": "A structured private-wealth exposure dossier. Built from a client archetype — director profile, entities held, assets, regimes. No real wealth data ingested. No discovery sessions. The same input produces the same artifact shape. Delivered under your firm's name.",
+    "partnerLabel": "Your role",
+    "partnerBody": "You present the dossier under your letterhead as the analysis layer beneath your wealth advisory. You own the client relationship and bill the value of your expertise. The dossier provides the structured mapping.",
+    "doctrine": "The dossier maps the exposure. You structure the strategy."
+  },
+  "methodCgp": {
+    "eyebrow": "Method and trust",
+    "heading": "What we process. What we do not touch.",
+    "lead": "Exposure Intelligence produces an analysis base from a verifiable archetype: director profile, entities held, assets and regimes. The result is a dossier of conditions, not a legal or tax conclusion.",
+    "noDataLabel": "Reduced processing surface",
+    "noDataBody": "No real wealth data of the household is ingested: no deeds, no tax filings, no bank statements, no contracts. Partner communications, commercial requests, and relationship metadata remain handled as an ordinary partner relationship.",
+    "protocolEyebrow": "EI Protocol v0.1",
+    "protocolHeading": "A versioned partner pilot methodology.",
+    "protocolBody": "Each dossier carries a protocol version, archetype ID, assessment ID, data posture, and EI-Index band. The index is a structured triage signal for advisory workflow, not a legal or tax conclusion, or a certification.",
+    "protocolMetrics": [
+      { "label": "Assessment ID", "value": "EI-PAT-IDF-001-SAMPLE" },
+      { "label": "EI-Index", "value": "EP-3 / Medium" },
+      { "label": "Data posture", "value": "No operational data" }
+    ],
+    "cards": [
+      { "label": "Input", "title": "Wealth archetype", "body": "Director profile, entities held — holding, SCI, operating company —, foreign assets, presumed matrimonial regime, and current advisory setup." },
+      { "label": "Method", "title": "Structured readout", "body": "Surface mapping, exposure signals by domain — liability, succession, matrimonial regime, taxation, foreign assets —, evidence gaps, and escalation triggers." },
+      { "label": "Output", "title": "Firm dossier", "body": "A document your firm can deploy under its letterhead as the structured base for the first client engagement or the annual wealth review." }
+    ],
+    "lists": [
+      { "title": "The dossier establishes", "items": ["The wealth-exposure surfaces of the archetype", "The documents that should exist and are missing", "The points requiring review by a qualified advisor"] },
+      { "title": "The dossier does not conclude", "items": ["Civil or tax liability", "The household's real situation", "Legal advice or investment recommendation"] }
+    ]
+  },
+  "inquiryCgp": {
+    "sampleEyebrow": "Sample dossier",
+    "sampleKicker": "FR-PATRIMOINE-IDF · EI-PAT-IDF-001",
+    "sampleHeading": "Read the sample dossier.",
+    "sampleBody": "A fully worked private-wealth exposure dossier for an SME director in the Paris region: family holding, SCI, an asset in Portugal, spouse as co-manager. No explanation required. The artifact speaks for itself.",
+    "sampleCta": "Read the dossier",
+    "sampleDownload": "Download",
+    "formEyebrow": "CGP Partners",
+    "formHeading": "Become a partner",
+    "formSubhead": "For independent wealth-advisory firms evaluating Exposure Intelligence as a monetizable advisory capability.",
+    "q1legend": "Which client profile is most representative of your book?",
+    "q1a": "SME / mid-market directors with holding structures",
+    "q1b": "Business owners approaching a sale",
+    "q1c": "Wealthy families with diversified assets",
+    "q1d": "Professionals and independents",
+    "q2legend": "Which area do you primarily operate in?",
+    "q2a": "Paris",
+    "q2b": "Neuilly / Hauts-de-Seine",
+    "q2c": "Greater Paris (outside Paris / 92)",
+    "q2d": "All of France",
+    "q3legend": "Do you have a client in mind for a test?",
+    "q3a": "Yes — a director client with a holding or complex structure",
+    "q3b": "Yes — a client with a foreign asset or succession underway",
+    "q3c": "Not yet — I am evaluating fit",
+    "submit": "Send inquiry",
+    "commitment": "Response within 48h. A test on one client is free if perceived value < 3× your purchase.",
+    "validationError": "Select one answer for each question before sending.",
+    "successMessage": "Opening your email client with the inquiry details."
+  },
   "footer": {
     "name": "Exposure Intelligence",
     "tagline": "Structured evidence for advisory workflows."
