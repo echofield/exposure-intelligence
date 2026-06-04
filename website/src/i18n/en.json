@@ -10,17 +10,41 @@
   },
   "gateway": {
     "tagline": "Structured evidence dossiers",
-    "heading": "One method. Two advisory worlds.",
+    "headingLine1": "One method.",
+    "headingLine2": "Two advisory worlds.",
+    "methodStrip": [
+      "OSINT only",
+      "4 evidence statuses",
+      "White-label",
+      "10-day delivery"
+    ],
+    "bottomStrip": [
+      "EI Protocol v0.1",
+      "Partner pilot 2025",
+      "No operational data ingested"
+    ],
     "cta": "Enter",
     "avocat": {
       "eyebrow": "Structured evidence · Law & Advisory",
       "headline": "Law firms\nand boutique advisory",
-      "body": "AI, procurement, and PE diligence dossiers. White-label under your letterhead. No legal advice."
+      "body": "AI, procurement, and PE diligence dossiers. White-label under your letterhead. No legal advice.",
+      "archetype": "EI-FR-MID · NIS2 · DORA · PE Diligence",
+      "signals": [
+        { "label": "AI vendor contract auditability gap", "severity": "Critical" },
+        { "label": "Sub-processor documentation", "severity": "High" },
+        { "label": "Human oversight not documented", "severity": "Medium" }
+      ]
     },
     "cgp": {
       "eyebrow": "Wealth exposure · White-label",
       "headline": "Wealth management\nadvisors",
-      "body": "Maps of complex private wealth exposure. Holding, succession, SCI, director liability. You bill. I deliver."
+      "body": "Maps of complex private wealth exposure. Holding, succession, SCI, director liability. You bill. I deliver.",
+      "archetype": "EI-PAT-IDF · Holding · Succession · SCI",
+      "signals": [
+        { "label": "Holding, no shareholder-pact review >5y", "severity": "Critical" },
+        { "label": "Director liability not mapped", "severity": "High" },
+        { "label": "Offshore asset, no tax qualification", "severity": "High" }
+      ]
     }
   },
   "verticalStrip": {

@@ -10,17 +10,41 @@
   },
   "gateway": {
     "tagline": "Dossiers de preuve structurée",
-    "heading": "Une méthode. Deux mondes de conseil.",
+    "headingLine1": "Une méthode.",
+    "headingLine2": "Deux mondes de conseil.",
+    "methodStrip": [
+      "OSINT uniquement",
+      "4 statuts d'évidence",
+      "Marque blanche",
+      "Livraison 10 jours"
+    ],
+    "bottomStrip": [
+      "Protocole EI v0.1",
+      "Pilote partenaire 2025",
+      "Aucune donnée opérationnelle ingérée"
+    ],
     "cta": "Accéder",
     "avocat": {
       "eyebrow": "Preuve structurée · Droit & Conseil",
       "headline": "Cabinets d'avocats\net conseil boutique",
-      "body": "Dossiers IA, procurement, PE diligence. En marque blanche sous votre en-tête. Aucun avis juridique."
+      "body": "Dossiers IA, procurement, PE diligence. En marque blanche sous votre en-tête. Aucun avis juridique.",
+      "archetype": "EI-FR-MID · NIS2 · DORA · PE Diligence",
+      "signals": [
+        { "label": "Auditabilité contractuelle fournisseur IA", "severity": "Critique" },
+        { "label": "Documentation des sous-traitants", "severity": "Élevée" },
+        { "label": "Supervision humaine non documentée", "severity": "Moyenne" }
+      ]
     },
     "cgp": {
       "eyebrow": "Exposition patrimoniale · Marque blanche",
       "headline": "Conseillers en gestion\nde patrimoine",
-      "body": "Cartographies d'exposition patrimoniale complexe. Holding, transmission, SCI, RC dirigeant. Vous facturez. Je livre."
+      "body": "Cartographies d'exposition patrimoniale complexe. Holding, transmission, SCI, RC dirigeant. Vous facturez. Je livre.",
+      "archetype": "EI-PAT-IDF · Holding · Transmission · SCI",
+      "signals": [
+        { "label": "Holding sans revue pactes d'associés >5 ans", "severity": "Critique" },
+        { "label": "RC dirigeant non cartographiée", "severity": "Élevée" },
+        { "label": "Actif offshore sans qualification fiscale", "severity": "Élevée" }
+      ]
     }
   },
   "verticalStrip": {
