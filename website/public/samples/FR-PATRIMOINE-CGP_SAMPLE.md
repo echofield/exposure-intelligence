@@ -244,7 +244,10 @@ Les questions d'exposition suivantes ne peuvent être résolues au niveau de l'a
 
 ### Signaux d'exposition - régime matrimonial
 
-**Inféré - niveau archétype / Non démontré :** le régime matrimonial du couple n'est pas documenté ; le régime légal de communauté est présumé par défaut. **À qualifier :** l'adéquation de ce régime avec la détention de structures professionnelles, la protection du conjoint et la prévention des conflits patrimoniaux en cas de séparation ou de décès requiert une appréciation par un conseil. Une incohérence entre le régime et l'organisation patrimoniale ne peut être exclue.
+| Condition | Sévérité | Statut |
+|---|---|---|
+| Le régime matrimonial du couple n'est pas documenté ; le régime légal de communauté est présumé par défaut. L'adéquation de ce régime avec la détention de structures professionnelles n'est pas démontrée. | Élevée | Inféré - niveau archétype ; Non démontré ; À qualifier - conseil |
+| L'articulation entre le régime matrimonial, la protection du conjoint et la prévention des conflits patrimoniaux en cas de séparation ou de décès n'est pas établie. Une incohérence entre le régime et l'organisation patrimoniale ne peut être exclue. | Élevée | Non démontré - niveau archétype ; À qualifier - conseil |
 
 ### Signaux d'exposition - fiscalité patrimoniale
 
