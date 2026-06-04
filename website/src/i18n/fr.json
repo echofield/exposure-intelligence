@@ -6,19 +6,47 @@
     "dossiers": "Dossiers",
     "forPartners": "Partenaires conseil",
     "originationPilot": "Pilote origination",
-    "partnerInquiry": "Demande partenaire"
+    "partnerInquiry": "Founding Partner"
+  },
+  "gateway": {
+    "tagline": "Dossiers de preuve structurée",
+    "heading": "Une méthode. Deux mondes de conseil.",
+    "cta": "Accéder",
+    "avocat": {
+      "eyebrow": "Preuve structurée · Droit & Conseil",
+      "headline": "Cabinets d'avocats\net conseil boutique",
+      "body": "Dossiers IA, procurement, PE diligence. En marque blanche sous votre en-tête. Aucun avis juridique."
+    },
+    "cgp": {
+      "eyebrow": "Exposition patrimoniale · Marque blanche",
+      "headline": "Conseillers en gestion\nde patrimoine",
+      "body": "Cartographies d'exposition patrimoniale complexe. Holding, transmission, SCI, RC dirigeant. Vous facturez. Je livre."
+    }
+  },
+  "verticalStrip": {
+    "avocat": "Avocats",
+    "cgp": "CGP"
   },
   "hero": {
     "eyebrow": "Preuve structurée en marque blanche pour les cabinets conseil",
     "headline": "La couche de preuve sous la décision.",
-    "subhead": "Des dossiers structurés que votre cabinet déploie sous son nom. L'IA en est le premier terrain.",
+    "subhead": "Ouvrez une capacité de preuve technique facturable sous le nom de votre cabinet. L'IA en est le premier terrain.",
     "ctaPrimary": "Lire le dossier d'exemple",
-    "ctaSecondary": "Demande partenaire",
+    "ctaSecondary": "Candidater comme Founding Partner",
     "support": "Utilisé par des cabinets boutique en France, Suisse, Luxembourg et Belgique.",
     "protocolMeta": [
-      { "label": "Protocole", "value": "EI v0.1" },
-      { "label": "Index", "value": "EI-3" },
-      { "label": "Statut", "value": "Méthode pilote" }
+      {
+        "label": "Protocole",
+        "value": "EI v0.1"
+      },
+      {
+        "label": "Index",
+        "value": "EI-3"
+      },
+      {
+        "label": "Statut",
+        "value": "Méthode pilote"
+      }
     ],
     "dossierKicker": "Dossier de preuve structurée - Exposition IA",
     "dossierTitle": "Résumé exécutif d'exposition",
@@ -26,15 +54,95 @@
     "artifactSeverity": "Sévérité",
     "artifactEvidenceGaps": "Lacunes de preuve",
     "signals": [
-      { "label": "Décision automatisée - RH", "severity": "Élevée" },
-      { "label": "Auditabilité contractuelle fournisseur", "severity": "Critique" },
-      { "label": "Documentation des sous-traitants", "severity": "Moyenne" },
-      { "label": "Réversibilité non testée", "severity": "Élevée" }
+      {
+        "label": "Décision automatisée - RH",
+        "severity": "Élevée"
+      },
+      {
+        "label": "Auditabilité contractuelle fournisseur",
+        "severity": "Critique"
+      },
+      {
+        "label": "Documentation des sous-traitants",
+        "severity": "Moyenne"
+      },
+      {
+        "label": "Réversibilité non testée",
+        "severity": "Élevée"
+      }
     ],
     "gaps": [
-      { "item": "Registre des systèmes IA", "status": "Non démontré" },
-      { "item": "Documentation des modèles", "status": "Non démontré" },
-      { "item": "Protocole de supervision humaine", "status": "Non démontré" }
+      {
+        "item": "Registre des systèmes IA",
+        "status": "Non démontré"
+      },
+      {
+        "item": "Documentation des modèles",
+        "status": "Non démontré"
+      },
+      {
+        "item": "Protocole de supervision humaine",
+        "status": "Non démontré"
+      }
+    ]
+  },
+  "heroCgp": {
+    "eyebrow": "Exposition patrimoniale · Marque blanche · CGP indépendants",
+    "headline": "L'exposition patrimoniale de vos clients. Cartographiée.",
+    "subhead": "Vous facturez. Je livre en 10 jours. Votre lettre, votre relation. Un dossier structuré que vos clients n'ont vu nulle part ailleurs.",
+    "ctaPrimary": "Voir un exemple de dossier",
+    "ctaSecondary": "Devenir partenaire",
+    "support": "Cabinets CGP indépendants · Paris · Neuilly · IDF",
+    "protocolMeta": [
+      {
+        "label": "Archétype",
+        "value": "FR-PATRIMOINE-IDF"
+      },
+      {
+        "label": "Index",
+        "value": "EP-3 / Moyen"
+      },
+      {
+        "label": "Statut",
+        "value": "Méthode pilote"
+      }
+    ],
+    "dossierKicker": "Dossier d'exposition patrimoniale",
+    "dossierTitle": "Synthèse d'exposition — Dirigeant IDF",
+    "artifactCondition": "Condition",
+    "artifactSeverity": "Sévérité",
+    "artifactEvidenceGaps": "Lacunes de preuve",
+    "signals": [
+      {
+        "label": "RC dirigeant non cartographiée",
+        "severity": "Élevée"
+      },
+      {
+        "label": "Holding sans revue pactes >5 ans",
+        "severity": "Critique"
+      },
+      {
+        "label": "Séparation patrimoniale conjoint",
+        "severity": "Élevée"
+      },
+      {
+        "label": "Actif offshore non qualifié",
+        "severity": "Moyenne"
+      }
+    ],
+    "gaps": [
+      {
+        "item": "Régime matrimonial documenté",
+        "status": "Non démontré"
+      },
+      {
+        "item": "Revue pactes d'associés",
+        "status": "Non démontré"
+      },
+      {
+        "item": "Qualification actif offshore",
+        "status": "À qualifier"
+      }
     ]
   },
   "pressure": {
@@ -46,9 +154,9 @@
     "eyebrow": "Modèle opérationnel",
     "heading": "Fonctionnement",
     "artifactLabel": "L'artefact",
-    "artifactBody": "Un artefact de preuve structurée. Construit à partir d'un archétype client - secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée opérationnelle du client final ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré comme document signé par votre cabinet.",
+    "artifactBody": "Un artefact de preuve structurée. Construit à partir d'un archétype client - secteur, juridiction, taille d'entreprise, surface IA. Aucune donnée opérationnelle du client final ingérée. Aucune session de découverte. La même entrée produit la même forme d'artefact. Livré sous le nom de votre cabinet.",
     "partnerLabel": "Le rôle du partenaire",
-    "partnerBody": "Le partenaire le déploie sous son en-tête. Comme couche de preuve sous un avis juridique, un mandat de marché public, une note de due diligence ou une présentation au conseil d'administration. L'artefact crée la base factuelle. Le partenaire crée l'interprétation juridique.",
+    "partnerBody": "Le partenaire le déploie sous son en-tête comme couche de preuve sous un avis juridique, un mandat de marché public, une note de due diligence ou une présentation au conseil d'administration. Le partenaire tient la relation client et facture l'interprétation. Exposure Intelligence soutient la couche de preuve technique.",
     "doctrine": "L'artefact fait remonter les conditions. L'avocat nomme la loi."
   },
   "method": {
@@ -61,9 +169,18 @@
     "protocolHeading": "Une méthodologie partenaire versionnée.",
     "protocolBody": "Chaque dossier porte une version de protocole, un identifiant d’archétype, un identifiant d’évaluation, une posture de données et une bande EI-Index. L’index est un signal de triage structuré pour le flux de conseil, pas une conclusion juridique, un constat de conformité ou une certification.",
     "protocolMetrics": [
-      { "label": "ID d'évaluation", "value": "EI-FR-MID-001-SAMPLE" },
-      { "label": "EI-Index", "value": "EI-3 / Moyen" },
-      { "label": "Posture données", "value": "Aucune donnée opérationnelle" }
+      {
+        "label": "ID d'évaluation",
+        "value": "EI-FR-MID-001-SAMPLE"
+      },
+      {
+        "label": "EI-Index",
+        "value": "EI-3 / Moyen"
+      },
+      {
+        "label": "Posture données",
+        "value": "Aucune donnée opérationnelle"
+      }
     ],
     "cards": [
       {
@@ -118,15 +235,33 @@
       "label": "Déploiement IA",
       "situation": "Votre client a déployé des outils IA. Vous avez besoin d'une base de preuve structurée avant l'audit de conformité, l'audit social ou la présentation au conseil.",
       "artifact": "Dossier de preuve - Exposition IA",
-      "price": "Dossier de preuve à partir de 8 k€",
+      "price": "Engagements client ? partir de 8 k?",
       "role": "Couche de preuve sous un avis juridique, un avis social ou une revue de protection des données. Livré sous l'en-tête du cabinet.",
       "cta": "Voir l'offre"
     },
-    "card1PilotNote": "Entrée pilote à partir de 3 k€",
+    "card1PilotNote": "Founding Partner : 2,5 k€ d'onboarding crédités sur le premier dossier live",
     "coverage": {
-      "card1": ["Cartographie des surfaces", "Signaux d'exposition", "Lacunes de preuve", "Déclencheurs d'escalade", "Voies de remédiation"],
-      "card2": ["Cartographie des portes", "Vue des dépendances", "Architecture de preuve", "Cartographie des objections", "Feuille de route remédiation"],
-      "card3": ["Cartographie des risques transaction", "Concentration des dépendances", "Lacunes de preuve", "Impacts sur les termes", "Feuille de route post-acquisition"]
+      "card1": [
+        "Cartographie des surfaces",
+        "Signaux d'exposition",
+        "Lacunes de preuve",
+        "Déclencheurs d'escalade",
+        "Voies de remédiation"
+      ],
+      "card2": [
+        "Cartographie des portes",
+        "Vue des dépendances",
+        "Architecture de preuve",
+        "Cartographie des objections",
+        "Feuille de route remédiation"
+      ],
+      "card3": [
+        "Cartographie des risques transaction",
+        "Concentration des dépendances",
+        "Lacunes de preuve",
+        "Impacts sur les termes",
+        "Feuille de route post-acquisition"
+      ]
     },
     "card2": {
       "label": "Marchés régulés",
@@ -183,13 +318,13 @@
   "partners": {
     "eyebrow": "Partenaires conseil",
     "heading": "Conçu pour les cabinets boutique",
-    "subhead": "Marque blanche. Sous votre en-tête. Sans ingestion de données opérationnelles client.",
-    "p1": "L'artefact est construit à partir d'un archétype client, et non à partir des données opérationnelles du client final. Aucun système, contrat, document ou dossier client n'est accédé. Aucun logiciel n'est installé. Aucun accord de traitement portant sur les données opérationnelles du client final n'est requis. Vous recevez un document. Vous le signez. Vous le facturez.",
+    "subhead": "Marque blanche. Sous votre en-tête. Onboarding crédité dans le premier dossier live.",
+    "p1": "L'artefact est construit à partir d'un archétype client, et non à partir des données opérationnelles du client final. Aucun système, contrat, document ou dossier client n'est accédé. Aucun logiciel n'est installé. Aucun accord de traitement portant sur les données opérationnelles du client final n'est requis. La première étape est un onboarding Founding Partner, pas un achat spéculatif de rapports.",
     "p2": "Vos clients reçoivent déjà des questions sur le risque IA. Les régulateurs, acheteurs publics, institutions financières et équipes de transaction créent une pression à laquelle les conseils juridiques ne peuvent plus répondre avec des référentiels seuls. Les cabinets capables de répondre à ces questions avec des preuves structurées - sous leur propre nom - tiennent la relation de conseil.",
-    "p3": "L'artefact est la couche de preuve. Votre interprétation est l'avis juridique. Cette division du travail vous rend plus précieux pour le client, pas moins.",
-    "cta": "Demande partenaire",
-    "demoLink": "Voir une démonstration de dossier →",
-    "note": "Pour les cabinets boutique uniquement. Trois questions. Réponse sous 48 heures. Premier échange : appel de cadrage, pas de pitch."
+    "p3": "L'artefact est la couche de preuve. Votre interprétation est l'avis juridique. L'économie est liée à des dossiers réels : l'onboarding est crédité sur le premier engagement, puis la livraison fonctionne en co-delivery sous votre marque.",
+    "cta": "Candidater comme Founding Partner",
+    "demoLink": "Voir une demonstration de dossier ->",
+    "note": "Pour les cabinets boutique uniquement. Onboarding à 2,5 k€, entièrement crédité sur le premier dossier live. Trois questions. Réponse sous 48 heures."
   },
   "useCases": {
     "eyebrow": "Cas d'usage",
@@ -243,8 +378,8 @@
     "sampleCta": "Lire le dossier",
     "sampleDownload": "Télécharger le dossier",
     "formEyebrow": "Partenaires conseil",
-    "formHeading": "Demande partenaire",
-    "formSubhead": "Pour les cabinets boutique qui évaluent Exposure Intelligence comme canal de distribution.",
+    "formHeading": "Candidater comme Founding Partner",
+    "formSubhead": "Pour les cabinets boutique qui évaluent Exposure Intelligence comme capacité de conseil monétisable.",
     "q1legend": "Quel contexte client est le plus pertinent pour votre pratique ?",
     "q1a": "Déploiement IA (vos clients ont déployé des outils IA)",
     "q1b": "Marchés régulés (vos clients vendent à des acheteurs régulés ou concourent pour eux)",
@@ -257,30 +392,62 @@
     "q2e": "Autre",
     "q3legend": "Avez-vous un premier client en tête ?",
     "q3a": "Oui - j'ai un client spécifique qui pourrait s'engager dans les 90 prochains jours",
-    "q3b": "Pas encore - j'évalue le produit pour ma pratique",
+    "q3b": "Pas encore - j'évalue encore l'adéquation pour ma pratique",
     "submit": "Envoyer la demande",
-    "commitment": "Réponse sous 48 heures. Premier échange : appel de cadrage, pas de pitch.",
+    "commitment": "Réponse sous 48 heures. Onboarding Founding Partner : 2,5 k€, entièrement crédité sur le premier dossier live.",
     "validationError": "Sélectionnez une réponse pour chaque question avant d'envoyer.",
     "successMessage": "Ouverture de votre client email avec les détails de la demande."
   },
   "samplePage": {
     "backLink": "← Exposure Intelligence",
     "kicker": "Dossier de preuve structurée - Exposition IA",
-    "partnerLink": "Demande partenaire →",
+    "partnerLink": "Candidater comme Founding Partner ->",
     "classification": "Archétype FR-CORPORATE-MID · Usage partenaire",
     "specimen": "Spécimen - non destiné à la distribution",
     "protocolMeta": [
-      { "label": "Protocole", "value": "EI v0.1" },
-      { "label": "ID d'évaluation", "value": "EI-FR-MID-001-SAMPLE" },
-      { "label": "EI-Index", "value": "EI-3 / Moyen" },
-      { "label": "Statut", "value": "Pilote partenaire" }
+      {
+        "label": "Protocole",
+        "value": "EI v0.1"
+      },
+      {
+        "label": "ID d'évaluation",
+        "value": "EI-FR-MID-001-SAMPLE"
+      },
+      {
+        "label": "EI-Index",
+        "value": "EI-3 / Moyen"
+      },
+      {
+        "label": "Statut",
+        "value": "Pilote partenaire"
+      }
     ],
+    "protocolMetaCgp": [
+      {
+        "label": "Archétype",
+        "value": "FR-PATRIMOINE-IDF"
+      },
+      {
+        "label": "Référence",
+        "value": "EI-PAT-IDF-001"
+      },
+      {
+        "label": "Protocole",
+        "value": "EI v0.1"
+      },
+      {
+        "label": "Statut",
+        "value": "Méthode pilote"
+      }
+    ],
+    "kickerCgp": "Dossier d'exposition patrimoniale",
+    "classificationCgp": "Archétype FR-PATRIMOINE-IDF · Usage partenaire",
     "loading": "Chargement…",
     "notFound": "Dossier introuvable.",
     "footerNote": "Ce dossier est construit sur archétype. Aucune donnée opérationnelle du client final n’est ingérée. Votre cabinet le déploie sous son en-tête.",
     "printCta": "Exporter PDF",
     "downloadCta": "Télécharger Markdown",
-    "footerCta": "Devenir partenaire →"
+    "footerCta": "Candidater comme Founding Partner ->"
   },
   "footer": {
     "name": "Exposure Intelligence",

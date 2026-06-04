@@ -9,11 +9,18 @@ export default function SamplePage() {
   const { t, i18n } = useTranslation()
   const [content, setContent] = useState('')
   const [loading, setLoading] = useState(true)
-  const protocolMeta = t('samplePage.protocolMeta', { returnObjects: true }) as ProtocolMeta[]
+  const params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : new URLSearchParams()
+  const isCgp = params.get('type') === 'cgp'
+  const protocolMeta = t(isCgp ? 'samplePage.protocolMetaCgp' : 'samplePage.protocolMeta', {
+    returnObjects: true,
+  }) as ProtocolMeta[]
   const language = i18n.resolvedLanguage || i18n.language
-  const samplePath = language.startsWith('en')
-    ? '/samples/FR-CORPORATE-MID_SAMPLE.en.md'
-    : '/samples/FR-CORPORATE-MID_SAMPLE.md'
+  const samplePath = isCgp
+    ? '/samples/FR-PATRIMOINE-CGP_SAMPLE.md'
+    : language.startsWith('en')
+      ? '/samples/FR-CORPORATE-MID_SAMPLE.en.md'
+      : '/samples/FR-CORPORATE-MID_SAMPLE.md'
+  const referenceId = isCgp ? 'EI-PAT-IDF-001' : 'EI-FR-MID-001'
   const handlePrint = () => window.print()
 
   useEffect(() => {
@@ -52,9 +59,9 @@ export default function SamplePage() {
         </a>
         <div className="hidden sm:flex items-center gap-5">
           <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-copper">
-            {t('samplePage.kicker')}
+            {t(isCgp ? 'samplePage.kickerCgp' : 'samplePage.kicker')}
           </span>
-          <span className="font-mono text-[10px] text-ink/25">EI-FR-MID-001</span>
+          <span className="font-mono text-[10px] text-ink/25">{referenceId}</span>
         </div>
         <div className="flex items-center gap-4">
           <button
@@ -78,7 +85,7 @@ export default function SamplePage() {
         {/* Classification strip */}
         <div className="mb-5 flex items-center justify-between">
           <span className="font-mono text-[10px] uppercase tracking-widest text-ink/25">
-            {t('samplePage.classification')}
+            {t(isCgp ? 'samplePage.classificationCgp' : 'samplePage.classification')}
           </span>
           <span className="font-mono text-[10px] uppercase tracking-widest text-ink/25">
             {t('samplePage.specimen')}

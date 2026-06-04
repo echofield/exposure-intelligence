@@ -6,19 +6,47 @@
     "dossiers": "Dossiers",
     "forPartners": "For Advisory Partners",
     "originationPilot": "Origination Pilot",
-    "partnerInquiry": "Partner inquiry"
+    "partnerInquiry": "Founding Partner"
+  },
+  "gateway": {
+    "tagline": "Structured evidence dossiers",
+    "heading": "One method. Two advisory worlds.",
+    "cta": "Enter",
+    "avocat": {
+      "eyebrow": "Structured evidence · Law & Advisory",
+      "headline": "Law firms\nand boutique advisory",
+      "body": "AI, procurement, and PE diligence dossiers. White-label under your letterhead. No legal advice."
+    },
+    "cgp": {
+      "eyebrow": "Wealth exposure · White-label",
+      "headline": "Wealth management\nadvisors",
+      "body": "Maps of complex private wealth exposure. Holding, succession, SCI, director liability. You bill. I deliver."
+    }
+  },
+  "verticalStrip": {
+    "avocat": "Law firms",
+    "cgp": "Wealth advisors"
   },
   "hero": {
     "eyebrow": "White-label structured evidence for advisory partners",
     "headline": "The evidence layer beneath the decision.",
-    "subhead": "Structured dossiers your firm deploys under its name. AI is the first proving ground.",
+    "subhead": "Open a billable technical evidence capability under your firm's name. AI is the first proving ground.",
     "ctaPrimary": "Read the sample dossier",
-    "ctaSecondary": "Partner inquiry",
+    "ctaSecondary": "Apply as a Founding Partner",
     "support": "Used by boutique law firms across France, Switzerland, Luxembourg, and Belgium.",
     "protocolMeta": [
-      { "label": "Protocol", "value": "EI v0.1" },
-      { "label": "Index", "value": "EI-3" },
-      { "label": "Status", "value": "Pilot method" }
+      {
+        "label": "Protocol",
+        "value": "EI v0.1"
+      },
+      {
+        "label": "Index",
+        "value": "EI-3"
+      },
+      {
+        "label": "Status",
+        "value": "Pilot method"
+      }
     ],
     "dossierKicker": "AI Exposure Evidence Pack",
     "dossierTitle": "Executive Exposure Summary",
@@ -26,15 +54,95 @@
     "artifactSeverity": "Severity",
     "artifactEvidenceGaps": "Evidence Gaps",
     "signals": [
-      { "label": "Automated decision - HR surface", "severity": "High" },
-      { "label": "Vendor contract auditability gap", "severity": "Critical" },
-      { "label": "Sub-processor documentation", "severity": "Medium" },
-      { "label": "Reversibility not tested", "severity": "High" }
+      {
+        "label": "Automated decision - HR surface",
+        "severity": "High"
+      },
+      {
+        "label": "Vendor contract auditability gap",
+        "severity": "Critical"
+      },
+      {
+        "label": "Sub-processor documentation",
+        "severity": "Medium"
+      },
+      {
+        "label": "Reversibility not tested",
+        "severity": "High"
+      }
     ],
     "gaps": [
-      { "item": "AI system register", "status": "Not evidenced" },
-      { "item": "Model card documentation", "status": "Not evidenced" },
-      { "item": "Human oversight protocol", "status": "Not evidenced" }
+      {
+        "item": "AI system register",
+        "status": "Not evidenced"
+      },
+      {
+        "item": "Model card documentation",
+        "status": "Not evidenced"
+      },
+      {
+        "item": "Human oversight protocol",
+        "status": "Not evidenced"
+      }
+    ]
+  },
+  "heroCgp": {
+    "eyebrow": "Wealth exposure · White-label · Independent wealth advisors",
+    "headline": "Your clients' private wealth exposure. Mapped.",
+    "subhead": "You bill. I deliver in 10 days. Your letter, your relationship. A structured dossier your clients have seen nowhere else.",
+    "ctaPrimary": "See a sample dossier",
+    "ctaSecondary": "Become a partner",
+    "support": "Independent wealth advisory firms · Paris · Neuilly · Greater Paris",
+    "protocolMeta": [
+      {
+        "label": "Archetype",
+        "value": "FR-PATRIMOINE-IDF"
+      },
+      {
+        "label": "Index",
+        "value": "EP-3 / Medium"
+      },
+      {
+        "label": "Status",
+        "value": "Pilot method"
+      }
+    ],
+    "dossierKicker": "Private wealth exposure dossier",
+    "dossierTitle": "Exposure summary — Greater Paris director",
+    "artifactCondition": "Condition",
+    "artifactSeverity": "Severity",
+    "artifactEvidenceGaps": "Evidence Gaps",
+    "signals": [
+      {
+        "label": "Director liability not mapped",
+        "severity": "High"
+      },
+      {
+        "label": "Holding, no shareholder-pact review >5y",
+        "severity": "Critical"
+      },
+      {
+        "label": "Spousal wealth separation",
+        "severity": "High"
+      },
+      {
+        "label": "Offshore asset not qualified",
+        "severity": "Medium"
+      }
+    ],
+    "gaps": [
+      {
+        "item": "Documented matrimonial regime",
+        "status": "Not evidenced"
+      },
+      {
+        "item": "Shareholder pact review",
+        "status": "Not evidenced"
+      },
+      {
+        "item": "Offshore asset qualification",
+        "status": "To qualify"
+      }
     ]
   },
   "pressure": {
@@ -46,9 +154,9 @@
     "eyebrow": "Operating model",
     "heading": "How it works",
     "artifactLabel": "The artifact",
-    "artifactBody": "A structured evidence artifact. Built from a client archetype - sector, jurisdiction, company size, AI surface. No final-client operational data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered as a document your firm signs.",
+    "artifactBody": "A structured evidence artifact. Built from a client archetype - sector, jurisdiction, company size, AI surface. No final-client operational data ingested. No discovery sessions. Same input produces the same artifact shape. Delivered beneath your firm's name.",
     "partnerLabel": "The partner's role",
-    "partnerBody": "The partner deploys it under their letterhead. As the evidence layer beneath a legal opinion, a procurement mandate, a due diligence brief, or a board advisory. The artifact creates the factual base. The partner creates the legal interpretation.",
+    "partnerBody": "The partner deploys it under their letterhead as the evidence layer beneath a legal opinion, a procurement mandate, a due diligence brief, or a board advisory. The partner owns the client relationship and bills the interpretation. Exposure Intelligence supports the technical evidence layer.",
     "doctrine": "The artifact surfaces conditions. The lawyer names the law."
   },
   "method": {
@@ -61,9 +169,18 @@
     "protocolHeading": "A versioned partner pilot methodology.",
     "protocolBody": "Each dossier carries a protocol version, archetype ID, assessment ID, data posture, and EI-Index band. The index is a structured triage signal for advisory workflow, not a legal conclusion, compliance finding, or certification.",
     "protocolMetrics": [
-      { "label": "Assessment ID", "value": "EI-FR-MID-001-SAMPLE" },
-      { "label": "EI-Index", "value": "EI-3 / Medium" },
-      { "label": "Data posture", "value": "No operational data" }
+      {
+        "label": "Assessment ID",
+        "value": "EI-FR-MID-001-SAMPLE"
+      },
+      {
+        "label": "EI-Index",
+        "value": "EI-3 / Medium"
+      },
+      {
+        "label": "Data posture",
+        "value": "No operational data"
+      }
     ],
     "cards": [
       {
@@ -118,15 +235,33 @@
       "label": "AI Deployment",
       "situation": "Your client has deployed AI tools. You need a structured evidence base before the compliance review, employment audit, or board presentation.",
       "artifact": "AI Exposure Evidence Pack",
-      "price": "Evidence pack from €8k",
+      "price": "Client engagements from EUR8k",
       "role": "Evidence layer beneath a legal opinion, an employment advisory, or a data protection review. Delivered under the firm's letterhead.",
       "cta": "See the offer"
     },
-    "card1PilotNote": "Pilot entry from €3k",
+    "card1PilotNote": "Founding Partner onboarding: EUR2.5k credited against first live matter",
     "coverage": {
-      "card1": ["Surface map", "Exposure signals", "Evidence gaps", "Escalation triggers", "Remediation pathways"],
-      "card2": ["Gate map", "Dependency view", "Evidence architecture", "Buyer objection map", "Remediation roadmap"],
-      "card3": ["Deal risk map", "Dependency concentration", "Evidence gaps", "Deal-term implications", "Post-close roadmap"]
+      "card1": [
+        "Surface map",
+        "Exposure signals",
+        "Evidence gaps",
+        "Escalation triggers",
+        "Remediation pathways"
+      ],
+      "card2": [
+        "Gate map",
+        "Dependency view",
+        "Evidence architecture",
+        "Buyer objection map",
+        "Remediation roadmap"
+      ],
+      "card3": [
+        "Deal risk map",
+        "Dependency concentration",
+        "Evidence gaps",
+        "Deal-term implications",
+        "Post-close roadmap"
+      ]
     },
     "card2": {
       "label": "Regulated Procurement",
@@ -183,13 +318,13 @@
   "partners": {
     "eyebrow": "For Advisory Partners",
     "heading": "Built for boutique law firms",
-    "subhead": "White-label. Under your letterhead. No final-client operational data ingestion.",
-    "p1": "The artifact is built from a client archetype, not from final-client operational data. No client systems, contracts, records, or documents are accessed. No software is installed. No processing agreement covering final-client operational data is required. You receive a document. You sign it. You bill it.",
+    "subhead": "White-label. Under your letterhead. Onboarding credited into the first live matter.",
+    "p1": "The artifact is built from a client archetype, not from final-client operational data. No client systems, contracts, records, or documents are accessed. No software is installed. No processing agreement covering final-client operational data is required. The first step is a Founding Partner onboarding commitment, not speculative report inventory.",
     "p2": "Your clients are already receiving AI risk questions. Regulators, public buyers, financial institutions, and deal teams are creating pressure that legal advisors cannot answer with frameworks alone. The firms that can answer those questions with structured evidence - under their own name - hold the advisory relationship.",
-    "p3": "The artifact is the evidence layer. Your interpretation is the legal opinion. That division of labor makes you more valuable to the client, not less.",
-    "cta": "Partner inquiry",
-    "demoLink": "See a live dossier demo →",
-    "note": "For boutique law firms only. Three questions. Response within 48 hours. First conversation is a scoping call - not a pitch."
+    "p3": "The artifact is the evidence layer. Your interpretation is the legal opinion. The economics are tied to live matters: onboarding is credited against the first engagement, then delivery runs as co-delivery beneath your brand.",
+    "cta": "Apply as a Founding Partner",
+    "demoLink": "See a live dossier demo ->",
+    "note": "For boutique law firms only. EUR2.5k onboarding, fully credited against the first live dossier. Three questions. Response within 48 hours."
   },
   "useCases": {
     "eyebrow": "Use cases",
@@ -243,8 +378,8 @@
     "sampleCta": "Read the sample",
     "sampleDownload": "Download dossier",
     "formEyebrow": "For Advisory Partners",
-    "formHeading": "Partner inquiry",
-    "formSubhead": "For boutique law firms evaluating Exposure Intelligence as a distribution channel.",
+    "formHeading": "Apply as a Founding Partner",
+    "formSubhead": "For boutique law firms evaluating Exposure Intelligence as a monetizable advisory capability.",
     "q1legend": "Which client context is most relevant to your practice?",
     "q1a": "AI deployment (your clients have deployed AI tools)",
     "q1b": "Regulated procurement (your clients sell to or compete for regulated buyers)",
@@ -256,31 +391,63 @@
     "q2d": "Belgium",
     "q2e": "Other",
     "q3legend": "Do you have a first client in mind?",
-    "q3a": "Yes - I have a specific client who would engage in the next 90 days",
-    "q3b": "Not yet - I am evaluating the product for my practice",
+    "q3a": "Yes - I have a specific client who could engage in the next 90 days",
+    "q3b": "Not yet - I am still evaluating fit for my practice",
     "submit": "Send inquiry",
-    "commitment": "Response within 48 hours. First conversation is a scoping call - not a pitch deck.",
+    "commitment": "Response within 48 hours. Founding Partner onboarding: EUR2.5k, fully credited against the first live dossier.",
     "validationError": "Select one answer for each question before sending.",
     "successMessage": "Opening your email client with the inquiry details."
   },
   "samplePage": {
     "backLink": "← Exposure Intelligence",
     "kicker": "AI Exposure Evidence Pack",
-    "partnerLink": "Partner inquiry →",
+    "partnerLink": "Apply as a Founding Partner ->",
     "classification": "Archetype FR-CORPORATE-MID · Partner use",
     "specimen": "Specimen - not for distribution",
     "protocolMeta": [
-      { "label": "Protocol", "value": "EI v0.1" },
-      { "label": "Assessment ID", "value": "EI-FR-MID-001-SAMPLE" },
-      { "label": "EI-Index", "value": "EI-3 / Medium" },
-      { "label": "Status", "value": "Partner pilot" }
+      {
+        "label": "Protocol",
+        "value": "EI v0.1"
+      },
+      {
+        "label": "Assessment ID",
+        "value": "EI-FR-MID-001-SAMPLE"
+      },
+      {
+        "label": "EI-Index",
+        "value": "EI-3 / Medium"
+      },
+      {
+        "label": "Status",
+        "value": "Partner pilot"
+      }
     ],
+    "protocolMetaCgp": [
+      {
+        "label": "Archetype",
+        "value": "FR-PATRIMOINE-IDF"
+      },
+      {
+        "label": "Reference",
+        "value": "EI-PAT-IDF-001"
+      },
+      {
+        "label": "Protocol",
+        "value": "EI v0.1"
+      },
+      {
+        "label": "Status",
+        "value": "Pilot method"
+      }
+    ],
+    "kickerCgp": "Private wealth exposure dossier",
+    "classificationCgp": "Archetype FR-PATRIMOINE-IDF · Partner use",
     "loading": "Loading…",
     "notFound": "Dossier not found.",
     "footerNote": "This dossier is built from an archetype. No final-client operational data ingested. Your firm deploys it under its own letterhead.",
     "printCta": "Export PDF",
     "downloadCta": "Download Markdown",
-    "footerCta": "Become a partner →"
+    "footerCta": "Apply as a Founding Partner ->"
   },
   "footer": {
     "name": "Exposure Intelligence",
